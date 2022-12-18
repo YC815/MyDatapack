@@ -25,3 +25,9 @@ Yushun's datapack
 `|A|A|A|`<br>
   > A: 木材<br>
   B: 箱子(chest)
+
+- 獄髓裝(netherite_armors) √ 無序和成<br>
+`|A|B|`
+  > A: 鑽石裝備(diamond_armors)<br>
+  B: 獄髓錠(netherite)
+  
