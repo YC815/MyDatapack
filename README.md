@@ -30,4 +30,24 @@ Yushun's datapack
 `|A|B|`
   > A: 鑽石裝備(diamond_armors)<br>
   B: 獄髓錠(netherite)
-  
+
+- 鐵巨人(iron_golem) √ 有序和成<br>
+`| |A| |`<br>
+`|B|B|B|`<br>
+`| |B| |`
+  > A: 雕刻過的南瓜(carved_pumpkin) 
+  B: 鐵塊(iron_block)
+
+- 雪人(snow_golem) √ 有序和成<br>
+`| |A| |`<br>
+`| |B| |`<br>
+`| |B| |`
+  > A: 雕刻過的南瓜(carved_pumpkin)<br>
+  B: 雪塊(snow_block)
+
+- 凋零怪(wither) √ 有序和成<br> 
+`|A|A|A|`<br>
+`|B|B|B|`<br>
+`| |B| |`
+  > A: 凋零頭顱(wither_skeleton_skull)<br>
+  B: 靈魂沙/土
