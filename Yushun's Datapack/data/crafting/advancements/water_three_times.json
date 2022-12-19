@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "recipe": {
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "crafting:water_three_times"
+            }
+        }
+    },
+    "rewards": {
+        "function": "crafting:water_three_times"
+    }
+}
