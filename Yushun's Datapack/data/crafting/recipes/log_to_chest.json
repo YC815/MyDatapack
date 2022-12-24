@@ -7,7 +7,7 @@
     ],
     "key": {
         "#": {
-            "item": "#crafting:log"
+            "tag": "minecraft:logs"
         }
     },
     "result": {

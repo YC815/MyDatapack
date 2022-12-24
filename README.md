@@ -45,9 +45,9 @@ Yushun's datapack
   > A: 雕刻過的南瓜(carved_pumpkin)<br>
   B: 雪塊(snow_block)
 
-- 凋零怪(wither) √ 有序和成<br> 
+- 箱子(chest)<br>
 `|A|A|A|`<br>
-`|B|B|B|`<br>
-`| |B| |`
-  > A: 凋零頭顱(wither_skeleton_skull)<br>
-  B: 靈魂沙/土
+`|A| |A|`<br>
+`|A|A|A|`
+  > A: 任意原木
+- 

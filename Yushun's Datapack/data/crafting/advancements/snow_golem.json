@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "recipe": {
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "crafting:snow_golem"
+            }
+        }
+    },
+    "rewards": {
+        "function": "crafting:snow_golem"
+    }
+}

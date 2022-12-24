@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "recipe": {
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "crafting:iron_golem"
+            }
+        }
+    },
+    "rewards": {
+        "function": "crafting:iron_golem"
+    }
+}
