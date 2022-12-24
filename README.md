@@ -1,12 +1,12 @@
 Yushun's datapack
 ===
 ## 合成配方
-- 漏斗礦車(hopper_minecraft) √ 有序合成<br>
+- 特殊礦車(**_minecraft) √ 有序合成<br>
 `| | | |`<br>
 `|A|B|A|`<br>
 `|A|A|A|`
   > A: 鐵錠(iron_ingot) <br>
-  B: 漏斗(hopper)
+  B: 漏斗(hopper)/箱子(chest)/炸藥(TNT)/熔爐(furnace)
 
 - 感測鐵軌(detector_rail) √ 無序和成<br>
 `|A|B|C|`
@@ -50,4 +50,20 @@ Yushun's datapack
 `|A| |A|`<br>
 `|A|A|A|`
   > A: 任意原木
-- 
+
+- 骨塊(bone_block)<br>
+`|A|A|A|`<br>
+`|A|A|A|`<br>
+`|A|A|A|`
+  > A: 骨頭(bone)
+
+- 原色方塊<br>
+`|A|A|A|`<br>
+`|A|B|A|`<br>
+`|A|A|A|`
+  > A: 可染色方塊
+  B: 水(water_bucket)
+
+## 參考資料
+- [Planet Minecraft - Player Heads](https://www.planetminecraft.com/data-pack/player-heads-5782117/)
+- [bilbil - Xekr數據包相關資源整理](https://www.bilibili.com/read/cv12992062?spm_id_from=333.999.0.0)

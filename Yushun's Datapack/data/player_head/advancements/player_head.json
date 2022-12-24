@@ -1,0 +1,17 @@
+{
+  "display": {
+    "title": "Player Head                                   ",
+    "description": "Collect player heads in your singleplayer world",
+    "icon": {
+      "item": "minecraft:player_head"
+    },
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "parent": "global:dadacx",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

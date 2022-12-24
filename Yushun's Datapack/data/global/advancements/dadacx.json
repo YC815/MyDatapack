@@ -1,0 +1,19 @@
+{
+	"display": {
+		"title": "Dadacx",
+		"description": "",
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Name: \"Dadacx\", Properties: {textures: [{Value: \"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDFhOTE0ZDRiYWQzODhmYmE0YmE2NzAwYTlmZjRkYTc0ODNiZDc1ODNmN2I3YTk2ZGY5YWM5MDQ1YjgyOTYzYiJ9fX0=\"}]}}}"
+
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "global:root",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
