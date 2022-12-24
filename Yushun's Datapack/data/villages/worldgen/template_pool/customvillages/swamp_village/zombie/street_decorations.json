@@ -1,0 +1,51 @@
+{
+  "name": "custom_villages:customvillages/swamp_village/zombie/street_decorations",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 1,
+      "element": {
+        "location": "custom_villages:village_swamp/zombie/street_decorations/flower_garden",
+        "processors": "custom_villages:zombie_swamp",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+	{
+      "weight": 2,
+      "element": {
+        "location": "custom_villages:village_swamp/zombie/street_decorations/hay_bale_pile",
+        "processors": "custom_villages:zombie_swamp",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "custom_villages:village_swamp/zombie/street_decorations/mud_bricks_pile",
+        "processors": "custom_villages:zombie_swamp",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "custom_villages:village_swamp/zombie/street_decorations/mud_pile",
+        "processors": "custom_villages:zombie_swamp",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 2,
+      "element": {
+        "location": "custom_villages:village_swamp/zombie/street_decorations/street_lamp",
+        "processors": "custom_villages:zombie_swamp",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

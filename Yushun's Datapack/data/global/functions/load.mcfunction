@@ -1,0 +1,1 @@
+tellraw @a ">>> Yushun's datapack is ready <<<"

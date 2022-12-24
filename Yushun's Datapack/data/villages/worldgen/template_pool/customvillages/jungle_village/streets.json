@@ -1,0 +1,132 @@
+{
+  "name": "custom_villages:customvillages/jungle_village/streets",
+  "fallback": "custom_villages:customvillages/jungle_village/terminators",
+  "elements": [
+	{
+      "weight": 1,
+      "element": {
+        "location": "custom_villages:village_jungle/streets/straight_1",
+        "processors": "custom_villages:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "custom_villages:village_jungle/streets/straight_2",
+        "processors": "custom_villages:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+	{
+      "weight": 7,
+      "element": {
+        "location": "custom_villages:village_jungle/streets/straight_3",
+        "processors": "custom_villages:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+	{
+      "weight": 7,
+      "element": {
+        "location": "custom_villages:village_jungle/streets/straight_4",
+        "processors": "custom_villages:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+	{
+      "weight": 7,
+      "element": {
+        "location": "custom_villages:village_jungle/streets/straight_5",
+        "processors": "custom_villages:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+	{
+      "weight": 7,
+      "element": {
+        "location": "custom_villages:village_jungle/streets/straight_6",
+        "processors": "custom_villages:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+	{
+      "weight": 7,
+      "element": {
+        "location": "custom_villages:village_jungle/streets/straight_7",
+        "processors": "custom_villages:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+	{
+      "weight": 2,
+      "element": {
+        "location": "custom_villages:village_jungle/streets/crossroad_1",
+        "processors": "custom_villages:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "custom_villages:village_jungle/streets/crossroad_2",
+        "processors": "custom_villages:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "custom_villages:village_jungle/streets/crossroad_3",
+        "processors": "custom_villages:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "custom_villages:village_jungle/streets/crossroad_4",
+        "processors": "custom_villages:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "custom_villages:village_jungle/streets/crossroad_5",
+        "processors": "custom_villages:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 2,
+      "element": {
+        "location": "custom_villages:village_jungle/streets/crossroad_6",
+        "processors": "custom_villages:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 2,
+      "element": {
+        "location": "custom_villages:village_jungle/streets/turn_1",
+        "processors": "custom_villages:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

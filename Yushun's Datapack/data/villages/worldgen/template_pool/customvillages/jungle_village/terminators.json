@@ -1,0 +1,42 @@
+{
+  "name": "custom_villages:customvillages/jungle_village/terminators",
+  "fallback": "minecraft:empty",
+  "elements": [
+  {
+      "weight": 1,
+      "element": {
+        "location": "custom_villages:village_jungle/terminators/terminator_1",
+        "processors": "custom_villages:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "custom_villages:village_jungle/terminators/terminator_2",
+        "processors": "custom_villages:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "custom_villages:village_jungle/terminators/terminator_3",
+        "processors": "custom_villages:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "custom_villages:village_jungle/terminators/terminator_4",
+        "processors": "custom_villages:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

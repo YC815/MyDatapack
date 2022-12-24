@@ -1,0 +1,42 @@
+{
+  "name": "custom_villages:customvillages/swamp_village/terminators",
+  "fallback": "minecraft:empty",
+  "elements": [
+  {
+      "weight": 1,
+      "element": {
+        "location": "custom_villages:village_swamp/terminators/terminator_1",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "custom_villages:village_swamp/terminators/terminator_2",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "custom_villages:village_swamp/terminators/terminator_3",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "custom_villages:village_swamp/terminators/terminator_4",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

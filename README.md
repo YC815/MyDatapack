@@ -6,7 +6,7 @@ Yushun's datapack
 `|A|B|A|`<br>
 `|A|A|A|`
   > A: 鐵錠(iron_ingot) <br>
-  B: 漏斗(hopper)/箱子(chest)/炸藥(TNT)/熔爐(furnace)
+  B: 漏斗(hopper) / 箱子(chest) / 炸藥(TNT) / 熔爐(furnace)
 
 - 感測鐵軌(detector_rail) √ 無序和成<br>
 `|A|B|C|`
@@ -61,9 +61,24 @@ Yushun's datapack
 `|A|A|A|`<br>
 `|A|B|A|`<br>
 `|A|A|A|`
-  > A: 可染色方塊
+  > A: 可染色方塊<br>
   B: 水(water_bucket)
 
+- 束口袋(bunndle)<br>
+`| |A| |`<br>
+`|B| |B|`<br>
+`|B|B|B|`
+  > A: 絲線(string)<br>
+  B: 兔子皮(rabbit hide)
+## 其他物品獲得方式
+- 玩家頭顱(player_hend)
+  1. 獲取一本"書和羽毛筆"
+  2. 在書中寫下目標玩家的ID
+  3. 點擊完成
+  4. 利用鐵砧將"書和羽毛筆"物品的名字改為"pd"(player hend)
+  5. 將此物品丟到地上
+  6. 書本將會成為玩家頭顱
 ## 參考資料
 - [Planet Minecraft - Player Heads](https://www.planetminecraft.com/data-pack/player-heads-5782117/)
 - [bilbil - Xekr數據包相關資源整理](https://www.bilibili.com/read/cv12992062?spm_id_from=333.999.0.0)
+- [Planet Minecraft - Jungle and swap villages](https://www.planetminecraft.com/data-pack/jungle-and-swamp-villages/)

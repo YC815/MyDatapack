@@ -1,0 +1,42 @@
+{
+  "name": "custom_villages:customvillages/jungle_village/village_centers",
+  "fallback": "minecraft:empty",
+  "elements": [
+  {
+      "weight": 50,
+      "element": {
+        "location": "custom_villages:village_jungle/town_centers/jungle_meeting_point_1",
+        "processors": "custom_villages:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 50,
+      "element": {
+        "location": "custom_villages:village_jungle/town_centers/jungle_meeting_point_2",
+        "processors": "custom_villages:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "custom_villages:village_jungle/zombie/town_centers/jungle_meeting_point_1",
+        "processors": "custom_villages:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "custom_villages:village_jungle/zombie/town_centers/jungle_meeting_point_2",
+        "processors": "custom_villages:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

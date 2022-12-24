@@ -1,0 +1,24 @@
+{
+  "name": "custom_villages:customvillages/jungle_village/zombie/villagers",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 10,
+      "element": {
+        "location": "custom_villages:village_jungle/zombie/villagers/unemployed",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "custom_villages:village_jungle/zombie/villagers/nitwit",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

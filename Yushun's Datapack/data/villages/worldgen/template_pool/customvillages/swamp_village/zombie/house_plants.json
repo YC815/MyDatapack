@@ -1,0 +1,15 @@
+{
+  "name": "custom_villages:customvillages/swamp_village/zombie/house_plants",
+  "fallback": "minecraft:empty",
+  "elements": [
+  {
+      "weight": 1,
+      "element": {
+        "location": "custom_villages:village_swamp/zombie/house_plants/potted_dead_bush",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

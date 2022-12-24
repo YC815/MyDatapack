@@ -1,1 +1,1 @@
-execute as @e[nbt={Item:{tag:{display:{Name:'{"text":"PlayerHead"}'}}},OnGround:1b}] at @s run function player_head:head
+execute as @e[nbt={Item:{tag:{display:{Name:'{"text":"pd"}'}}},OnGround:1b}] at @s run function player_head:head

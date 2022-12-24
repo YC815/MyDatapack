@@ -1,0 +1,38 @@
+{
+  "structures": [
+    {
+      "structure": "custom_villages:village_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "custom_villages:village_swamp",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:village_plains",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:village_desert",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:village_savanna",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:village_snowy",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:village_taiga",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "spacing": 34,
+    "separation": 8,
+    "salt": 10387312,
+    "type": "minecraft:random_spread"
+  }
+}
