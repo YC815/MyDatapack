@@ -6,7 +6,7 @@
 		"title": {
 			"translate": "advancements.husbandry.safely_harvest_honey.title"
 		},
-		"description": "Harvest honey without aggravating the bees"
+		"description": "再不激怒蜂蜜的情況下收集蜂蜜"
 	},
 	"parent": "minecraft:husbandry/silk_touch_nest",
 	"criteria": {
