@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "firework_rocket"
 		},
-		"title": "Dizzying Heights",
-		"description": "Fly to Y-level 4000",
+		"title": "我是戰鬥機",
+		"description": "在終界中飛到 Y=4000",
 		"frame": "challenge"
 	},
 	"parent": "minecraft:end/elytra",

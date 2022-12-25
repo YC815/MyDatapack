@@ -4,8 +4,8 @@
 			"item": "lingering_potion",
 			"nbt": "{Potion:'healing'}"
 		},
-		"title": "Watch Your Step",
-		"description": "Brew a lingering potion"
+		"title": "我也吐口水",
+		"description": "製作滯留藥水"
 	},
 	"parent": "minecraft:end/dragon_breath",
 	"criteria": {

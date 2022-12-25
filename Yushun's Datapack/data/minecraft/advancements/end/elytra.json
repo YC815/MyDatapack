@@ -6,7 +6,7 @@
 		"title": {
 			"translate": "advancements.end.elytra.title"
 		},
-		"description": "Find an elytra",
+		"description": "找到鞘翅",
 		"frame": "goal"
 	},
 	"parent": "minecraft:end/find_end_city",

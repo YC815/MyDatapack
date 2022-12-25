@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "shulker_box"
 		},
-		"title": "Portable Storage",
-		"description": "Craft a shulker box"
+		"title": "便攜式箱子",
+		"description": "製作界伏盒"
 	},
 	"parent": "minecraft:end/find_end_city",
 	"criteria": {

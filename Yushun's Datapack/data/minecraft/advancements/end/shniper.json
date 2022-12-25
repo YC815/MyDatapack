@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "arrow"
 		},
-		"title": "Shniper",
-		"description": "Be hurt by a shulker bullet from a shulker at least 50 meters away",
+		"title": "有狙擊！",
+		"description": "在50格之外被界伏蚌攻擊",
 		"frame": "goal"
 	},
 	"parent": "minecraft:end/find_end_city",

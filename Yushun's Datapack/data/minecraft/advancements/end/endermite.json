@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "ender_pearl"
 		},
-		"title": "A Little Buggy",
-		"description": "Be hurt by an endermite"
+		"title": "一隻小蟑螂",
+		"description": "被末影蟎咬"
 	},
 	"parent": "minecraft:end/root",
 	"criteria": {
