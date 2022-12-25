@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "chorus_flower"
 		},
-		"title": "Unnatural",
-		"description": "Replant a chorus tree in the Overworld"
+		"title": "外來種",
+		"description": "在主世界種植歌萊果"
 	},
 	"parent": "minecraft:end/chorus_fruit",
 	"criteria": {

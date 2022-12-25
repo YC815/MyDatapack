@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "cookie"
 		},
-		"title": "Treat Yourself",
-		"description": "Eat every dessert",
+		"title": "甜點試吃員",
+		"description": "吃下所有烘焙甜點：蛋糕及南瓜派",
 		"frame": "goal"
 	},
 	"parent": "minecraft:husbandry/cake",

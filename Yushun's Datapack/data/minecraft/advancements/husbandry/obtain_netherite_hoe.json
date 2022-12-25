@@ -7,7 +7,7 @@
 		"title": {
 			"translate": "advancements.husbandry.netherite_hoe.title"
 		},
-		"description": "Use a netherite ingot to upgrade a hoe then reevaluate your life choices",
+		"description": "使用獄髓錠升級你的鑽石鋤！",
 		"frame": "challenge"
 	},
 	"rewards": {

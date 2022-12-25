@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "honey_bottle"
 		},
-		"title": "Sweet Cure",
-		"description": "Cure Poison with honey"
+		"title": "香甜醫生",
+		"description": "用蜂蜜解除中毒效果"
 	},
 	"parent": "minecraft:husbandry/safely_harvest_honey",
 	"criteria": {

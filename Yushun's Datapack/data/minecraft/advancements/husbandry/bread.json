@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "bread"
 		},
-		"title": "Unbaked Baked Goods",
-		"description": "The best thing before sliced bread!"
+		"title": "沒有烘焙的烘焙食品",
+		"description": "吃下一個麵包"
 	},
 	"parent": "minecraft:husbandry/plant_seed",
 	"criteria": {

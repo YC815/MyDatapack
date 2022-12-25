@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "composter"
 		},
-		"title": "Waste Reduction",
-		"description": "Place a composter to compost your extra vegetation"
+		"title": "垃圾 ≠ 垃圾",
+		"description": "把你不要的有機物丟進堆肥桶"
 	},
 	"parent": "minecraft:husbandry/root",
 	"criteria": {

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "beetroot_seeds"
 		},
-		"title": "Green Thumb",
-		"description": "Plant everything you can in tilled ground",
+		"title": "綠拇指",
+		"description": "再耕地上種植所有你可以種植的東西",
 		"frame": "goal"
 	},
 	"parent": "minecraft:husbandry/plant_seed",

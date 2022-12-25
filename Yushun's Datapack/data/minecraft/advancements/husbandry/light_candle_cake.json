@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "candle"
 		},
-		"title": "Happy Birthday!",
-		"description": "Put a candle on a cake and light it"
+		"title": "生日快樂！",
+		"description": "把蠟燭放在蛋糕上並點亮他！"
 	},
 	"parent": "minecraft:husbandry/silk_touch_nest",
 	"criteria": {

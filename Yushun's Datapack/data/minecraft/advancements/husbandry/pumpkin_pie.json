@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "pumpkin_pie"
 		},
-		"title": "Thanksgiving Treat",
-		"description": "Eat a pumpkin pie"
+		"title": "感恩節派對",
+		"description": "吃一個南瓜派"
 	},
 	"parent": "minecraft:husbandry/pumpkin",
 	"criteria": {

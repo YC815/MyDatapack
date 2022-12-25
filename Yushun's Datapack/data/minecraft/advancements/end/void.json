@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "black_stained_glass_pane"
 		},
-		"title": "Call of the Void",
-		"description": "Take void damage"
+		"title": "虛空呼喚",
+		"description": "掉進虛空"
 	},
 	"parent": "minecraft:end/root",
 	"criteria": {

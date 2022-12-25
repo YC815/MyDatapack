@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "cake"
 		},
-		"title": "The Lie",
-		"description": "Partake in cake"
+		"title": "「吃」一杯牛奶，只是裡面有蛋跟牛奶",
+		"description": "吃一塊蛋糕"
 	},
 	"parent": "minecraft:husbandry/plant_seed",
 	"criteria": {

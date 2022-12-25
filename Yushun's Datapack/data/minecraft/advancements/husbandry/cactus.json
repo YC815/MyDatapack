@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "cactus"
 		},
-		"title": "Water Independent",
-		"description": "Harvest a cactus"
+		"title": "綠色的 刺刺的",
+		"description": "或的一個仙人掌"
 	},
 	"parent": "minecraft:husbandry/hold_reeds",
 	"criteria": {

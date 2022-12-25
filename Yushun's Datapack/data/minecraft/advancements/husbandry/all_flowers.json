@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "rose_bush"
 		},
-		"title": "Full Bouquet",
-		"description": "Pick all the flowers",
+		"title": "完整的花束",
+		"description": "獲得所有的花",
 		"frame": "goal"
 	},
 	"parent": "minecraft:husbandry/have_one_flower",

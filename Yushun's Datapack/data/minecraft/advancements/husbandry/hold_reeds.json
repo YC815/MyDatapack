@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "sugar_cane"
 		},
-		"title": "Water Dependent",
-		"description": "Harvest sugar cane"
+		"title": "水是我的好兄弟",
+		"description": "獲得一個甘蔗"
 	},
 	"parent": "minecraft:husbandry/root",
 	"criteria": {

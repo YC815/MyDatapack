@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "dandelion"
 		},
-		"title": "The Bee's Knees",
-		"description": "Breed two bees"
+		"title": "蜜蜂的乾爹乾媽",
+		"description": "養兩隻蜜蜂"
 	},
 	"parent": "minecraft:husbandry/root",
 	"criteria": {

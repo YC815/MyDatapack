@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "spider_eye"
 		},
-		"title": "Desperate Times",
-		"description": "Eat everything bad for you",
+		"title": "「飢」惡世界",
+		"description": "吃下所有對你不好的東西",
 		"frame": "goal"
 	},
 	"parent": "minecraft:husbandry/root",

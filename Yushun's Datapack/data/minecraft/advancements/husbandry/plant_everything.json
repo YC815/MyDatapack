@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "vine"
 		},
-		"title": "Master of the Field",
-		"description": "Plant everything that grows",
+		"title": "我是專業的",
+		"description": "種植一切能種植的東西",
 		"frame": "challenge"
 	},
 	"parent": "minecraft:husbandry/plant_all_seeds",
