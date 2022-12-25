@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "writable_book"
+		},
+		"title": "Captain's Log",
+		"description": "Create a book and quill to document your adventures"
+	},
+	"parent": "platy:exploration/map_create",
+	"criteria": {
+		"book_and_quill": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["writable_book"]
+					}
+				]
+			}
+		}
+	}
+}

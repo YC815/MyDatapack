@@ -1,0 +1,66 @@
+{
+	"display": {
+		"icon": {
+			"item": "spruce_door"
+		},
+		"title": "Diversity",
+		"description": "Discover every type of village",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"experience": 100
+	},
+	"parent": "platy:village/complete_trade",
+	"criteria": {
+		"desert": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_desert"
+					}
+				}
+			}
+		},
+		"plains": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_plains"
+					}
+				}
+			}
+		},
+		"savanna": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_savanna"
+					}
+				}
+			}
+		},
+		"snowy": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_snowy"
+					}
+				}
+			}
+		},
+		"taiga": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_taiga"
+					}
+				}
+			}
+		}
+	}
+}

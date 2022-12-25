@@ -1,0 +1,26 @@
+{
+	"parent": "platy:caving/axolotl_bucket",
+	"display": {
+		"icon": {
+			"item": "tropical_fish_bucket"
+		},
+		"title": {
+			"translate": "advancements.husbandry.kill_axolotl_target.title"
+		},
+		"description": "Team up with an axolotl and win a fight"
+	},
+	"criteria": {
+		"kill_axolotl_target": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"source": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"type": "axolotl"
+					},
+					"entity": "this"
+				}]
+			}
+		}
+	}
+}

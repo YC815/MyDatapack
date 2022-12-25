@@ -1,0 +1,24 @@
+{
+	"parent": "platy:nether_structures/root",
+	"display": {
+		"icon": {
+			"item": "nether_bricks"
+		},
+		"title": {
+			"translate": "advancements.nether.find_fortress.title"
+		},
+		"description": "Break your way into a nether fortress"
+	},
+	"criteria": {
+		"fortress": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "fortress"
+					}
+				}
+			}
+		}
+	}
+}

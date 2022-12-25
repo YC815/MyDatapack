@@ -1,0 +1,12 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		{
+		"item": "dripstone_block"
+		}
+	],
+	"result": {
+		"item": "pointed_dripstone",
+		"count": 4
+	}
+}

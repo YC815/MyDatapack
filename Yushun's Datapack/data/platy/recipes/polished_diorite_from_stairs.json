@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "polished_diorite",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "polished_diorite_stairs"
+		}
+	},
+	"result": {
+		"item": "polished_diorite",
+		"count": 4
+	}
+}

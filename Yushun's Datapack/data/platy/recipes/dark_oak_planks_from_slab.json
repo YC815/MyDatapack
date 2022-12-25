@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shaped",
+	"group": "slab_planks",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "dark_oak_slab"
+		}
+	},
+	"result": {
+		"item": "dark_oak_planks"
+	}
+}

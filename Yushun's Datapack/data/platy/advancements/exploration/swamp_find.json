@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "vine"
+		},
+		"title": "Swampy Marsh",
+		"description": "Enter a swamp biome"
+	},
+	"parent": "platy:exploration/root",
+	"criteria": {
+		"swamp": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "swamp"
+					}
+				}
+			}
+		},
+		"mangrove_swamp": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "mangrove_swamp"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"swamp",
+			"mangrove_swamp"
+		]
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"display": {
+		"icon": {
+			"item": "seagrass"
+		},
+		"title": "Green in the Blue",
+		"description": "Swim in sea grass and kelp"
+	},
+	"parent": "platy:ocean/root",
+	"criteria": {
+		"seagrass": {
+			"trigger": "enter_block",
+			"conditions": {
+				 "block": "seagrass"
+			}
+		},
+		"tall_seagrass": {
+			"trigger": "enter_block",
+			"conditions": {
+				 "block": "tall_seagrass"
+			}
+		},
+		"kelp": {
+			"trigger": "enter_block",
+			"conditions": {
+				 "block": "kelp"
+			}
+		},
+		"kelp_plant": {
+			"trigger": "enter_block",
+			"conditions": {
+				 "block": "kelp_plant"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"seagrass",
+			"tall_seagrass"
+		],
+		[
+			"kelp",
+			"kelp_plant"
+		]
+	]
+}

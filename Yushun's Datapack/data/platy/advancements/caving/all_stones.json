@@ -1,0 +1,68 @@
+{
+	"display": {
+		"icon": {
+			"item": "andesite"
+		},
+		"title": "Stoned",
+		"description": "Gather all seven types of stone"
+	},
+	"parent": "platy:caving/at_diamond_level",
+	"criteria": {
+		"stone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["stone"]
+				}]
+			}
+		},
+		"granite": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["granite"]
+				}]
+			}
+		},
+		"diorite": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["diorite"]
+				}]
+			}
+		},
+		"andesite": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["andesite"]
+				}]
+			}
+		},
+		"deepslate": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["deepslate"]
+				}]
+			}
+		},
+		"tuff": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["tuff"]
+				}]
+			}
+		},
+		"calcite": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["calcite"]
+				}]
+			}
+		}
+	}
+}

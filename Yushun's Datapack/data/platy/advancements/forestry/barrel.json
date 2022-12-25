@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "barrel"
+		},
+		"title": "Barrels of Fun",
+		"description": "Craft a barrel"
+	},
+	"parent": "platy:forestry/chest",
+	"criteria": {
+		"barrel": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["barrel"]
+				}]
+			}
+		}
+	}
+}

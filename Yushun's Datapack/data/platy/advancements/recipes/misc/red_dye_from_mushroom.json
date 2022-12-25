@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:red_dye_from_mushroom"
+		]
+	},
+	"criteria": {
+		"has_red_mushroom": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["red_mushroom"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:red_dye_from_mushroom"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_red_mushroom",
+			"has_recipe"
+		]
+	]
+}

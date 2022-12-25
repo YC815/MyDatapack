@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:deepslate_gold_ore"
+		]
+	},
+	"criteria": {
+		"has_gold": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "platy:gold_ore_pieces"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:deepslate_gold_ore"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_gold",
+			"has_recipe"
+		]
+	]
+}

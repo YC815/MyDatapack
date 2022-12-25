@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "mud"
+		},
+		"title": "It's a Mud, Mud, Mud, Mud World",
+		"description": "Turn dirt into mud"
+	},
+	"parent": "platy:exploration/swamp_find",
+	"criteria": {
+		"mud": {
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"blocks": ["mud"]
+					}
+				},
+				"item": {
+					"items": ["potion"],
+					"nbt": "{Potion:\"water\"}"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "conduit"
+		},
+		"title": "Open Your Eyes",
+		"description": "Discover the power of the conduit",
+		"frame": "goal"
+	},
+	"parent": "platy:ocean/heart_and_soul",
+	"criteria": {
+		"conduit_power": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"conduit_power": {}
+				}
+			}
+		}
+	}
+}

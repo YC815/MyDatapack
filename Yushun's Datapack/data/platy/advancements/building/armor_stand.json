@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "armor_stand"
+		},
+		"title": "Castle Guards",
+		"description": "Place an armor stand to display your armor"
+	},
+	"parent": "platy:building/item_frame",
+	"criteria": {
+		"armor_stand": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [{
+							"type": "used",
+							"stat": "armor_stand",
+							"value": {
+								"min": 1
+							}
+						}]
+					}
+				}
+			}
+		}
+	}
+}

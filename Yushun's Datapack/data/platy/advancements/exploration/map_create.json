@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "filled_map"
+		},
+		"title": "Charting the Territory",
+		"description": "Open a map"
+	},
+	"parent": "platy:exploration/root",
+	"criteria": {
+		"map": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["filled_map"]
+					}
+				],
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "used",
+							"stat": "map",
+							"value": {
+								"min": 1
+							}
+						}]
+					}
+				}
+			}
+		}
+	}
+}

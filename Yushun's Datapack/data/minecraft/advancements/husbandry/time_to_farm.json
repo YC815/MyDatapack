@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "wooden_hoe"
+		},
+		"title": "Time to Farm!",
+		"description": "Craft a hoe"
+	},
+	"parent": "minecraft:husbandry/root",
+	"criteria": {
+		"hoe": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "platy:hoes"
+					}
+				]
+			}
+		}
+	}
+}

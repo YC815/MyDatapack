@@ -1,0 +1,12 @@
+{
+	"type": "crafting_shapeless",
+	"group": "cyan_dye",
+	"ingredients": [
+		{
+		"item": "heart_of_the_sea"
+		}
+	],
+	"result": {
+		"item": "cyan_dye"
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "spruce_boat"
+		},
+		"title": "Going Down",
+		"description": "Enter a shipwreck"
+	},
+	"parent": "platy:ocean/root",
+	"criteria": {
+		"shipwreck": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "shipwreck"
+					}
+				}
+			}
+		},
+		"shipwreck_beached": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "shipwreck_beached"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"shipwreck",
+			"shipwreck_beached"
+		]
+	]
+}

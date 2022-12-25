@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "cocoa_beans"
+		},
+		"title": "Coocoo for Cocoa Beans",
+		"description": "Plant some cocoa beans"
+	},
+	"parent": "platy:exploration/jungle_tree",
+	"criteria": {
+		"cocoa_beans": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["cocoa_beans"]
+				}
+			}
+		}
+	}
+}

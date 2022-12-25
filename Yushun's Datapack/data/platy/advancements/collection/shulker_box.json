@@ -1,0 +1,185 @@
+{
+	"display": {
+		"icon": {
+			"item": "lime_shulker_box"
+		},
+		"title": "Somewhere over the Rainbow...",
+		"description": "Collect all 17 shulker box types"
+	},
+	"parent": "platy:collection/all_dye",
+	"rewards": {
+		"experience": 75
+	},
+	"criteria": {
+		"normal": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["shulker_box"]
+					}
+				]
+			}
+		},
+		"white": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["white_shulker_box"]
+					}
+				]
+			}
+		},
+		"orange": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["orange_shulker_box"]
+					}
+				]
+			}
+		},
+		"magenta": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["magenta_shulker_box"]
+					}
+				]
+			}
+		},
+		"light_blue": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["light_blue_shulker_box"]
+					}
+				]
+			}
+		},
+		"yellow": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["yellow_shulker_box"]
+					}
+				]
+			}
+		},
+		"lime": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["lime_shulker_box"]
+					}
+				]
+			}
+		},
+		"pink": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["pink_shulker_box"]
+					}
+				]
+			}
+		},
+		"gray": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["gray_shulker_box"]
+					}
+				]
+			}
+		},
+		"light_gray": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["light_blue_shulker_box"]
+					}
+				]
+			}
+		},
+		"cyan": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["cyan_shulker_box"]
+					}
+				]
+			}
+		},
+		"purple": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["purple_shulker_box"]
+					}
+				]
+			}
+		},
+		"blue": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["blue_shulker_box"]
+					}
+				]
+			}
+		},
+		"brown": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["brown_shulker_box"]
+					}
+				]
+			}
+		},
+		"green": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["green_shulker_box"]
+					}
+				]
+			}
+		},
+		"red": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["red_shulker_box"]
+					}
+				]
+			}
+		},
+		"black": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["black_shulker_box"]
+					}
+				]
+			}
+		}
+	}
+}

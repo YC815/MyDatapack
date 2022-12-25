@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"#",
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "moss_carpet"
+		}
+	},
+	"result": {
+		"item": "moss_block",
+		"count": 2
+	}
+}

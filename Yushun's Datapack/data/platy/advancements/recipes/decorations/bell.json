@@ -1,0 +1,85 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:bell"
+		]
+	},
+	"criteria": {
+		"village_desert": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_desert"
+					}
+				}
+			}
+		},
+		"village_plains": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_plains"
+					}
+				}
+			}
+		},
+		"village_savanna": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_savanna"
+					}
+				}
+			}
+		},
+		"village_snowy": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_snowy"
+					}
+				}
+			}
+		},
+		"village_taiga": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_taiga"
+					}
+				}
+			}
+		},
+		"has_bell": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["bell"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:bell"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"village_desert",
+			"village_plains",
+			"village_savanna",
+			"village_snowy",
+			"village_taiga",
+			"has_bell",
+			"has_recipe"
+		]
+	]
+}

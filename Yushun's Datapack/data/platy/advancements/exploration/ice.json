@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "ice"
+		},
+		"title": "Ice Ice Baby",
+		"description": "Collect some ice"
+	},
+	"parent": "platy:exploration/snow_biome",
+	"criteria": {
+		"ice": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["ice"]
+					}
+				]
+			}
+		}
+	}
+}

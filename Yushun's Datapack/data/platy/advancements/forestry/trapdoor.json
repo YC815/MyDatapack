@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "jungle_trapdoor"
+		},
+		"title": "Under Here!",
+		"description": "Craft a wooden trapdoor"
+	},
+	"parent": "platy:forestry/door",
+	"criteria": {
+		"trapdoor": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "wooden_trapdoors"
+				}]
+			}
+		}
+	}
+}

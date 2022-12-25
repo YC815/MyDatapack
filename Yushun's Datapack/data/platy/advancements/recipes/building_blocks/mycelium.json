@@ -1,0 +1,41 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:mycelium"
+		]
+	},
+	"criteria": {
+		"in_mushroom_island": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "mushroom_fields"
+					}
+				}
+			}
+		},
+		"has_mycelium": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["mycelium"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:mycelium"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"in_mushroom_island",
+			"has_mycelium",
+			"has_recipe"
+		]
+	]
+}

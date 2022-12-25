@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "sculk"
+		},
+		"title": "Skulking in Sculk",
+		"description": "Enter the deep dark"
+	},
+	"parent": "platy:caving/root",
+	"criteria": {
+		"deep_dark": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "deep_dark"
+					}
+				}
+			}
+		}
+	}
+}

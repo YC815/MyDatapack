@@ -1,0 +1,19 @@
+{
+	"type": "crafting_shaped",
+	"group": "clay",
+	"pattern": [
+		"#",
+		"X"
+	],
+	"key": {
+		"#": {
+			"item": "dirt"
+		},
+		"X": {
+			"item": "water_bucket"
+		}
+	},
+	"result": {
+		"item": "clay"
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:torch_from_campfire"
+		]
+	},
+	"criteria": {
+		"has_stick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["stick"]
+				}]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:torch_from_campfire"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_stick",
+			"has_the_recipe"
+		]
+	]
+}

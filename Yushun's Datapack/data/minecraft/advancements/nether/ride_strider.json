@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"item": "warped_fungus_on_a_stick"
+		},
+		"title": "Lava Walker",
+		"description": "Use warped fungus on a stick to make a strider run over lava"
+	},
+	"parent": "minecraft:nether/root",
+	"criteria": {
+		"ride_strider": {
+			"trigger": "item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": ["warped_fungus_on_a_stick"]
+				},
+				"player": [{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"vehicle": {
+							"type": "strider",
+							"stepping_on": {
+								"block": {
+									"tag": "strider_warm_blocks"
+								}
+							}
+						}
+					}
+				}]
+			}
+		}
+	}
+}

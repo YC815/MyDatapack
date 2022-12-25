@@ -1,0 +1,137 @@
+{
+	"display": {
+		"icon": {
+			"item": "snow_block"
+		},
+		"title": "Winter Wonderland",
+		"description": "Enter a snowy biome"
+	},
+	"parent": "platy:exploration/root",
+	"criteria": {
+		"snowy_plains": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "snowy_plains"
+					}
+				}
+			}
+		},
+		"ice_spikes": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "ice_spikes"
+					}
+				}
+			}
+		},
+		"snowy_taiga": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "snowy_taiga"
+					}
+				}
+			}
+		},
+		"snowy_beach": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "snowy_beach"
+					}
+				}
+			}
+		},
+		"grove": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "grove"
+					}
+				}
+			}
+		},
+		"snowy_slopes": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "snowy_slopes"
+					}
+				}
+			}
+		},
+		"jagged_peaks": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "jagged_peaks"
+					}
+				}
+			}
+		},
+		"frozen_peaks": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "frozen_peaks"
+					}
+				}
+			}
+		},
+		"frozen_river": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "frozen_river"
+					}
+				}
+			}
+		},
+		"frozen_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "frozen_ocean"
+					}
+				}
+			}
+		},
+		"deep_frozen_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "deep_frozen_ocean"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"snowy_plains",
+			"ice_spikes",
+			"snowy_taiga",
+			"snowy_beach",
+			"grove",
+			"snowy_slopes",
+			"jagged_peaks",
+			"frozen_peaks",
+			"frozen_river",
+			"frozen_ocean",
+			"deep_frozen_ocean"
+		]
+	]
+}

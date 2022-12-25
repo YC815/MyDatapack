@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:deepslate_coal_ore"
+		]
+	},
+	"criteria": {
+		"has_coal": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["coal"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:deepslate_coal_ore"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_coal",
+			"has_recipe"
+		]
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:moss_block_from_carpet"
+		]
+	},
+	"criteria": {
+		"has_moss_carpet": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["moss_carpet"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:moss_block_from_carpet"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_moss_carpet",
+			"has_recipe"
+		]
+	]
+}

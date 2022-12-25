@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "stick"
+		},
+		"title": "Poke Poke",
+		"description": "Craft a stick"
+	},
+	"parent": "platy:forestry/planks",
+	"criteria": {
+		"stick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["stick"]
+				}]
+			}
+		}
+	}
+}

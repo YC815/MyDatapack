@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "cobblestone",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "cobblestone_wall"
+		}
+	},
+	"result": {
+		"item": "cobblestone",
+		"count": 2
+	}
+}

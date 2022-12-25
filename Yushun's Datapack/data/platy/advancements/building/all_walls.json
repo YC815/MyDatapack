@@ -1,0 +1,192 @@
+{
+	"display": {
+		"icon": {
+			"item": "andesite_wall"
+		},
+		"title": "Walled Off",
+		"description": "Craft every type of wall",
+		"frame": "goal"
+	},
+	"parent": "platy:building/stonecutter",
+	"rewards": {
+		"experience": 55
+	},
+	"criteria": {
+		"cobblestone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["cobblestone_wall"]
+				}]
+			}
+		},
+		"mossy_cobblestone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["mossy_cobblestone_wall"]
+				}]
+			}
+		},
+		"brick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["brick_wall"]
+				}]
+			}
+		},
+		"prismarine": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["prismarine_wall"]
+				}]
+			}
+		},
+		"red_sandstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["red_sandstone_wall"]
+				}]
+			}
+		},
+		"mossy_stone_brick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["mossy_stone_brick_wall"]
+				}]
+			}
+		},
+		"granite": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["granite_wall"]
+				}]
+			}
+		},
+		"stone_brick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["stone_brick_wall"]
+				}]
+			}
+		},
+		"mud_brick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["mud_brick_wall"]
+				}]
+			}
+		},
+		"nether_brick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["nether_brick_wall"]
+				}]
+			}
+		},
+		"andesite": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["andesite_wall"]
+				}]
+			}
+		},
+		"red_nether_brick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["red_nether_brick_wall"]
+				}]
+			}
+		},
+		"sandstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["sandstone_wall"]
+				}]
+			}
+		},
+		"end_stone_brick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["end_stone_brick_wall"]
+				}]
+			}
+		},
+		"diorite": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["diorite_wall"]
+				}]
+			}
+		},
+		"blackstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["blackstone_wall"]
+				}]
+			}
+		},
+		"polished_blackstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["polished_blackstone_wall"]
+				}]
+			}
+		},
+		"polished_blackstone_brick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["polished_blackstone_brick_wall"]
+				}]
+			}
+		},
+		"cobbled_deepslate": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["cobbled_deepslate_wall"]
+				}]
+			}
+		},
+		"polished_deepslate": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["polished_deepslate_wall"]
+				}]
+			}
+		},
+		"deepslate_brick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["deepslate_brick_wall"]
+				}]
+			}
+		},
+		"deepslate_tile": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["deepslate_tile_wall"]
+				}]
+			}
+		}
+	}
+}

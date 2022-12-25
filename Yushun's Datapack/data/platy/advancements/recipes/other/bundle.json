@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:bundle"
+		]
+	},
+	"criteria": {
+		"has_rabbit_hide": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["rabbit_hide"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:bundle"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_rabbit_hide",
+			"has_recipe"
+		]
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shapeless",
+	"group": "green_dye",
+	"ingredients": [
+		{
+		"item": "lime_dye"
+		},
+		{
+		"item": "black_dye"
+		}
+	],
+	"result": {
+		"item": "green_dye",
+		"count": 2
+	}
+}

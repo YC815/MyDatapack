@@ -1,0 +1,19 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		" ##",
+		"#X ",
+		"  X"
+	],
+	"key": {
+		"#": {
+			"item": "acacia_leaves"
+		},
+		"X": {
+			"item": "acacia_log"
+		}
+	},
+	"result": {
+		"item": "acacia_sapling"
+	}
+}

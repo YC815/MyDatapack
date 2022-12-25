@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:dispenser"
+		]
+	},
+	"criteria": {
+		"has_dropper": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["dropper"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:dispenser"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_dropper",
+			"has_recipe"
+		]
+	]
+}

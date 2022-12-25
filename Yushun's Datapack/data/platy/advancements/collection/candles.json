@@ -1,0 +1,185 @@
+{
+	"display": {
+		"icon": {
+			"item": "yellow_candle"
+		},
+		"title": "Waxing Wainbow",
+		"description": "Collect all 17 candle types"
+	},
+	"parent": "platy:collection/all_dye",
+	"rewards": {
+		"experience": 75
+	},
+	"criteria": {
+		"white": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["white_candle"]
+					}
+				]
+			}
+		},
+		"orange": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["orange_candle"]
+					}
+				]
+			}
+		},
+		"magenta": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["magenta_candle"]
+					}
+				]
+			}
+		},
+		"light_blue": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["light_blue_candle"]
+					}
+				]
+			}
+		},
+		"yellow": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["yellow_candle"]
+					}
+				]
+			}
+		},
+		"lime": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["lime_candle"]
+					}
+				]
+			}
+		},
+		"pink": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["pink_candle"]
+					}
+				]
+			}
+		},
+		"gray": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["gray_candle"]
+					}
+				]
+			}
+		},
+		"light_gray": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["light_gray_candle"]
+					}
+				]
+			}
+		},
+		"cyan": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["cyan_candle"]
+					}
+				]
+			}
+		},
+		"purple": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["purple_candle"]
+					}
+				]
+			}
+		},
+		"blue": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["blue_candle"]
+					}
+				]
+			}
+		},
+		"brown": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["brown_candle"]
+					}
+				]
+			}
+		},
+		"green": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["green_candle"]
+					}
+				]
+			}
+		},
+		"red": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["red_candle"]
+					}
+				]
+			}
+		},
+		"black": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["black_candle"]
+					}
+				]
+			}
+		},
+		"plain": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["candle"]
+					}
+				]
+			}
+		}
+	}
+}

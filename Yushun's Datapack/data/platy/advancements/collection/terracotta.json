@@ -1,0 +1,185 @@
+{
+	"display": {
+		"icon": {
+			"item": "brown_terracotta"
+		},
+		"title": "Terra Caught 'Em All!",
+		"description": "Collect all 17 terracotta types"
+	},
+	"parent": "platy:collection/all_dye",
+	"rewards": {
+		"experience": 75
+	},
+	"criteria": {
+		"white": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["white_terracotta"]
+					}
+				]
+			}
+		},
+		"orange": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["orange_terracotta"]
+					}
+				]
+			}
+		},
+		"magenta": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["magenta_terracotta"]
+					}
+				]
+			}
+		},
+		"light_blue": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["light_blue_terracotta"]
+					}
+				]
+			}
+		},
+		"yellow": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["yellow_terracotta"]
+					}
+				]
+			}
+		},
+		"lime": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["lime_terracotta"]
+					}
+				]
+			}
+		},
+		"pink": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["pink_terracotta"]
+					}
+				]
+			}
+		},
+		"gray": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["gray_terracotta"]
+					}
+				]
+			}
+		},
+		"light_gray": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["light_gray_terracotta"]
+					}
+				]
+			}
+		},
+		"cyan": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["cyan_terracotta"]
+					}
+				]
+			}
+		},
+		"purple": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["purple_terracotta"]
+					}
+				]
+			}
+		},
+		"blue": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["blue_terracotta"]
+					}
+				]
+			}
+		},
+		"brown": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["brown_terracotta"]
+					}
+				]
+			}
+		},
+		"green": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["green_terracotta"]
+					}
+				]
+			}
+		},
+		"red": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["red_terracotta"]
+					}
+				]
+			}
+		},
+		"black": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["black_terracotta"]
+					}
+				]
+			}
+		},
+		"plain": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["terracotta"]
+					}
+				]
+			}
+		}
+	}
+}

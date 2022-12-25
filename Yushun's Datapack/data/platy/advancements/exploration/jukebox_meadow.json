@@ -1,0 +1,33 @@
+{
+	"parent": "platy:exploration/mountain",
+	"display": {
+		"icon": {
+			"item": "jukebox"
+		},
+		"title": {
+			"translate": "advancements.adventure.play_jukebox_in_meadows.title"
+		},
+		"description": "Make the meadows come alive with the sound of music from a jukebox"
+	},
+	"criteria": {
+		"play_jukebox_in_meadows": {
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"location": {
+					"biome": "meadow",
+					"block": {
+						"blocks": [
+							"jukebox"
+						],
+						"state": {
+							"has_record": true
+						}
+					}
+				},
+				"item": {
+					"tag": "music_discs"
+				}
+			}
+		}
+	}
+}

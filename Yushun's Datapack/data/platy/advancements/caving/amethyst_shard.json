@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "amethyst_shard"
+		},
+		"title": "Priceless Pieces",
+		"description": "Collect an amethyst shard"
+	},
+	"parent": "platy:caving/amethyst_cluster",
+	"criteria": {
+		"shard": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["amethyst_shard"]
+				}]
+			}
+		}
+	}
+}

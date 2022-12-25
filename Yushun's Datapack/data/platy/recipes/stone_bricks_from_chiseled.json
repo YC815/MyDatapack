@@ -1,0 +1,8 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "chiseled_stone_bricks"
+	},
+	"result": "stone_bricks",
+	"count": 1
+}

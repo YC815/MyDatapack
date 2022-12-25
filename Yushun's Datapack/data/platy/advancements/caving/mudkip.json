@@ -1,0 +1,26 @@
+{
+	"parent": "platy:caving/axolotl_bucket",
+	"display": {
+		"icon": {
+			"item": "axolotl_bucket"
+		},
+		"title": "Hoenn Confirmed!",
+		"description": "Breed for a rare blue axolotl",
+		"hidden": true,
+		"frame": "challenge"
+	},
+	"rewards": {
+		"experience": 100
+	},
+	"criteria": {
+		"axolotl_bucket": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"child": {
+					"type": "axolotl",
+					"nbt": "{Variant:4}"
+				}
+			}
+		}
+	}
+}

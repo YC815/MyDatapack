@@ -1,0 +1,8 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "packed_mud"
+	},
+	"result": "mud_brick_stairs",
+	"count": 1
+}

@@ -1,0 +1,52 @@
+{
+	"display": {
+		"icon": {
+			"item": "item_frame"
+		},
+		"title": "I Was Framed!",
+		"description": "Place an item frame to display your items"
+	},
+	"parent": "platy:building/sign_write",
+	"criteria": {
+		"item_frame": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [{
+							"type": "used",
+							"stat": "item_frame",
+							"value": {
+								"min": 1
+							}
+						}]
+					}
+				}
+			}
+		},
+		"glow_item_frame": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [{
+							"type": "used",
+							"stat": "glow_item_frame",
+							"value": {
+								"min": 1
+							}
+						}]
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"item_frame",
+			"glow_item_frame"
+		]
+	]
+}

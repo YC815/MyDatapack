@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "polished_blackstone"
+		},
+		"title": "Nether Structures",
+		"description": "Explore the Nether's infernal edifices",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"background": "minecraft:textures/block/nether_bricks.png"
+	},
+	"criteria": {
+		"nether": {
+			"trigger": "changed_dimension",
+			"conditions": {
+				"to": "the_nether"
+			}
+		}
+	}
+}

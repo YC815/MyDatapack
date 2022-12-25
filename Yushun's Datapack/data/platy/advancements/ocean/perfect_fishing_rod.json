@@ -1,0 +1,45 @@
+{
+	"display": {
+		"icon": {
+			"item": "fishing_rod",
+			"nbt": "{Enchantments:[{id:'lure'}]}"
+		},
+		"title": "Master Fisher",
+		"description": "Create a perfect fishing rod",
+		"frame": "challenge"
+	},
+	"parent": "platy:ocean/fishy_business",
+	"rewards": {
+		"experience": 100
+	},
+	"criteria": {
+		"fishing_rod": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["fishing_rod"],
+						"enchantments": [
+							{
+								"enchantment": "luck_of_the_sea",
+								"levels": 3
+							},
+							{
+								"enchantment": "lure",
+								"levels": 3
+							},
+							{
+								"enchantment": "unbreaking",
+								"levels": 3
+							},	
+							{
+								"enchantment": "mending",
+								"levels": 1
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

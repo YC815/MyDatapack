@@ -1,0 +1,627 @@
+{
+	"display": {
+		"icon": {
+			"item": "netherite_helmet",
+			"nbt": "{Enchantments:[{id:'lure'}]}"
+		},
+		"title": "Master Armorer",
+		"description": "Create a perfect suit of armor",
+		"frame": "challenge"
+	},
+	"parent": "minecraft:story/mending",
+	"rewards": {
+		"experience": 500
+	},
+	"criteria": {
+		"helmet_prot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_helmet"],
+					"enchantments": [{
+							"enchantment": "aqua_affinity",
+							"levels": 1
+						},
+						{
+							"enchantment": "protection",
+							"levels": 4
+						},
+						{
+							"enchantment": "respiration",
+							"levels": 3
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		},
+		"helmet_proj_prot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_helmet"],
+					"enchantments": [{
+							"enchantment": "aqua_affinity",
+							"levels": 1
+						},
+						{
+							"enchantment": "projectile_protection",
+							"levels": 4
+						},
+						{
+							"enchantment": "respiration",
+							"levels": 3
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		},
+		"helmet_blast_prot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_helmet"],
+					"enchantments": [{
+							"enchantment": "aqua_affinity",
+							"levels": 1
+						},
+						{
+							"enchantment": "blast_protection",
+							"levels": 4
+						},
+						{
+							"enchantment": "respiration",
+							"levels": 3
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		},
+		"helmet_fire_prot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_helmet"],
+					"enchantments": [{
+							"enchantment": "aqua_affinity",
+							"levels": 1
+						},
+						{
+							"enchantment": "fire_protection",
+							"levels": 4
+						},
+						{
+							"enchantment": "respiration",
+							"levels": 3
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		},
+		"chest_prot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_chestplate"],
+					"enchantments": [{
+							"enchantment": "protection",
+							"levels": 4
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "thorns",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		},
+		"chest_proj_prot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_chestplate"],
+					"enchantments": [{
+							"enchantment": "projectile_protection",
+							"levels": 4
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "thorns",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		},
+		"chest_blast_prot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_chestplate"],
+					"enchantments": [{
+							"enchantment": "blast_protection",
+							"levels": 4
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "thorns",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		},
+		"chest_fire_prot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_chestplate"],
+					"enchantments": [{
+							"enchantment": "fire_protection",
+							"levels": 4
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "thorns",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		},
+		"leggings_prot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_leggings"],
+					"enchantments": [{
+							"enchantment": "protection",
+							"levels": 4
+						},
+						{
+							"enchantment": "swift_sneak",
+							"levels": 3
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		},
+		"leggings_proj_prot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_leggings"],
+					"enchantments": [{
+							"enchantment": "projectile_protection",
+							"levels": 4
+						},
+						{
+							"enchantment": "swift_sneak",
+							"levels": 3
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		},
+		"leggings_blast_prot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_leggings"],
+					"enchantments": [{
+							"enchantment": "blast_protection",
+							"levels": 4
+						},
+						{
+							"enchantment": "swift_sneak",
+							"levels": 3
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		},
+		"leggings_fire_prot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_leggings"],
+					"enchantments": [{
+							"enchantment": "fire_protection",
+							"levels": 4
+						},
+						{
+							"enchantment": "swift_sneak",
+							"levels": 3
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		},
+		"ds_boots_prot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_boots"],
+					"enchantments": [{
+							"enchantment": "protection",
+							"levels": 4
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "depth_strider",
+							"levels": 3
+						},
+						{
+							"enchantment": "feather_falling",
+							"levels": 4
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						},
+						{
+							"enchantment": "soul_speed",
+							"levels": 3
+						}
+					]
+				}]
+			}
+		},
+		"ds_boots_proj_prot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_boots"],
+					"enchantments": [{
+							"enchantment": "projectile_protection",
+							"levels": 4
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "depth_strider",
+							"levels": 3
+						},
+						{
+							"enchantment": "feather_falling",
+							"levels": 4
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						},
+						{
+							"enchantment": "soul_speed",
+							"levels": 3
+						}
+					]
+				}]
+			}
+		},
+		"ds_boots_blast_prot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_boots"],
+					"enchantments": [{
+							"enchantment": "blast_protection",
+							"levels": 4
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "depth_strider",
+							"levels": 3
+						},
+						{
+							"enchantment": "feather_falling",
+							"levels": 4
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						},
+						{
+							"enchantment": "soul_speed",
+							"levels": 3
+						}
+					]
+				}]
+			}
+		},
+		"ds_boots_fire_prot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_boots"],
+					"enchantments": [{
+							"enchantment": "fire_protection",
+							"levels": 4
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "depth_strider",
+							"levels": 3
+						},
+						{
+							"enchantment": "feather_falling",
+							"levels": 4
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						},
+						{
+							"enchantment": "soul_speed",
+							"levels": 3
+						}
+					]
+				}]
+			}
+		},
+		"fw_boots_prot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_boots"],
+					"enchantments": [{
+							"enchantment": "protection",
+							"levels": 4
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "frost_walker",
+							"levels": 2
+						},
+						{
+							"enchantment": "feather_falling",
+							"levels": 4
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						},
+						{
+							"enchantment": "soul_speed",
+							"levels": 3
+						}
+					]
+				}]
+			}
+		},
+		"fw_boots_proj_prot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_boots"],
+					"enchantments": [{
+							"enchantment": "projectile_protection",
+							"levels": 4
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "frost_walker",
+							"levels": 2
+						},
+						{
+							"enchantment": "feather_falling",
+							"levels": 4
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						},
+						{
+							"enchantment": "soul_speed",
+							"levels": 3
+						}
+					]
+				}]
+			}
+		},
+		"fw_boots_blast_prot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_boots"],
+					"enchantments": [{
+							"enchantment": "blast_protection",
+							"levels": 4
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "frost_walker",
+							"levels": 2
+						},
+						{
+							"enchantment": "feather_falling",
+							"levels": 4
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						},
+						{
+							"enchantment": "soul_speed",
+							"levels": 3
+						}
+					]
+				}]
+			}
+		},
+		"fw_boots_fire_prot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_boots"],
+					"enchantments": [{
+							"enchantment": "fire_protection",
+							"levels": 4
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "frost_walker",
+							"levels": 2
+						},
+						{
+							"enchantment": "feather_falling",
+							"levels": 4
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						},
+						{
+							"enchantment": "soul_speed",
+							"levels": 3
+						}
+					]
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"helmet_prot",
+			"helmet_proj_prot",
+			"helmet_blast_prot",
+			"helmet_fire_prot"
+		],
+		[
+			"chest_prot",
+			"chest_proj_prot",
+			"chest_blast_prot",
+			"chest_fire_prot"
+		],
+		[
+			"leggings_prot",
+			"leggings_proj_prot",
+			"leggings_blast_prot",
+			"leggings_fire_prot"
+		],
+		[
+			"ds_boots_prot",
+			"ds_boots_proj_prot",
+			"ds_boots_blast_prot",
+			"ds_boots_fire_prot",
+			"fw_boots_prot",
+			"fw_boots_proj_prot",
+			"fw_boots_blast_prot",
+			"fw_boots_fire_prot"
+		]
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "sticky_piston"
+		},
+		"title": "...Pull...",
+		"description": "Craft and place a sticky piston"
+	},
+	"parent": "platy:redstone/piston",
+	"criteria": {
+		"sticky_piston": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "sticky_piston"
+			}
+		}
+	}
+}

@@ -1,0 +1,63 @@
+{
+	"display": {
+		"icon": {
+			"item": "porkchop"
+		},
+		"title": "Slaughterhouse",
+		"description": "Gather each type of meat",
+		"frame": "goal"
+	},
+	"parent": "platy:livestock/meat",
+	"criteria": {
+		"porkchop": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["porkchop"]
+					}
+				]
+			}
+		},
+		"beef": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["beef"]
+					}
+				]
+			}
+		},
+		"chicken": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["chicken"]
+					}
+				]
+			}
+		},
+		"rabbit": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["rabbit"]
+					}
+				]
+			}
+		},
+		"mutton": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["mutton"]
+					}
+				]
+			}
+		}
+	}
+}

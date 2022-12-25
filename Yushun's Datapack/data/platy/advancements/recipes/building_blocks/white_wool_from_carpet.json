@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:white_wool_from_carpet"
+		]
+	},
+	"criteria": {
+		"has_white_carpet": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["white_carpet"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:white_wool_from_carpet"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_white_carpet",
+			"has_recipe"
+		]
+	]
+}

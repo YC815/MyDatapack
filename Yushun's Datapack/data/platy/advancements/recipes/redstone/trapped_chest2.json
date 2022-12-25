@@ -1,0 +1,35 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:trapped_chest2"
+		]
+	},
+	"criteria": {
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "trapped_chest"
+			}
+		},
+		"has_recipe_1": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:trapped_chest"
+			}
+		},
+		"has_recipe_2": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:trapped_chest2"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_recipe",
+			"has_recipe_1",
+			"has_recipe_2"
+		]
+	]
+}

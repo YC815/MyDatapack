@@ -1,0 +1,8 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "chiseled_nether_bricks"
+	},
+	"result": "nether_bricks",
+	"count": 1
+}

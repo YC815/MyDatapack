@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "kelp"
+		},
+		"title": "Kelp! Kelp!",
+		"description": "Collect some kelp"
+	},
+	"parent": "platy:ocean/green_in_the_blue",
+	"criteria": {
+		"kelp": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["kelp"]
+					}
+				]
+			}
+		}
+	}
+}

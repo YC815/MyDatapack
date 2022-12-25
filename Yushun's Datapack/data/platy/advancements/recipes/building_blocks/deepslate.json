@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:deepslate"
+		]
+	},
+	"criteria": {
+		"has_cobbled_deepslate": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["cobbled_deepslate"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:deepslate"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_cobbled_deepslate",
+			"has_recipe"
+		]
+	]
+}

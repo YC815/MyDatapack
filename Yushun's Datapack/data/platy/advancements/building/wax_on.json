@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "honeycomb"
+		},
+		"title": {
+			"translate": "advancements.husbandry.wax_on.title"
+		},
+		"description": "Use a honeycomb to wax a copper block"
+	},
+	"parent": "platy:building/copper_block",
+	"criteria": {
+		"wax_copper": {
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "platy:waxed_copper"
+					}
+				},
+				"item": {
+					"items": ["honeycomb"]
+				}
+			}
+		}
+	}
+}

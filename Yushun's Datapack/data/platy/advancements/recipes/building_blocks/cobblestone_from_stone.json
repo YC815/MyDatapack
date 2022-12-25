@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:cobblestone_from_stone"
+		]
+	},
+	"criteria": {
+		"has_flint": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["flint"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:cobblestone_from_stone"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_flint",
+			"has_recipe"
+		]
+	]
+}

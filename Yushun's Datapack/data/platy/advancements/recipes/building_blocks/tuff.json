@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:tuff"
+		]
+	},
+	"criteria": {
+		"has_basalt": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["basalt"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:tuff"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_basalt",
+			"has_recipe"
+		]
+	]
+}

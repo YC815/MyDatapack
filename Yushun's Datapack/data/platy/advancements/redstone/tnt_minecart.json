@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "tnt_minecart"
+		},
+		"title": "Mobile Explosion",
+		"description": "Put TNT in a minecart"
+	},
+	"parent": "platy:redstone/tnt",
+	"criteria": {
+		"tnt_minecart": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["tnt_minecart"]
+				}]
+			}
+		}
+	}
+}

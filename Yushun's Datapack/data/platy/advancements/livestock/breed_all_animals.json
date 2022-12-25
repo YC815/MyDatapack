@@ -1,0 +1,197 @@
+{
+	"display": {
+		"icon": {
+			"item": "golden_carrot"
+		},
+		"title": {
+			"translate": "advancements.husbandry.breed_all_animals.title"
+		},
+		"description": {
+			"translate": "advancements.husbandry.breed_all_animals.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "platy:livestock/breed_an_animal",
+	"rewards": {
+		"experience": 150
+	},
+	"criteria": {
+		"axolotl": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"child": {
+					"type": "axolotl"
+				}
+			}
+		},
+		"bee": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"child": {
+					"type": "bee"
+				}
+			}
+		},
+		"cat": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"child": {
+					"type": "cat"
+				}
+
+			}
+		},
+		"chicken": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"child": {
+					"type": "chicken"
+				}
+			}
+		},
+		"cow": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"child": {
+					"type": "cow"
+				}
+			}
+		},
+		"donkey": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"child": {
+					"type": "donkey"
+				}
+			}
+		},
+		"fox": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"child": {
+					"type": "fox"
+				}
+			}
+		},
+		"frog": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"child": {
+					"type": "frog"
+				}
+			}
+		},
+		"goat": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"child": {
+					"type": "goat"
+				}
+			}
+		},
+		"hoglin": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"child": {
+					"type": "hoglin"
+				}
+			}
+		},
+		"horse": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"child": {
+					"type": "horse"
+				}
+			}
+		},
+		"llama": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"child": {
+					"type": "#platy:llamas"
+				}
+			}
+		},
+		"mooshroom": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"child": {
+					"type": "mooshroom"
+				}
+			}
+		},
+		"mule": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"child": {
+					"type": "mule"
+				}
+			}
+		},
+		"ocelot": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"child": {
+					"type": "ocelot"
+				}
+			}
+		},
+		"panda": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"child": {
+					"type": "panda"
+				}
+			}
+		},
+		"pig": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"child": {
+					"type": "pig"
+				}
+			}
+		},
+		"rabbit": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"child": {
+					"type": "rabbit"
+				}
+			}
+		},
+		"sheep": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"child": {
+					"type": "sheep"
+				}
+			}
+		},
+		"strider": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"child": {
+					"type": "strider"
+				}
+			}
+		},
+		"turtle": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"parent": {
+					"type": "turtle"
+				}
+			}
+		},
+		"wolf": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"child": {
+					"type": "wolf"
+				}
+			}
+		}
+	}
+}

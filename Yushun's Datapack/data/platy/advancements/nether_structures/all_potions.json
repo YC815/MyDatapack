@@ -1,0 +1,40 @@
+{
+	"parent": "platy:nether_structures/brew_potion",
+	"display": {
+		"icon": {
+			"item": "milk_bucket"
+		},
+		"title": {
+			"translate": "advancements.nether.all_potions.title"
+		},
+		"description": {
+			"translate": "advancements.nether.all_potions.description"
+		},
+		"frame": "challenge"
+	},
+	"rewards": {
+		"experience": 100
+	},
+	"criteria": {
+		"all_effects": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"fire_resistance": {},
+					"regeneration": {},
+					"weakness": {},
+					"slow_falling": {},
+					"night_vision": {},
+					"poison": {},
+					"water_breathing": {},
+					"speed": {},
+					"strength": {},
+					"invisibility": {},
+					"jump_boost": {},
+					"slowness": {},
+					"resistance": {}
+				}
+			}
+		}
+	}
+}

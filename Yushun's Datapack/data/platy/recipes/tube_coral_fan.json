@@ -1,0 +1,18 @@
+{
+	"type": "crafting_shaped",
+	"group": "coral_fan",
+	"pattern": [
+		"#",
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "tube_coral"
+		}
+	},
+	"result": {
+		"item": "tube_coral_fan",
+		"count": 3
+	}
+}

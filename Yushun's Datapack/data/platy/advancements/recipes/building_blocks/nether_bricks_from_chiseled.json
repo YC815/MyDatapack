@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:nether_bricks_from_chiseled"
+		]
+	},
+	"criteria": {
+		"has_chiseled_nether_bricks": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["chiseled_nether_bricks"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:nether_bricks_from_chiseled"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_chiseled_nether_bricks",
+			"has_recipe"
+		]
+	]
+}

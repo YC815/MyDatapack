@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "oxidized_copper"
+		},
+		"title": "Time Oxiflies",
+		"description": "Fully oxidize a copper block and pick it up"
+	},
+	"parent": "platy:building/copper_block",
+	"criteria": {
+		"copper": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "platy:oxidized_copper"
+				}
+				]
+			}
+		}
+	}
+}

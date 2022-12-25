@@ -1,0 +1,73 @@
+{
+	"display": {
+		"icon": {
+			"item": "netherite_pickaxe",
+			"nbt": "{Enchantments:[{id:'lure'}]}"
+		},
+		"title": "Master Miner",
+		"description": "Create a perfect pickaxe",
+		"frame": "challenge"
+	},
+	"parent": "minecraft:story/mending",
+	"rewards": {
+		"experience": 100
+	},
+	"criteria": {
+		"perfect_pickaxe_fortune": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_pickaxe"],
+					"enchantments": [{
+							"enchantment": "efficiency",
+							"levels": 5
+						},
+						{
+							"enchantment": "fortune",
+							"levels": 3
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		},
+		"perfect_pickaxe_silk_touch": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_pickaxe"],
+					"enchantments": [{
+							"enchantment": "efficiency",
+							"levels": 5
+						},
+						{
+							"enchantment": "silk_touch",
+							"levels": 1
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"perfect_pickaxe_fortune",
+			"perfect_pickaxe_silk_touch"
+		]
+	]
+}

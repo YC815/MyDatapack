@@ -1,0 +1,82 @@
+{
+	"display": {
+		"icon": {
+			"item": "stone"
+		},
+		"title": "Mountain Climber",
+		"description": "Enter a mountain biome"
+	},
+	"parent": "platy:exploration/root",
+	"criteria": {
+		"meadow": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "meadow"
+					}
+				}
+			}
+		},
+		"grove": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "grove"
+					}
+				}
+			}
+		},
+		"snowy_slopes": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "snowy_slopes"
+					}
+				}
+			}
+		},
+		"jagged_peaks": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "jagged_peaks"
+					}
+				}
+			}
+		},
+		"frozen_peaks": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "frozen_peaks"
+					}
+				}
+			}
+		},
+		"stony_peaks": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "stony_peaks"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"meadow",
+			"grove",
+			"snowy_slopes",
+			"jagged_peaks",
+			"frozen_peaks",
+			"stony_peaks"
+		]
+	]
+}

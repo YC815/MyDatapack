@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "goat_horn"
+		},
+		"title": "War Cry",
+		"description": "Blow a goat horn"
+	},
+	"parent": "platy:exploration/goat_ram",
+	"criteria": {
+		"goat_horn": {
+			"trigger": "using_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"goat_horn"
+					]
+				}
+			}
+		}
+	}
+}

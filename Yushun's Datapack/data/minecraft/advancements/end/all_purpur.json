@@ -1,0 +1,45 @@
+{
+	"display": {
+		"icon": {
+			"item": "purpur_pillar"
+		},
+		"title": "紫珀家族",
+		"description": "獲得Minecraft中所有的紫珀方塊",
+		"frame": "goal"
+	},
+	"parent": "minecraft:end/chorus_fruit",
+	"criteria": {
+		"block": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["purpur_block"]
+				}]
+			}
+		},
+		"pillar": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["purpur_pillar"]
+				}]
+			}
+		},
+		"stairs": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["purpur_stairs"]
+				}]
+			}
+		},
+		"slab": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["purpur_slab"]
+				}]
+			}
+		}
+	}
+}

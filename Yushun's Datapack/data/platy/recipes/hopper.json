@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shaped",
+	"group": "hopper",
+	"pattern": [
+		"X#X",
+		"X#X",
+		" X "
+	],
+	"key": {
+		"#": {
+			"tag": "logs"
+		},
+		"X": {
+			"item": "iron_ingot"
+		}
+	},
+	"result": {
+		"item": "hopper"
+	}
+}

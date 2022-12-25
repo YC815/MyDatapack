@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "moss_block"
+		},
+		"title": "Underground Growth",
+		"description": "Enter a lush cave"
+	},
+	"parent": "platy:caving/root",
+	"criteria": {
+		"lush_cave": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "lush_cave"
+					}
+				}
+			}
+		}
+	}
+}

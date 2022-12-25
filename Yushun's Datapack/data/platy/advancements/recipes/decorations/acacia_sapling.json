@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:acacia_sapling"
+		]
+	},
+	"criteria": {
+		"has_leaves": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["acacia_leaves"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:acacia_sapling"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_leaves",
+			"has_recipe"
+		]
+	]
+}

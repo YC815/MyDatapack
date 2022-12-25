@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:flowering_azalea"
+		]
+	},
+	"criteria": {
+		"has_leaves": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["flowering_azalea_leaves"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:flowering_azalea"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_leaves",
+			"has_recipe"
+		]
+	]
+}

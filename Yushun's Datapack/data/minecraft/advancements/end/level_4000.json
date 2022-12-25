@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "firework_rocket"
+		},
+		"title": "Dizzying Heights",
+		"description": "Fly to Y-level 4000",
+		"frame": "challenge"
+	},
+	"parent": "minecraft:end/elytra",
+	"rewards": {
+		"experience": 50
+	},
+	"criteria": {
+		"4000": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"y": {
+								"min": 4000
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

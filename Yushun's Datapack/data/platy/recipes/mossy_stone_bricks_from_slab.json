@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shaped",
+	"group": "mossy_stone_bricks",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "mossy_stone_brick_slab"
+		}
+	},
+	"result": {
+		"item": "mossy_stone_bricks"
+	}
+}

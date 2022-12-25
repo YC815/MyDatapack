@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "iron_sword"
+		},
+		"title": {
+			"translate": "advancements.adventure.kill_a_mob.title"
+		},
+		"description": {
+			"translate": "advancements.adventure.kill_a_mob.description"
+		}
+	},
+	"parent": "platy:combat/make_sword",
+	"criteria": {
+		"hostile": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "#platy:hostile"
+				}
+			}
+		}
+	}
+}

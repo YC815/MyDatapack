@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "pumpkin_pie"
+		},
+		"title": "Thanksgiving Treat",
+		"description": "Eat a pumpkin pie"
+	},
+	"parent": "minecraft:husbandry/pumpkin",
+	"criteria": {
+		"pumpkin_pie": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": ["pumpkin_pie"]
+				}
+			}
+		}
+	}
+}

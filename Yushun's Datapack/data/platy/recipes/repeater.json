@@ -1,0 +1,23 @@
+{
+	"type": "crafting_shaped",
+	"group": "repeater",
+	"pattern": [
+		"# #",
+		"X#X",
+		"III"
+	],
+	"key": {
+		"#": {
+			"item": "redstone"
+		},
+		"X": {
+			"item": "stick"
+		},
+		"I": {
+			"item": "stone"
+		}
+	},
+	"result": {
+		"item": "repeater"
+	}
+}

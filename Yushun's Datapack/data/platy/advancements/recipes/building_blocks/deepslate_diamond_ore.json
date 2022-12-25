@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:deepslate_diamond_ore"
+		]
+	},
+	"criteria": {
+		"has_diamond": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["diamond"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:deepslate_diamond_ore"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_diamond",
+			"has_recipe"
+		]
+	]
+}

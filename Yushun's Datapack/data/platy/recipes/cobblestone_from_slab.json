@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shaped",
+	"group": "cobblestone",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "cobblestone_slab"
+		}
+	},
+	"result": {
+		"item": "cobblestone"
+	}
+}

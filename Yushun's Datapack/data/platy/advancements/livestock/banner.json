@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "white_banner"
+		},
+		"title": "Banner Hammer",
+		"description": "Obtain a banner"
+	},
+	"parent": "platy:livestock/use_shears",
+	"criteria": {
+		"banner": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "banners"
+					}
+				]
+			}
+		}
+	}
+}

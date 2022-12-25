@@ -1,0 +1,183 @@
+{
+	"display": {
+		"icon": {
+			"item": "salmon"
+		},
+		"title": {
+			"translate": "advancements.husbandry.complete_catalogue.title"
+		},
+		"description": "Tame every cat variant",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"experience": 50
+	},
+	"parent": "platy:village/tame_stray",
+	"criteria": {
+		"white": {
+			"trigger": "tame_animal",
+			"conditions": {
+				"entity": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"type_specific": {
+							"variant": "white",
+							"type": "cat"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"red": {
+			"trigger": "tame_animal",
+			"conditions": {
+				"entity": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"type_specific": {
+							"variant": "red",
+							"type": "cat"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"black": {
+			"trigger": "tame_animal",
+			"conditions": {
+				"entity": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"type_specific": {
+							"variant": "black",
+							"type": "cat"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"ragdoll": {
+			"trigger": "tame_animal",
+			"conditions": {
+				"entity": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"type_specific": {
+							"variant": "ragdoll",
+							"type": "cat"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"jellie": {
+			"trigger": "tame_animal",
+			"conditions": {
+				"entity": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"type_specific": {
+							"variant": "jellie",
+							"type": "cat"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"all_black": {
+			"trigger": "tame_animal",
+			"conditions": {
+				"entity": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"type_specific": {
+							"variant": "all_black",
+							"type": "cat"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"siamese": {
+			"trigger": "tame_animal",
+			"conditions": {
+				"entity": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"type_specific": {
+							"variant": "siamese",
+							"type": "cat"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"british_shorthair": {
+			"trigger": "tame_animal",
+			"conditions": {
+				"entity": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"type_specific": {
+							"variant": "british_shorthair",
+							"type": "cat"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"tabby": {
+			"trigger": "tame_animal",
+			"conditions": {
+				"entity": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"type_specific": {
+							"variant": "tabby",
+							"type": "cat"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"calico": {
+			"trigger": "tame_animal",
+			"conditions": {
+				"entity": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"type_specific": {
+							"variant": "calico",
+							"type": "cat"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"persian": {
+			"trigger": "tame_animal",
+			"conditions": {
+				"entity": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"type_specific": {
+							"variant": "persian",
+							"type": "cat"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "netherrack"
+		},
+		"X": {
+			"item": "lava_bucket"
+		}
+	},
+	"result": {
+		"item": "magma_block",
+		"count": 8
+	}
+}

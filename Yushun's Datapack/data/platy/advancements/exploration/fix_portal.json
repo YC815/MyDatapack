@@ -1,0 +1,114 @@
+{
+	"display": {
+		"icon": {
+			"item": "crying_obsidian"
+		},
+		"title": "Ruin Restoration",
+		"description": "Repair a ruined portal and enter it"
+	},
+	"parent": "platy:exploration/root",
+	"criteria": {
+		"portal": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ruined_portal",
+						"block": {
+							"blocks": ["nether_portal"]
+						}
+					}
+				}
+			}
+		},
+		"portal_desert": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ruined_portal_desert",
+						"block": {
+							"blocks": ["nether_portal"]
+						}
+					}
+				}
+			}
+		},
+		"portal_jungle": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ruined_portal_jungle",
+						"block": {
+							"blocks": ["nether_portal"]
+						}
+					}
+				}
+			}
+		},
+		"portal_mountain": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ruined_portal_mountain",
+						"block": {
+							"blocks": ["nether_portal"]
+						}
+					}
+				}
+			}
+		},
+		"portal_nether": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ruined_portal_nether",
+						"block": {
+							"blocks": ["nether_portal"]
+						}
+					}
+				}
+			}
+		},
+		"portal_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ruined_portal_ocean",
+						"block": {
+							"blocks": ["nether_portal"]
+						}
+					}
+				}
+			}
+		},
+		"portal_swamp": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ruined_portal_swamp",
+						"block": {
+							"blocks": ["nether_portal"]
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"portal",
+			"portal_desert",
+			"portal_jungle",
+			"portal_mountain",
+			"portal_nether",
+			"portal_ocean",
+			"portal_swamp"
+		]
+	]
+}

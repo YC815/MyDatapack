@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "deepslate_tiles",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "deepslate_tile_wall"
+		}
+	},
+	"result": {
+		"item": "deepslate_tiles",
+		"count": 2
+	}
+}

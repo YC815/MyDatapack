@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "dead_bush"
+		},
+		"title": "Sticky",
+		"description": "Obtain a dead bush"
+	},
+	"parent": "platy:exploration/husk",
+	"criteria": {
+		"dead_bush": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["dead_bush"]
+					}
+				]
+			}
+		}
+	}
+}

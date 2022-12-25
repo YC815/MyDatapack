@@ -1,0 +1,175 @@
+{
+	"display": {
+		"icon": {
+			"item": "magenta_concrete"
+		},
+		"title": "Concrete Evidence",
+		"description": "Collect all 16 concrete colors"
+	},
+	"parent": "platy:collection/concrete_powder",
+	"rewards": {
+		"experience": 75
+	},
+	"criteria": {
+		"white": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["white_concrete"]
+					}
+				]
+			}
+		},
+		"orange": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["orange_concrete"]
+					}
+				]
+			}
+		},
+		"magenta": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["magenta_concrete"]
+					}
+				]
+			}
+		},
+		"light_blue": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["light_blue_concrete"]
+					}
+				]
+			}
+		},
+		"yellow": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["yellow_concrete"]
+					}
+				]
+			}
+		},
+		"lime": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["lime_concrete"]
+					}
+				]
+			}
+		},
+		"pink": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["pink_concrete"]
+					}
+				]
+			}
+		},
+		"gray": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["gray_concrete"]
+					}
+				]
+			}
+		},
+		"light_gray": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["light_gray_concrete"]
+					}
+				]
+			}
+		},
+		"cyan": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["cyan_concrete"]
+					}
+				]
+			}
+		},
+		"purple": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["purple_concrete"]
+					}
+				]
+			}
+		},
+		"blue": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["blue_concrete"]
+					}
+				]
+			}
+		},
+		"brown": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["brown_concrete"]
+					}
+				]
+			}
+		},
+		"green": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["green_concrete"]
+					}
+				]
+			}
+		},
+		"red": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["red_concrete"]
+					}
+				]
+			}
+		},
+		"black": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["black_concrete"]
+					}
+				]
+			}
+		}
+	}
+}

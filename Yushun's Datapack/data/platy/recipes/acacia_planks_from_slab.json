@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shaped",
+	"group": "slab_planks",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "acacia_slab"
+		}
+	},
+	"result": {
+		"item": "acacia_planks"
+	}
+}

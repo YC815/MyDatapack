@@ -1,0 +1,9 @@
+{
+	"type": "smelting",
+	"ingredient": {
+		"item": "phantom_membrane"
+	},
+	"result": "light_gray_dye",
+	"experience": 1.0,
+	"cookingtime": 200
+}

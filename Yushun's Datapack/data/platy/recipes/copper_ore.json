@@ -1,0 +1,23 @@
+{
+	"type": "crafting_shaped",
+	"group": "copper_ore",
+	"pattern": [
+		"#X#",
+		"XIX",
+		"#X#"
+	],
+	"key": {
+		"#": {
+			"item": "stone"
+		},
+		"X": {
+			"tag": "platy:copper_ore_pieces"
+		},
+		"I": {
+			"item": "raw_copper_block"
+		}
+	},
+	"result": {
+		"item": "copper_ore"
+	}
+}

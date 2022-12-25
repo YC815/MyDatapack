@@ -1,0 +1,408 @@
+{
+	"display": {
+		"icon": {
+			"item": "structure_block"
+		},
+		"title": "Raidin' Master",
+		"description": "Discover every structure type",
+		"frame": "challenge"
+	},
+	"parent": "platy:exploration/enter_structure",
+	"rewards": {
+		"experience": 500
+	},
+	"criteria": {
+		"ancient_city": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ancient_city"
+					}
+				}
+			}
+		},
+		"bastion_remnant": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "bastion_remnant"
+					}
+				}
+			}
+		},
+		"buried_treasure": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "buried_treasure"
+					}
+				}
+			}
+		},
+		"desert_pyramid": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "desert_pyramid"
+					}
+				}
+			}
+		},
+		"end_city": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "end_city"
+					}
+				}
+			}
+		},
+		"fortress": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "fortress"
+					}
+				}
+			}
+		},
+		"igloo": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "igloo"
+					}
+				}
+			}
+		},
+		"jungle_pyramid": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "jungle_pyramid"
+					}
+				}
+			}
+		},
+		"mansion": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "mansion"
+					}
+				}
+			}
+		},
+		"mineshaft": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "mineshaft"
+					}
+				}
+			}
+		},
+		"mineshaft_mesa": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "mineshaft_mesa"
+					}
+				}
+			}
+		},
+		"monument": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "monument"
+					}
+				}
+			}
+		},
+		"nether_fossil": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "nether_fossil"
+					}
+				}
+			}
+		},
+		"ocean_ruin_cold": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ocean_ruin_cold"
+					}
+				}
+			}
+		},
+		"ocean_ruin_warm": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ocean_ruin_warm"
+					}
+				}
+			}
+		},
+		"pillager_outpost": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "pillager_outpost"
+					}
+				}
+			}
+		},
+		"ruined_portal": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ruined_portal"
+					}
+				}
+			}
+		},
+		"ruined_portal_desert": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ruined_portal_desert"
+					}
+				}
+			}
+		},
+		"ruined_portal_jungle": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ruined_portal_jungle"
+					}
+				}
+			}
+		},
+		"ruined_portal_mountain": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ruined_portal_mountain"
+					}
+				}
+			}
+		},
+		"ruined_portal_nether": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ruined_portal_nether"
+					}
+				}
+			}
+		},
+		"ruined_portal_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ruined_portal_ocean"
+					}
+				}
+			}
+		},
+		"ruined_portal_swamp": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ruined_portal_swamp"
+					}
+				}
+			}
+		},
+		"shipwreck": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "shipwreck"
+					}
+				}
+			}
+		},
+		"shipwreck_beached": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "shipwreck_beached"
+					}
+				}
+			}
+		},
+		"stronghold": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "stronghold"
+					}
+				}
+			}
+		},
+		"swamp_hut": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "swamp_hut"
+					}
+				}
+			}
+		},
+		"village_desert": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_desert"
+					}
+				}
+			}
+		},
+		"village_plains": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_plains"
+					}
+				}
+			}
+		},
+		"village_savanna": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_savanna"
+					}
+				}
+			}
+		},
+		"village_snowy": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_snowy"
+					}
+				}
+			}
+		},
+		"village_taiga": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_taiga"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"ancient_city"
+		],
+		[
+			"bastion_remnant"
+		],
+		[
+			"buried_treasure"
+		],
+		[
+			"desert_pyramid"
+		],
+		[
+			"end_city"
+		],
+		[
+			"fortress"
+		],
+		[
+			"igloo"
+		],
+		[
+			"jungle_pyramid"
+		],
+		[
+			"mansion"
+		],
+		[
+			"mineshaft",
+			"mineshaft_mesa"
+		],
+		[
+			"monument"
+		],
+		[
+			"nether_fossil"
+		],
+		[
+			"ocean_ruin_cold",
+			"ocean_ruin_warm"
+		],
+		[
+			"pillager_outpost"
+		],
+		[
+			"ruined_portal",
+			"ruined_portal_desert",
+			"ruined_portal_jungle",
+			"ruined_portal_mountain",
+			"ruined_portal_nether",
+			"ruined_portal_ocean",
+			"ruined_portal_swamp"
+		],
+		[
+			"shipwreck",
+			"shipwreck_beached"
+		],
+		[
+			"stronghold"
+		],
+		[
+			"swamp_hut"
+		],
+		[
+			"village_desert",
+			"village_plains",
+			"village_savanna",
+			"village_snowy",
+			"village_taiga"
+		]
+	]
+}

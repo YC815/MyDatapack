@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shaped",
+	"group": "hopper_minecart",
+	"pattern": [
+		"#X#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "iron_ingot"
+		},
+		"X": {
+			"item": "hopper"
+		}
+	},
+	"result": {
+		"item": "hopper_minecart"
+	}
+}
+			

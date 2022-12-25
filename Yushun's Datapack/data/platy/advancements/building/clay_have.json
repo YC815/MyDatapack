@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "clay_ball"
+		},
+		"title": "Clay-Dough",
+		"description": "Dig up some clay from a lake"
+	},
+	"parent": "platy:building/root",
+	"criteria": {
+		"clay_ball": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["clay_ball"]
+				}]
+			}
+		}
+	}
+}

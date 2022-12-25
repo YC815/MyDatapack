@@ -1,0 +1,18 @@
+{
+	"type": "crafting_shaped",
+	"group": "carpet_to_wool",
+	"pattern": [
+		"#",
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "cyan_carpet"
+		}
+	},
+	"result": {
+		"item": "cyan_wool",
+		"count": 2
+	}
+}

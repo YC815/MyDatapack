@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "stonecutter"
+		},
+		"title": "Back from the Dead",
+		"description": "Create a block to cut stone with"
+	},
+	"parent": "platy:building/root",
+	"criteria": {
+		"stonecutter": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["stonecutter"]
+				}]
+			}
+		}
+	}
+}

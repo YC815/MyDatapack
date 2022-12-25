@@ -1,0 +1,22 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"###",
+		" X ",
+		"IXI"
+	],
+	"key": {
+		"#": {
+			"item": "mangrove_leaves"
+		},
+		"X": {
+			"item": "mangrove_log"
+		},
+		"I": {
+			"item": "mangrove_roots"
+		}
+	},
+	"result": {
+		"item": "mangrove_propagule"
+	}
+}

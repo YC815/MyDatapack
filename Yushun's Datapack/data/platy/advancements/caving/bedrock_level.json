@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "bedrock"
+		},
+		"title": "Unbreakable",
+		"description": "Reach rock bottom"
+	},
+	"parent": "platy:caving/lava_level",
+	"criteria": {
+		"-59": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"y": {
+								"max": -59
+							}
+						},
+						"dimension": "overworld"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,1 @@
+{"rewards":{"function":"damagehud:3"},"deal":{"example":{"trigger":"minecraft:player_hurt_entity","conditions":{"damage":{"dealt":{"min":3,"max":3.99}}}}}}

@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "red_mushroom"
+		},
+		"title": "Shrooms",
+		"description": "Gather both types of mushroom"
+	},
+	"parent": "platy:caving/glow_lichen",
+	"criteria": {
+		"brown": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["brown_mushroom"]
+				}]
+			}
+		},
+		"red": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["red_mushroom"]
+				}]
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "stripped_birch_log"
+		},
+		"title": "Stripped Down",
+		"description": "Strip a log of its bark"
+	},
+	"parent": "platy:forestry/root",
+	"criteria": {
+		"strip_log": {
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "platy:stripped_logs"
+					}
+				},
+				"item": {
+					"tag": "platy:axes"
+				}
+			}
+		}
+	}
+}

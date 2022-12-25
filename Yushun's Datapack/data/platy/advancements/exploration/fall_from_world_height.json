@@ -1,0 +1,46 @@
+{
+	"parent": "platy:exploration/mountain",
+	"display": {
+		"icon": {
+			"item": "water_bucket"
+		},
+		"title": {
+			"translate": "advancements.adventure.fall_from_world_height.title"
+		},
+		"description": {
+			"translate": "advancements.adventure.fall_from_world_height.description"
+		}
+	},
+	"criteria": {
+		"fall_from_world_height": {
+			"trigger": "fall_from_height",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"position": {
+								"y": {
+									"max": -59.0
+								}
+							}
+						}
+					},
+					"entity": "this"
+				}],
+				"start_position": {
+					"position": {
+						"y": {
+							"min": 319.0
+						}
+					}
+				},
+				"distance": {
+					"y": {
+						"min": 379.0
+					}
+				}
+			}
+		}
+	}
+}

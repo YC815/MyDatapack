@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:cobbled_deepslate_from_chiseled"
+		]
+	},
+	"criteria": {
+		"has_chiseled_deepslate": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["chiseled_deepslate"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:cobbled_deepslate_from_chiseled"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_chiseled_deepslate",
+			"has_recipe"
+		]
+	]
+}

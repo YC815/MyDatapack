@@ -1,0 +1,22 @@
+{
+	"parent": "platy:ocean/fishy_business",
+	"display": {
+		"icon": {
+			"item": "cod_bucket"
+		},
+		"title": {
+			"translate": "advancements.husbandry.tactical_fishing.title"
+		},
+		"description": "Catch a fish... without a fishing rod!"
+	},
+	"criteria": {
+		"fish_bucket": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"tag": "platy:fish_buckets"
+				}
+			}
+		}
+	}
+}

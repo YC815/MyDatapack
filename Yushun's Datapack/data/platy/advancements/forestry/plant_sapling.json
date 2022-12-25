@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "jungle_sapling"
+		},
+		"title": "Restoration",
+		"description": "Help restore a forest by planting a sapling"
+	},
+	"parent": "platy:forestry/sapling",
+	"criteria": {
+		"plant_sapling": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"tag": "saplings"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "weathered_cut_copper",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "weathered_cut_copper_stairs"
+		}
+	},
+	"result": {
+		"item": "weathered_cut_copper",
+		"count": 4
+	}
+}

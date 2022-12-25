@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "blackstone",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "blackstone_wall"
+		}
+	},
+	"result": {
+		"item": "blackstone",
+		"count": 2
+	}
+}

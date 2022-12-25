@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:terracotta_undye"
+		]
+	},
+	"criteria": {
+		"has_water_bucket": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["water_bucket"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:terracotta_undye"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_water_bucket",
+			"has_recipe"
+		]
+	]
+}

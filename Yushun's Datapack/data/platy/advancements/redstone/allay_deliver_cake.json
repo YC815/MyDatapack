@@ -1,0 +1,32 @@
+{
+	"parent": "platy:redstone/allay_deliver",
+	"criteria": {
+		"allay_deliver_cake_to_note_block": {
+			"conditions": {
+				"item": {
+					"items": [
+						"cake"
+					]
+				},
+				"location": {
+					"block": {
+						"blocks": [
+							"note_block"
+						]
+					}
+				}
+			},
+			"trigger": "allay_drop_item_on_block"
+		}
+	},
+	"display": {
+		"description": "Have an allay drop a cake at a note block",
+		"frame": "goal",
+		"icon": {
+			"item": "cake"
+		},
+		"title": {
+			"translate": "advancements.husbandry.allay_deliver_cake_to_note_block.title"
+		}
+	}
+}

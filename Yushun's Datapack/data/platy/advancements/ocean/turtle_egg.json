@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "turtle_egg"
+		},
+		"title": "Beach Baby",
+		"description": "Pick up a turtle egg"
+	},
+	"parent": "platy:ocean/breed_turtles",
+	"criteria": {
+		"turtle_egg": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["turtle_egg"]
+					}
+				]
+			}
+		}
+	}
+}

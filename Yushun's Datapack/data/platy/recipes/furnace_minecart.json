@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shaped",
+	"group": "furnace_minecart",
+	"pattern": [
+		"#X#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "iron_ingot"
+		},
+		"X": {
+			"item": "furnace"
+		}
+	},
+	"result": {
+		"item": "furnace_minecart"
+	}
+}
+			

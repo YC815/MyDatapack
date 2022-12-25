@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "grindstone"
+		},
+		"title": "Disenchanted",
+		"description": "Create a grindstone"
+	},
+	"parent": "minecraft:story/enchant_item",
+	"criteria": {
+		"grindstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["grindstone"]
+				}]
+			}
+		}
+	}
+}

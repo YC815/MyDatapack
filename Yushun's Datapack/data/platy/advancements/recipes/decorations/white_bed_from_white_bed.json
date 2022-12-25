@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:white_bed_from_white_bed"
+		]
+	},
+	"criteria": {
+		"has_bed": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["white_bed"]
+				}]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:white_bed_from_white_bed"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_bed",
+			"has_the_recipe"
+		]
+	]
+}

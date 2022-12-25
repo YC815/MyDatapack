@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "candle"
+		},
+		"title": "Happy Birthday!",
+		"description": "Put a candle on a cake and light it"
+	},
+	"parent": "minecraft:husbandry/silk_touch_nest",
+	"criteria": {
+		"light_cake": {
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "candle_cakes"
+					}
+				},
+				"item": {
+					"items": ["flint_and_steel"]
+				}
+			}
+		}
+	}
+}

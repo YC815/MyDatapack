@@ -82,3 +82,7 @@ Yushun's datapack
 - [Planet Minecraft - Player Heads](https://www.planetminecraft.com/data-pack/player-heads-5782117/)
 - [bilbil - Xekr數據包相關資源整理](https://www.bilibili.com/read/cv12992062?spm_id_from=333.999.0.0)
 - [Planet Minecraft - Jungle and swap villages](https://www.planetminecraft.com/data-pack/jungle-and-swamp-villages/)
+- [巴哈姆特 - 傳送石磚](https://forum.gamer.com.tw/C.php?bsn=18673&snA=197233&tnum=2&subbsn=3)
+- [Curseforge - All Mob Heads](https://www.curseforge.com/minecraft/customization/all-mob-heads)
+- [Planet Minecraft - Damage Hud](https://www.planetminecraft.com/data-pack/damage-hud/)
+- [Curseforge - Expanded Advancement and Recipe Pack](https://www.curseforge.com/minecraft/customization/platys-advancement-and-recipe-pack)

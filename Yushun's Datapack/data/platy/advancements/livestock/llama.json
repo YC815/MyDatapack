@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "brown_carpet"
+		},
+		"title": "Caravanable",
+		"description": "Tame a llama"
+	},
+	"parent": "platy:livestock/best_friends_forever",
+	"criteria": {
+		"tame_llama": {
+			"trigger": "tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "#platy:llamas"
+				}
+			}
+		}
+	}
+}

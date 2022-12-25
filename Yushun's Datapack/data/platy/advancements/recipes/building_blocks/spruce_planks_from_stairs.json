@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:spruce_planks_from_stairs"
+		]
+	},
+	"criteria": {
+		"has_stairs": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["spruce_stairs"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "spruce_planks_from_stairs"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_stairs",
+			"has_recipe"
+		]
+	]
+}

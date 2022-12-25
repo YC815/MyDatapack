@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:red_dye_from_fungus"
+		]
+	},
+	"criteria": {
+		"has_crimson_fungus": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["crimson_fungus"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:red_dye_from_fungus"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_crimson_fungus",
+			"has_recipe"
+		]
+	]
+}

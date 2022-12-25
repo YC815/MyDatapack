@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shaped",
+	"group": "coral",
+	"pattern": [
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "fire_coral_fan"
+		}
+	},
+	"result": {
+		"item": "fire_coral",
+		"count": 3
+	}
+}

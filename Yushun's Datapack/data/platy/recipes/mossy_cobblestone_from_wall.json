@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "mossy_cobblestone",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "mossy_cobblestone_wall"
+		}
+	},
+	"result": {
+		"item": "mossy_cobblestone",
+		"count": 2
+	}
+}

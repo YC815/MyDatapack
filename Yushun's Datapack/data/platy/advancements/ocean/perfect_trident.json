@@ -1,0 +1,83 @@
+{
+	"display": {
+		"icon": {
+			"item": "trident",
+			"nbt": "{Enchantments:[{id:'lure'}]}"
+		},
+		"title": "Poseidon's Fury",
+		"description": "Create a perfect trident",
+		"frame": "challenge"
+	},
+	"parent": "platy:ocean/very_very_frightening",
+	"rewards": {
+		"experience": 100
+	},
+	"criteria": {
+		"channeling_trident": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["trident"],
+						"enchantments": [
+							{
+								"enchantment": "loyalty",
+								"levels": 3
+							},
+							{
+								"enchantment": "impaling",
+								"levels": 5
+							},
+							{
+								"enchantment": "channeling",
+								"levels": 1
+							},
+							{
+								"enchantment": "unbreaking",
+								"levels": 3
+							},	
+							{
+								"enchantment": "mending",
+								"levels": 1
+							}
+						]
+					}
+				]
+			}
+		},
+		"riptide_trident": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["trident"],
+						"enchantments": [
+							{
+								"enchantment": "riptide",
+								"levels": 3
+							},
+							{
+								"enchantment": "impaling",
+								"levels": 5
+							},
+							{
+								"enchantment": "unbreaking",
+								"levels": 3
+							},	
+							{
+								"enchantment": "mending",
+								"levels": 1
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"channeling_trident",
+			"riptide_trident"
+		]
+	]
+}

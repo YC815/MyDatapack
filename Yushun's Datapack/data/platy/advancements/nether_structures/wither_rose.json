@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "wither_rose"
+		},
+		"title": "Morbid Bloom",
+		"description": "Collect a wither rose"
+	},
+	"parent": "platy:nether_structures/summon_wither",
+	"criteria": {
+		"wither_rose": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["wither_rose"]
+				}]
+			}
+		}
+	}
+}

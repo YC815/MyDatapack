@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:magma_block_from_campfire"
+		]
+	},
+	"criteria": {
+		"has_netherrack": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherrack"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:magma_block_from_campfire"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_netherrack",
+			"has_recipe"
+		]
+	]
+}

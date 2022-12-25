@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shaped",
+	"group": "weathered_cut_copper",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "weathered_cut_copper_slab"
+		}
+	},
+	"result": {
+		"item": "weathered_cut_copper"
+	}
+}

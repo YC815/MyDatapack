@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "brewing_stand"
+		},
+		"title": "Brewing Machine",
+		"description": "Place a brewing stand to create powerful potions"
+	},
+	"parent": "platy:nether_structures/nether_wart",
+	"criteria": {
+		"brewing_stand": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["brewing_stand"]
+				}
+			}
+		}
+	}
+}

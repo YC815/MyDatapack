@@ -1,0 +1,12 @@
+{
+	"type": "crafting_shapeless",
+	"group": "orange_dye",
+	"ingredients": [
+		{
+		"item": "glow_berries"
+		}
+	],
+	"result": {
+		"item": "orange_dye"
+	}
+}

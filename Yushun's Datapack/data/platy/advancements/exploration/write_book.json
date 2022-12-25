@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "written_book"
+		},
+		"title": "Novelist",
+		"description": "Write a book"
+	},
+	"parent": "platy:exploration/book_and_quill",
+	"criteria": {
+		"written_book": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["written_book"]
+					}
+				]
+			}
+		}
+	}
+}

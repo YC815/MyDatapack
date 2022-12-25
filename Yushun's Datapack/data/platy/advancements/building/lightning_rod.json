@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "lightning_rod"
+		},
+		"title": "Lightning Enticing",
+		"description": "Place a lightning rod to keep your buildings safe"
+	},
+	"parent": "platy:building/copper",
+	"criteria": {
+		"lightning_rod": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "lightning_rod"
+			}
+		}
+	}
+}

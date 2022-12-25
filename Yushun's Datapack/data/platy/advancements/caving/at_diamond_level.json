@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "diamond_ore"
+		},
+		"title": "I Smell Diamonds...",
+		"description": "Descend deep enough to find diamonds"
+	},
+	"parent": "platy:caving/root",
+	"criteria": {
+		"16": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"y": {
+								"max": 16
+							}
+						},
+						"dimension": "overworld"
+					}
+				}
+			}
+		}
+	}
+}

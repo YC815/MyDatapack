@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "shears"
+		},
+		"title": "Shear Audacity",
+		"description": "Shear a sheep"
+	},
+	"parent": "platy:livestock/root",
+	"criteria": {
+		"shears": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "sheep"
+				},
+				"item": {
+					"items": ["shears"]
+				}
+			}
+		}
+	}
+}

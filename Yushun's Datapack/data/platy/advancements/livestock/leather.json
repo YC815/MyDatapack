@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "leather"
+		},
+		"title": "Genuine Leather",
+		"description": "Kill an animal for its leather"
+	},
+	"parent": "platy:livestock/kill_an_animal",
+	"criteria": {
+		"leather": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["leather"]
+					}
+				]
+			}
+		}
+	}
+}

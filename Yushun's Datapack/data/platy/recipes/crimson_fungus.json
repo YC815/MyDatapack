@@ -1,0 +1,18 @@
+{
+	"type": "crafting_shaped",
+	"group": "crimson_fungus",
+	"pattern": [
+		"#X#"
+	],
+	"key": {
+		"#": {
+			"item": "nether_wart_block"
+		},
+		"X": {
+			"item": "warped_fungus"
+		}
+	},
+	"result": {
+		"item": "crimson_fungus"
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"yellow_wool",
+			"platy:yellow_wool"
+		]
+	},
+	"criteria": {
+		"has_wool": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "wool"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "yellow_wool"
+			}
+		},
+		"has_recipe2": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:yellow_wool"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_wool",
+			"has_recipe",
+			"has_recipe2"
+		]
+	]
+}

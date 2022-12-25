@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "filled_map",
+			"nbt": "{display:{MapColor:3830373}}"
+		},
+		"title": "Now, How Do We Get There?",
+		"description": "Buy an explorer map from a cartographer"
+	},
+	"parent": "platy:exploration/cartography_table",
+	"criteria": {
+		"trade": {
+			"trigger": "villager_trade",
+			"conditions": {
+				"item": {
+					"items": ["filled_map"],
+					"nbt": "{Decorations:[{id:'+'}]}"
+				}
+			}
+		}
+	}
+}

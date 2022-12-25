@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "brain_coral_fan"
+		},
+		"title": "Cooler Coral",
+		"description": "Collect some coral fans"
+	},
+	"parent": "platy:ocean/coral",
+	"criteria": {
+		"coral_fan": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "platy:coral_fans"
+					}
+				]
+			}
+		}
+	}
+}

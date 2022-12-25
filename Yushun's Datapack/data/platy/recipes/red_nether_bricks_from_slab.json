@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shaped",
+	"group": "red_nether_bricks",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "red_nether_brick_slab"
+		}
+	},
+	"result": {
+		"item": "red_nether_bricks"
+	}
+}

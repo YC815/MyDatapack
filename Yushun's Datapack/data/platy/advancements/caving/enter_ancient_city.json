@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "reinforced_deepslate"
+		},
+		"title": "Forsaken City",
+		"description": "Enter an ancient city"
+	},
+	"parent": "platy:caving/deep_dark",
+	"criteria": {
+		"ancient_city": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ancient_city"
+					}
+				}
+			}
+		}
+	}
+
+}

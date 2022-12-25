@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shaped",
+	"group": "stone",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "stone_slab"
+		}
+	},
+	"result": {
+		"item": "stone"
+	}
+}

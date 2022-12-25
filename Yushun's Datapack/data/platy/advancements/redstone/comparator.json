@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "comparator"
+		},
+		"title": "(Don't) Compare Yourself",
+		"description": "Compare a signal"
+	},
+	"parent": "platy:redstone/repeater",
+	"criteria": {
+		"comparator": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "comparator"
+			}
+		}
+	}
+}

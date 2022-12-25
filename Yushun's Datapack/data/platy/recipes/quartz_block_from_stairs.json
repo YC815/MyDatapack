@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "quartz_block",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "quartz_stairs"
+		}
+	},
+	"result": {
+		"item": "quartz_block",
+		"count": 4
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:hopper"
+		]
+	},
+	"criteria": {
+		"has_iron_ingot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["iron_ingot"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:hopper"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_iron_ingot",
+			"has_recipe"
+		]
+	]
+}

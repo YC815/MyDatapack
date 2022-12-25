@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "stripped_spruce_wood"
+		},
+		"title": "Lost Its Bark",
+		"description": "Strip a wood block of its bark"
+	},
+	"parent": "platy:forestry/wood",
+	"criteria": {
+		"strip_wood": {
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "platy:stripped_woods"
+					}
+				},
+				"item": {
+					"tag": "platy:axes"
+				}
+			}
+		}
+	}
+}

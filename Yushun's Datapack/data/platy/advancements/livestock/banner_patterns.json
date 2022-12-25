@@ -1,0 +1,64 @@
+{
+	"display": {
+		"icon": {
+			"item": "mojang_banner_pattern"
+		},
+		"title": "Vexillology",
+		"description": "Collect all six banner patterns",
+		"frame": "goal"
+	},
+	"parent": "platy:livestock/loom",
+	"rewards": {
+		"experience": 55
+	},
+	"criteria": {
+		"creeper": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["creeper_banner_pattern"]
+				}]
+			}
+		},
+		"flower": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["flower_banner_pattern"]
+				}]
+			}
+		},
+		"globe": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["globe_banner_pattern"]
+				}]
+			}
+		},
+		"mojang": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["mojang_banner_pattern"]
+				}]
+			}
+		},
+		"piglin": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["piglin_banner_pattern"]
+				}]
+			}
+		},
+		"skull": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["skull_banner_pattern"]
+				}]
+			}
+		}
+	}
+}

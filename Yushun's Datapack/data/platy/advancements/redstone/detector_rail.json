@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "detector_rail"
+		},
+		"title": "Minecart Power",
+		"description": "Craft and place a detector rail"
+	},
+	"parent": "platy:redstone/pressure_plate",
+	"criteria": {
+		"detector_rail": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "detector_rail"
+			}
+		}
+	}
+}

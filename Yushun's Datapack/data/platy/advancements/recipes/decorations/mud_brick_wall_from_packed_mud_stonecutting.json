@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:mud_brick_wall_from_packed_mud_stonecutting"
+		]
+	},
+	"criteria": {
+		"has_packed_mud": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["packed_mud"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:mud_brick_wall_from_packed_mud_stonecutting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_packed_mud",
+			"has_recipe"
+		]
+	]
+}

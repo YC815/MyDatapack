@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "bone_block"
+		},
+		"title": "Deceased Beast",
+		"description": "Climb around a nether fossil"
+	},
+	"parent": "platy:nether_structures/root",
+	"criteria": {
+		"bastion": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "nether_fossil"
+					}
+				}
+			}
+		}
+	}
+}

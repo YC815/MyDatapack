@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:yellow_wool_from_carpet"
+		]
+	},
+	"criteria": {
+		"has_yellow_carpet": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["yellow_carpet"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:yellow_wool_from_carpet"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_yellow_carpet",
+			"has_recipe"
+		]
+	]
+}

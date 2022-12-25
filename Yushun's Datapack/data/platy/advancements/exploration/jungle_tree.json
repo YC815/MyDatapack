@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "jungle_log"
+		},
+		"title": "Disappearing Rainforests",
+		"description": "Chop down a jungle tree, you inconsiderate monster"
+	},
+	"parent": "platy:exploration/jungle_in",
+	"criteria": {
+		"jungle_log": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["jungle_log"]
+					}
+				]
+			}
+		}
+	}
+}

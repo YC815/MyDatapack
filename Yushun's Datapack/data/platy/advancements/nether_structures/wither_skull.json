@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "wither_skeleton_skull"
+		},
+		"title": {
+			"translate": "advancements.nether.get_wither_skull.title"
+		},
+		"description": "Obtain a wither skeleton's skull",
+		"frame": "goal"
+	},
+	"parent": "platy:nether_structures/fortress",
+	"criteria": {
+		"skull": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["wither_skeleton_skull"]
+					}
+				]
+			}
+		}
+	}
+}

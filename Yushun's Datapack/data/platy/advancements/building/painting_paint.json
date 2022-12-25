@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "painting"
+		},
+		"title": "A Masterpiece!",
+		"description": "Paint a painting"
+	},
+	"parent": "platy:building/sign_write",
+	"criteria": {
+		"painting": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [{
+							"type": "used",
+							"stat": "painting",
+							"value": {
+								"min": 1
+							}
+						}]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"type": "crafting_shaped",
+	"group": "cobbled_deepslate",
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "deepslate"
+		},
+		"X": {
+			"item": "flint"
+		}
+	},
+	"result": {
+		"item": "cobbled_deepslate",
+		"count": 8
+	}
+}

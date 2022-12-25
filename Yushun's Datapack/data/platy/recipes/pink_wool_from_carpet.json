@@ -1,0 +1,18 @@
+{
+	"type": "crafting_shaped",
+	"group": "carpet_to_wool",
+	"pattern": [
+		"#",
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "pink_carpet"
+		}
+	},
+	"result": {
+		"item": "pink_wool",
+		"count": 2
+	}
+}

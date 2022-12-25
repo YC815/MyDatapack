@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "dark_oak_log"
+		},
+		"title": "Outcast Outpost",
+		"description": "Enter an enemy encampment"
+	},
+	"parent": "platy:village/root",
+	"criteria": {
+		"pillager_outpost": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "pillager_outpost"
+					}
+				}
+			}
+		}
+	}
+}

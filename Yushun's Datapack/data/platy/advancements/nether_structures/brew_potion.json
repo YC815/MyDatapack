@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "potion"
+		},
+		"title": {
+			"translate": "advancements.nether.brew_potion.title"
+		},
+		"description": {
+			"translate": "advancements.nether.brew_potion.description"
+		}
+	},
+	"parent": "platy:nether_structures/brewing_stand",
+	"criteria": {
+		"potion": {
+			"trigger": "brewed_potion"
+		}
+	}
+}

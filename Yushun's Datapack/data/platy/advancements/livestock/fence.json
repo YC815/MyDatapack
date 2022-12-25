@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "oak_fence"
+		},
+		"title": "Oaken Corral",
+		"description": "Craft some fences to contain your livestock"
+	},
+	"parent": "platy:livestock/lead",
+	"criteria": {
+		"fence": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "fences"
+					}
+				]
+			}
+		}
+	}
+}

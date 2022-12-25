@@ -1,0 +1,21 @@
+{
+	"type": "crafting_shaped",
+	"group": "wool",
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"tag": "wool"
+		},
+		"X": {
+			"item": "lime_dye"
+		}
+	},
+	"result": {
+		"item": "lime_wool",
+		"count": 8
+	}
+}

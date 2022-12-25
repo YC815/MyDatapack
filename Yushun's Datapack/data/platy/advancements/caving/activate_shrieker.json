@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "sculk_shrieker"
+		},
+		"title": "Strike One",
+		"description": "Make a sculk shrieker stir the warden",
+		"frame": "goal"
+	},
+	"parent": "platy:caving/sneak_vibration",
+	"criteria": {
+		"warning_level": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "inverted",
+					"term": {
+						"condition": "entity_properties",
+						"entity": "this",
+						"predicate": {
+							"nbt": "{warden_spawn_tracker:{warning_level:0}}"
+						}
+					}
+				}]
+			}
+		}
+	}
+}

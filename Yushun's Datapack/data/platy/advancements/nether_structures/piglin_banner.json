@@ -1,0 +1,21 @@
+{
+	"parent": "platy:nether_structures/pigstep",
+	"display": {
+		"icon": {
+			"item": "piglin_banner_pattern"
+		},
+		"title": "Piglinsigia",
+		"description": "Make a banner with a snout banner pattern"
+	},
+	"criteria": {
+		"banner": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "banners",
+					"nbt": "{BlockEntityTag:{Patterns:[{Pattern:\"pig\"}]}}"
+				}]
+			}
+		}
+	}
+}

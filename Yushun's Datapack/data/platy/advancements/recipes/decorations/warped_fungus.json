@@ -1,0 +1,41 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:warped_fungus"
+		]
+	},
+	"criteria": {
+		"in_forest": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "warped_forest"
+					}
+				}
+			}
+		},
+		"has_fungus": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["warped_fungus"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:warped_fungus"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"in_forest",
+			"has_fungus",
+			"has_recipe"
+		]
+	]
+}

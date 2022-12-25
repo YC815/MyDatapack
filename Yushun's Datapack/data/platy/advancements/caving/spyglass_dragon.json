@@ -1,0 +1,36 @@
+{
+	"parent": "platy:caving/spyglass_ghast",
+	"display": {
+		"icon": {
+			"item": "dragon_head"
+		},
+		"title": {
+			"translate": "advancements.adventure.spyglass_at_dragon.title"
+		},
+		"description": "Look at the ender dragon through a spyglass"
+	},
+	"criteria": {
+		"spyglass_at_dragon": {
+			"trigger": "using_item",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"type_specific": {
+							"looking_at": {
+								"type": "ender_dragon"
+							},
+							"type": "player"
+						}
+					},
+					"entity": "this"
+				}],
+				"item": {
+					"items": [
+						"spyglass"
+					]
+				}
+			}
+		}
+	}
+}

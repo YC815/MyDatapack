@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "tipped_arrow",
+			"nbt": "{Potion: 'harming'}"
+		},
+		"title": {
+			"translate": "advancements.adventure.arbalistic.title"
+		},
+		"description": {
+			"translate": "advancements.adventure.arbalistic.description"
+		},
+		"frame": "challenge",
+		"hidden": true
+	},
+	"rewards": {
+		"experience": 100
+	},
+	"parent": "platy:combat/two_birds_one_arrow",
+	"criteria": {
+		"arbalistic": {
+			"trigger": "killed_by_crossbow",
+			"conditions": {
+				"victims": [],
+				"unique_entity_types": 5
+			}
+		}
+	}
+}

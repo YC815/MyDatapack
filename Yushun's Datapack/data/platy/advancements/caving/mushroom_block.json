@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "mushroom_stem"
+		},
+		"title": "Overgrown",
+		"description": "Grow a giant mushroom then harvest it with Silk Touch"
+	},
+	"parent": "platy:caving/mushrooms",
+	"criteria": {
+		"mushroom_block": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "platy:mushroom_blocks"
+				}]
+			}
+		}
+	}
+}

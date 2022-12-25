@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "stair_planks",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "acacia_stairs"
+		}
+	},
+	"result": {
+		"item": "acacia_planks",
+		"count": 3
+	}
+}

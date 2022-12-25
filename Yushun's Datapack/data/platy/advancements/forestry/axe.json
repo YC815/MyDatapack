@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "iron_axe"
+		},
+		"title": "The Chopping Block",
+		"description": "Access axes"
+	},
+	"parent": "platy:forestry/poke_poke",
+	"criteria": {
+		"axe": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "platy:axes"
+				}]
+			}
+		}
+	}
+}

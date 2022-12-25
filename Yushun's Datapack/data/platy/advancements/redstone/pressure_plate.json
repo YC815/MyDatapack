@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "stone_pressure_plate"
+		},
+		"title": "Under Pressure",
+		"description": "Activate a pressure plate"
+	},
+	"parent": "platy:redstone/button",
+	"criteria": {
+		"tripwire": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"block": {
+							"tag": "pressure_plates",
+							"state": {
+								"powered": true
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

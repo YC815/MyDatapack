@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "sticks",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"tag": "logs"
+		}
+	},
+	"result": {
+		"item": "stick",
+		"count": 16
+	}
+}

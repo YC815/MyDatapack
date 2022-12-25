@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"item": "reinforced_deepslate"
+		},
+		"title": "Well That Was a Waste of Time...",
+		"description": "Slowly mine reinforced deepslate until it breaks",
+		"frame": "challenge",
+		"hidden": true
+	},
+	"parent": "platy:caving/enter_ancient_city",
+	"rewards": {
+		"experience": 50
+	},
+	"criteria": {
+		"spawner": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [{
+							"type": "mined",
+							"stat": "spawner",
+							"value": {
+								"min": 1
+							}
+						}]
+					}
+				}
+			}
+		}
+	}
+}

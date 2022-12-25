@@ -1,0 +1,19 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		" # ",
+		"#X#",
+		" X "
+	],
+	"key": {
+		"#": {
+			"item": "spruce_leaves"
+		},
+		"X": {
+			"item": "spruce_log"
+		}
+	},
+	"result": {
+		"item": "spruce_sapling"
+	}
+}

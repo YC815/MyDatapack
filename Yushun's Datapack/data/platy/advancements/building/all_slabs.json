@@ -1,0 +1,408 @@
+{
+	"display": {
+		"icon": {
+			"item": "smooth_stone_slab"
+		},
+		"title": "Moar Slabs",
+		"description": "Craft every type of slab",
+		"frame": "challenge"
+	},
+	"parent": "platy:building/all_stairs",
+	"rewards": {
+		"experience": 125
+	},
+	"criteria": {
+		"cut_copper": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "platy:cut_copper_slab"
+				}]
+			}
+		},
+		"exposed_cut_copper": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "platy:exposed_cut_copper_slab"
+				}]
+			}
+		},
+		"weathered_cut_copper": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "platy:weathered_cut_copper_slab"
+				}]
+			}
+		},
+		"oxidized_cut_copper": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "platy:oxidized_cut_copper_slab"
+				}]
+			}
+		},
+		"oak": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["oak_slab"]
+				}]
+			}
+		},
+		"spruce": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["spruce_slab"]
+				}]
+			}
+		},
+		"birch": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["birch_slab"]
+				}]
+			}
+		},
+		"jungle": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["jungle_slab"]
+				}]
+			}
+		},
+		"acacia": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["acacia_slab"]
+				}]
+			}
+		},
+		"dark_oak": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["dark_oak_slab"]
+				}]
+			}
+		},
+		"mangrove": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["mangrove_slab"]
+				}]
+			}
+		},
+		"crimson": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["crimson_slab"]
+				}]
+			}
+		},
+		"warped": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["warped_slab"]
+				}]
+			}
+		},
+		"stone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["stone_slab"]
+				}]
+			}
+		},
+		"smooth_stone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["smooth_stone_slab"]
+				}]
+			}
+		},
+		"sandstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["sandstone_slab"]
+				}]
+			}
+		},
+		"cut_sandstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["cut_sandstone_slab"]
+				}]
+			}
+		},
+		"cobblestone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["cobblestone_slab"]
+				}]
+			}
+		},
+		"brick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["brick_slab"]
+				}]
+			}
+		},
+		"stone_brick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["stone_brick_slab"]
+				}]
+			}
+		},
+		"mud_brick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["mud_brick_slab"]
+				}]
+			}
+		},
+		"nether_brick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["nether_brick_slab"]
+				}]
+			}
+		},
+		"quartz": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["quartz_slab"]
+				}]
+			}
+		},
+		"red_sandstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["red_sandstone_slab"]
+				}]
+			}
+		},
+		"cut_red_sandstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["cut_red_sandstone_slab"]
+				}]
+			}
+		},
+		"purpur": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["purpur_slab"]
+				}]
+			}
+		},
+		"prismarine": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["prismarine_slab"]
+				}]
+			}
+		},
+		"prismarine_bricks": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["prismarine_brick_slab"]
+				}]
+			}
+		},
+		"dark_prismarine": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["dark_prismarine_slab"]
+				}]
+			}
+		},
+		"polished_granite": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["polished_granite_slab"]
+				}]
+			}
+		},
+		"smooth_red_sandstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["smooth_red_sandstone_slab"]
+				}]
+			}
+		},
+		"mossy_stone_brick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["mossy_stone_brick_slab"]
+				}]
+			}
+		},
+		"polished_diorite": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["polished_diorite_slab"]
+				}]
+			}
+		},
+		"mossy_cobblestone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["mossy_cobblestone_slab"]
+				}]
+			}
+		},
+		"end_stone_brick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["end_stone_brick_slab"]
+				}]
+			}
+		},
+		"smooth_sandstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["smooth_sandstone_slab"]
+				}]
+			}
+		},
+		"smooth_quartz": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["smooth_quartz_slab"]
+				}]
+			}
+		},
+		"granite": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["granite_slab"]
+				}]
+			}
+		},
+		"andesite": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["andesite_slab"]
+				}]
+			}
+		},
+		"red_nether_brick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["red_nether_brick_slab"]
+				}]
+			}
+		},
+		"polished_andesite": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["polished_andesite_slab"]
+				}]
+			}
+		},
+		"diorite": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["diorite_slab"]
+				}]
+			}
+		},
+		"cobbled_deepslate": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["cobbled_deepslate_slab"]
+				}]
+			}
+		},
+		"polished_deepslate": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["polished_deepslate_slab"]
+				}]
+			}
+		},
+		"deepslate_brick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["deepslate_brick_slab"]
+				}]
+			}
+		},
+		"deepslate_tile": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["deepslate_tile_slab"]
+				}]
+			}
+		},
+		"blackstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["blackstone_slab"]
+				}]
+			}
+		},
+		"polished_blackstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["polished_blackstone_slab"]
+				}]
+			}
+		},
+		"polished_blackstone_brick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["polished_blackstone_brick_slab"]
+				}]
+			}
+		}
+	}
+}

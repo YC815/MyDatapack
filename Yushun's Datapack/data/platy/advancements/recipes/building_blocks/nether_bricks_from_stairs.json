@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:nether_bricks_from_stairs"
+		]
+	},
+	"criteria": {
+		"has_stairs": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["nether_brick_stairs"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:nether_bricks_from_stairs"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_stairs",
+			"has_recipe"
+		]
+	]
+}

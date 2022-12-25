@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "bread"
+		},
+		"title": "Unbaked Baked Goods",
+		"description": "The best thing before sliced bread!"
+	},
+	"parent": "minecraft:husbandry/plant_seed",
+	"criteria": {
+		"bread": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": ["bread"]
+				}
+			}
+		}
+	}
+}

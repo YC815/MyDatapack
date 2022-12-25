@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "bone"
+		},
+		"title": "Stalhorse",
+		"description": "Command a skeletal horse"
+	},
+	"parent": "platy:livestock/ready_for_battle",
+	"criteria": {
+		"skeleton_horse": {
+			"trigger": "started_riding",
+			"conditions": {
+				"player": {
+					"vehicle": {
+						"type": "skeleton_horse"
+					}
+				}
+			}
+		}
+	}
+}

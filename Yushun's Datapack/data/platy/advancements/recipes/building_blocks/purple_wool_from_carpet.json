@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:purple_wool_from_carpet"
+		]
+	},
+	"criteria": {
+		"has_purple_carpet": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["purple_carpet"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:purple_wool_from_carpet"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_purple_carpet",
+			"has_recipe"
+		]
+	]
+}

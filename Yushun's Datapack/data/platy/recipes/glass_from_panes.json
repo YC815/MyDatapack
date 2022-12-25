@@ -1,0 +1,18 @@
+{
+	"type": "crafting_shaped",
+	"group": "glass",
+	"pattern": [
+		"###",
+		"# #",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "glass_pane"
+		}
+	},
+	"result": {
+		"item": "glass",
+		"count": 3
+	}
+}

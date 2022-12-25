@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "crossbow"
+		},
+		"title": "Ready to Fire",
+		"description": "Have nine loaded crossbows in your hotbar",
+		"frame": "challenge",
+		"hidden": true
+	},
+	"parent": "platy:combat/shoot_firework",
+	"rewards": {
+		"experience": 25
+	},
+	"criteria": {
+		"crossbows": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["crossbow"]
+					}
+				],
+				"player": {
+					"nbt": "{Inventory:[{Slot:0b,id:\"crossbow\",tag:{Charged:1b}},{Slot:1b,id:\"crossbow\",tag:{Charged:1b}},{Slot:2b,id:\"crossbow\",tag:{Charged:1b}},{Slot:3b,id:\"crossbow\",tag:{Charged:1b}},{Slot:4b,id:\"crossbow\",tag:{Charged:1b}},{Slot:5b,id:\"crossbow\",tag:{Charged:1b}},{Slot:6b,id:\"crossbow\",tag:{Charged:1b}},{Slot:7b,id:\"crossbow\",tag:{Charged:1b}},{Slot:8b,id:\"crossbow\",tag:{Charged:1b}}]}"
+				}
+			}
+		}
+	}
+}

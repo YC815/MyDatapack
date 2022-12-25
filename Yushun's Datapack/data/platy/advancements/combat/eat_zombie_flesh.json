@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "rotten_flesh"
+		},
+		"title": "Iron Belly",
+		"description": "Eat a piece of rotten flesh"
+	},
+	"parent": "platy:combat/root",
+	"criteria": {
+		"rotten_flesh": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": ["rotten_flesh"]
+				}
+			}
+		}
+	}
+}

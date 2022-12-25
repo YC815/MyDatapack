@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shaped",
+	"group": "exposed_cut_copper",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "exposed_cut_copper_slab"
+		}
+	},
+	"result": {
+		"item": "exposed_cut_copper"
+	}
+}

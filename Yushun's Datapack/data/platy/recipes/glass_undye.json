@@ -1,0 +1,21 @@
+{
+	"type": "crafting_shaped",
+	"group": "glass",
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"tag": "platy:dyeable_glasses"
+		},
+		"X": {
+			"item": "ice"
+		}
+	},
+	"result": {
+		"item": "glass",
+		"count": 8
+	}
+}

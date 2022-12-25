@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:jungle_sapling"
+		]
+	},
+	"criteria": {
+		"has_leaves": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["jungle_leaves"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:jungle_sapling"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_leaves",
+			"has_recipe"
+		]
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:sticks_from_mangrove_roots"
+		]
+	},
+	"criteria": {
+		"has_roots": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["mangrove_roots"]
+				}]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:sticks_from_mangrove_roots"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_roots",
+			"has_the_recipe"
+		]
+	]
+}

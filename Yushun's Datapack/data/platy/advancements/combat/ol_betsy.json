@@ -1,0 +1,48 @@
+{
+	"display": {
+		"icon": {
+			"item": "crossbow"
+		},
+		"title": {
+			"translate": "advancements.adventure.ol_betsy.title"
+		},
+		"description": "Shoot an arrow from a crossbow"
+	},
+	"parent": "platy:combat/bow",
+	"criteria": {
+		"arrow": {
+			"trigger": "shot_crossbow",
+			"conditions": {
+				"item": {
+					"items": ["crossbow"],
+					"nbt": "{ChargedProjectiles: [{id:'arrow'}]}"
+				}
+			}
+		},
+		"tipped_arrow": {
+			"trigger": "shot_crossbow",
+			"conditions": {
+				"item": {
+					"items": ["crossbow"],
+					"nbt": "{ChargedProjectiles: [{id:'tipped_arrow'}]}"
+				}
+			}
+		},
+		"spectral_arrow": {
+			"trigger": "shot_crossbow",
+			"conditions": {
+				"item": {
+					"items": ["crossbow"],
+					"nbt": "{ChargedProjectiles: [{id:'spectral_arrow'}]}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"arrow",
+			"tipped_arrow",
+			"spectral_arrow"
+		]
+	]
+}

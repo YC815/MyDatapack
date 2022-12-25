@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "splash_potion",
+			"nbt": "{Potion:'poison'}"
+		},
+		"title": "Taste of Your Own Medicine",
+		"description": "Kill a witch with a splash potion",
+		"frame": "goal"
+	},
+	"parent": "platy:nether_structures/brew_potion",
+	"criteria": {
+		"splash_witch": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "witch"
+				},
+				"killing_blow": {
+					"is_magic": true
+				}
+			}
+		}
+	}
+}

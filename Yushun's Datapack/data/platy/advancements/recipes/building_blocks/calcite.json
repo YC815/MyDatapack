@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:calcite"
+		]
+	},
+	"criteria": {
+		"has_diorite": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["diorite"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:calcite"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_diorite",
+			"has_recipe"
+		]
+	]
+}

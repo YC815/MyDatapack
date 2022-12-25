@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "diamond"
+		},
+		"title": "Artisan",
+		"description": "Trade with a master level villager",
+		"frame": "goal"
+	},
+	"parent": "platy:village/complete_trade",
+	"criteria": {
+		"jungle": {
+			"trigger": "villager_trade",
+			"conditions": {
+				"villager": {
+					"nbt": "{VillagerData:{level:5}}"
+				}
+			}
+		}
+	}
+}

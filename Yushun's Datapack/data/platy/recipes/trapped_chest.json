@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shaped",
+	"group": "trapped_chest",
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"tag": "planks"
+		},
+		"X": {
+			"item": "tripwire_hook"
+		}
+	},
+	"result": {
+		"item": "trapped_chest"
+	}
+}

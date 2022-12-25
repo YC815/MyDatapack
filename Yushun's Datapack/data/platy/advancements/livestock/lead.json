@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "lead"
+		},
+		"title": "Follow the Leader",
+		"description": "Attach a mob to a lead"
+	},
+	"parent": "platy:livestock/root",
+	"criteria": {
+		"lead": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "#platy:leadable"
+				},
+				"item": {
+					"items": ["lead"]
+				}
+			}
+		}
+	}
+}

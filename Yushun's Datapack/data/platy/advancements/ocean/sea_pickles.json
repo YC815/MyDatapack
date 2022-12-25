@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "sea_pickle"
+		},
+		"title": "Do You Want Pickles on That?",
+		"description": "Obtain a sea pickle"
+	},
+	"parent": "platy:ocean/root",
+	"criteria": {
+		"sea_pickle": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["sea_pickle"]
+					}
+				]
+			}
+		}
+	}
+}

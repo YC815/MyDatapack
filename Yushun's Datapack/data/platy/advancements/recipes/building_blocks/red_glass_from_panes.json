@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:red_glass_from_panes"
+		]
+	},
+	"criteria": {
+		"has_red_glass_pane": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["red_stained_glass_pane"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:red_glass_from_panes"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_red_glass_pane",
+			"has_recipe"
+		]
+	]
+}

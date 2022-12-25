@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "carved_pumpkin"
+		},
+		"title": {
+			"translate": "advancements.adventure.summon_iron_golem.title"
+		},
+		"description": "Summon an iron golem to help defend a village"
+	},
+	"parent": "platy:village/pillaged",
+	"criteria": {
+		"iron_golem": {
+			"trigger": "summoned_entity",
+			"conditions": {
+				"entity": {
+					"type": "iron_golem"
+				}
+			}
+		}
+	}
+}

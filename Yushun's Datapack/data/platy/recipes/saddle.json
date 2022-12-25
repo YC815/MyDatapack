@@ -1,0 +1,22 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"###",
+		"#I#",
+		"X X"
+	],
+	"key": {
+		"#": {
+			"item": "leather"
+		},
+		"X": {
+			"item": "iron_ingot"
+		},
+		"I": {
+			"item": "string"
+		}
+	},
+	"result": {
+		"item": "saddle"
+	}
+}

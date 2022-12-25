@@ -1,0 +1,19 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"##",
+		"XX",
+		"XX"
+	],
+	"key": {
+		"#": {
+			"item": "dark_oak_leaves"
+		},
+		"X": {
+			"item": "dark_oak_log"
+		}
+	},
+	"result": {
+		"item": "dark_oak_sapling"
+	}
+}

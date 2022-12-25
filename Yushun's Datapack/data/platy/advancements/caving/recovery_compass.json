@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "recovery_compass"
+		},
+		"title": "Death Detector",
+		"description": "Craft a recovery compass to find the site of your death"
+	},
+	"parent": "platy:caving/loot_ancient_city",
+	"criteria": {
+		"recovery_compass": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["recovery_compass"]
+				}]
+			}
+		}
+	}
+}

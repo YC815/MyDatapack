@@ -1,0 +1,18 @@
+{
+	"parent": "platy:caving/deep_dark",
+	"criteria": {
+		"kill_mob_near_sculk_catalyst": {
+			"conditions": {},
+			"trigger": "kill_mob_near_sculk_catalyst"
+		}
+	},
+	"display": {
+		"description": "Kill a mob near a sculk catalyst",
+		"icon": {
+			"item": "sculk_catalyst"
+		},
+		"title": {
+			"translate": "advancements.adventure.kill_mob_near_sculk_catalyst.title"
+		}
+	}
+}

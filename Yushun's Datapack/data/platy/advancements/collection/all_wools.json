@@ -1,0 +1,175 @@
+{
+	"display": {
+		"icon": {
+			"item": "blue_wool"
+		},
+		"title": "Rainbow Collection",
+		"description": "Collect all 16 wool colors"
+	},
+	"parent": "platy:collection/all_dye",
+	"rewards": {
+		"experience": 75
+	},
+	"criteria": {
+		"white": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["white_wool"]
+					}
+				]
+			}
+		},
+		"orange": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["orange_wool"]
+					}
+				]
+			}
+		},
+		"magenta": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["magenta_wool"]
+					}
+				]
+			}
+		},
+		"light_blue": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["light_blue_wool"]
+					}
+				]
+			}
+		},
+		"yellow": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["yellow_wool"]
+					}
+				]
+			}
+		},
+		"lime": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["lime_wool"]
+					}
+				]
+			}
+		},
+		"pink": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["pink_wool"]
+					}
+				]
+			}
+		},
+		"gray": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["gray_wool"]
+					}
+				]
+			}
+		},
+		"light_gray": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["light_gray_wool"]
+					}
+				]
+			}
+		},
+		"cyan": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["cyan_wool"]
+					}
+				]
+			}
+		},
+		"purple": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["purple_wool"]
+					}
+				]
+			}
+		},
+		"blue": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["blue_wool"]
+					}
+				]
+			}
+		},
+		"brown": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["brown_wool"]
+					}
+				]
+			}
+		},
+		"green": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["green_wool"]
+					}
+				]
+			}
+		},
+		"red": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["red_wool"]
+					}
+				]
+			}
+		},
+		"black": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["black_wool"]
+					}
+				]
+			}
+		}
+	}
+}

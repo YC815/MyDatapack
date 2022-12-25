@@ -1,0 +1,49 @@
+{
+	"display": {
+		"icon": {
+			"item": "jungle_leaves"
+		},
+		"title": "Welcome to the Jungle",
+		"description": "Enter a jungle biome"
+	},
+	"parent": "platy:exploration/root",
+	"criteria": {
+		"jungle": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "jungle"
+					}
+				}
+			}
+		},
+		"bamboo_jungle": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "bamboo_jungle"
+					}
+				}
+			}
+		},
+		"sparse_jungle": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "sparse_jungle"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"jungle",
+			"bamboo_jungle",
+			"sparse_jungle"
+		]
+	]
+}

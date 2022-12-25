@@ -1,0 +1,60 @@
+{
+	"display": {
+		"icon": {
+			"item": "spruce_leaves"
+		},
+		"title": "Land of Christmas Trees",
+		"description": "Enter a taiga biome"
+	},
+	"parent": "platy:exploration/root",
+	"criteria": {
+		"taiga": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "taiga"
+					}
+				}
+			}
+		},
+		"snowy_taiga": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "snowy_taiga"
+					}
+				}
+			}
+		},
+		"old_growth_pine_taiga": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "old_growth_pine_taiga"
+					}
+				}
+			}
+		},
+		"old_growth_spruce_taiga": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "old_growth_spruce_taiga"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"taiga",
+			"snowy_taiga",
+			"old_growth_pine_taiga",
+			"old_growth_spruce_taiga"
+		]
+	]
+}

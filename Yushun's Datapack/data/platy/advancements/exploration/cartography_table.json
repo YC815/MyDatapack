@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "cartography_table"
+		},
+		"title": "Map Maker",
+		"description": "Create a cartography table"
+	},
+	"parent": "platy:exploration/map_create",
+	"criteria": {
+		"cartography_table": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["cartography_table"]
+				}]
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:orange_glass_from_sand"
+		]
+	},
+	"criteria": {
+		"has_red_sand": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["red_sand"]
+				}]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:orange_glass_from_sand"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_red_sand",
+			"has_the_recipe"
+		]
+	]
+}

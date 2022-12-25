@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "bricks",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "brick_wall"
+		}
+	},
+	"result": {
+		"item": "bricks",
+		"count": 2
+	}
+}

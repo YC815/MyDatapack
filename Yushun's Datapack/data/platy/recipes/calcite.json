@@ -1,0 +1,13 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [{
+			"item": "bone_meal"
+		},
+		{
+			"item": "diorite"
+		}
+	],
+	"result": {
+		"item": "calcite"
+	}
+}

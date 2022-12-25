@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "daylight_detector"
+		},
+		"title": "Solar Power",
+		"description": "Harness the power of the sun"
+	},
+	"parent": "platy:redstone/observer",
+	"criteria": {
+		"daylight_detector": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "daylight_detector"
+			}
+		}
+	}
+}

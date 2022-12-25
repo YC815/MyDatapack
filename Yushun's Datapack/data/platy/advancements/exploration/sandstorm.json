@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "red_sand"
+		},
+		"title": "Sandstorm",
+		"description": "Collect both types of sand"
+	},
+	"parent": "platy:exploration/badlands",
+	"criteria": {
+		"sand": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["sand"]
+					}
+				]
+			}
+		},
+		"red_sand": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["red_sand"]
+					}
+				]
+			}
+		}
+	}
+}

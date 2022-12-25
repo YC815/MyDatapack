@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:polished_deepslate_from_wall"
+		]
+	},
+	"criteria": {
+		"has_wall": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["polished_deepslate_wall"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:polished_deepslate_from_wall"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_wall",
+			"has_recipe"
+		]
+	]
+}

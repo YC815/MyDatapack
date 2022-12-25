@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:cyan_dye_from_glow_ink_sac"
+		]
+	},
+	"criteria": {
+		"has_glow_ink_sac": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["glow_ink_sac"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:cyan_dye_from_glow_ink_sac"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_glow_ink_sac",
+			"has_recipe"
+		]
+	]
+}

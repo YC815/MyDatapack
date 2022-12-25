@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "flint_and_steel"
+		},
+		"title": "Newton's Flaming Laser Sword",
+		"description": "Have a netherite sword with Fire Aspect II"
+	},
+	"parent": "minecraft:story/enchant_item",
+	"criteria": {
+		"fire_aspect": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["netherite_sword"],
+						"enchantments": [
+							{
+								"enchantment": "fire_aspect",
+								"levels": 2
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

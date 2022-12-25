@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "polished_blackstone_bricks",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "polished_blackstone_brick_stairs"
+		}
+	},
+	"result": {
+		"item": "polished_blackstone_bricks",
+		"count": 4
+	}
+}

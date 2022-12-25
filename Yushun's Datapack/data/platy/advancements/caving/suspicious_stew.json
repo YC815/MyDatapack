@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "suspicious_stew"
+		},
+		"title": "Thi Stew Is Suspicious",
+		"description": "Drink a mysterious meal"
+	},
+	"parent": "platy:caving/mushrooms",
+	"criteria": {
+		"suspicious_stew": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": ["suspicious_stew"]
+				}
+			}
+		}
+	}
+}

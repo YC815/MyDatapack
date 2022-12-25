@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "cookie"
+		},
+		"title": "It Has Ceased to Be!",
+		"description": "Poison a parrot with a cookie"
+	},
+	"parent": "platy:exploration/tame_parrot",
+	"criteria": {
+		"poison": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "parrot"
+				},
+				"item": {
+					"items": ["cookie"]
+				}
+			}
+		}
+	}
+}

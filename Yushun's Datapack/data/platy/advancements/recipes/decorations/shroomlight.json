@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:shroomlight"
+		]
+	},
+	"criteria": {
+		"has_shroomlight": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["shroomlight"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:shroomlight"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_shroomlight",
+			"has_recipe"
+		]
+	]
+}

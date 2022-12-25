@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shaped",
+	"group": "deepslate_ore",
+	"pattern": [
+		"#X#",
+		"X#X",
+		"#X#"
+	],
+	"key": {
+		"#": {
+			"item": "deepslate"
+		},
+		"X": {
+			"item": "diamond"
+		}
+	},
+	"result": {
+		"item": "deepslate_diamond_ore"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"tag": "terracotta"
+		},
+		"X": {
+			"item": "water_bucket"
+		}
+	},
+	"result": {
+		"item": "terracotta",
+		"count": 8
+	}
+}

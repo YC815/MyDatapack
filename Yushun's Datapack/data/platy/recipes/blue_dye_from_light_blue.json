@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shapeless",
+	"group": "blue_dye",
+	"ingredients": [
+		{
+		"item": "light_blue_dye"
+		},
+		{
+		"item": "black_dye"
+		}
+	],
+	"result": {
+		"item": "blue_dye",
+		"count": 2
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "platy:exploration/leash_all_frogs",
+	"criteria": {
+		"froglights": {
+			"conditions": {
+				"items": [{
+						"items": [
+							"ochre_froglight"
+						]
+					},
+					{
+						"items": [
+							"pearlescent_froglight"
+						]
+					},
+					{
+						"items": [
+							"verdant_froglight"
+						]
+					}
+				]
+			},
+			"trigger": "inventory_changed"
+		}
+	},
+	"display": {
+		"description": "Have all froglights in your inventory",
+		"frame": "goal",
+		"icon": {
+			"item": "verdant_froglight"
+		},
+		"title": {
+			"translate": "advancements.husbandry.froglights.title"
+		}
+	}
+}

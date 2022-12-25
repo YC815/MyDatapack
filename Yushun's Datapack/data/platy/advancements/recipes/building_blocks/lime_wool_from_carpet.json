@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:lime_wool_from_carpet"
+		]
+	},
+	"criteria": {
+		"has_lime_carpet": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["lime_carpet"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:lime_wool_from_carpet"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_lime_carpet",
+			"has_recipe"
+		]
+	]
+}

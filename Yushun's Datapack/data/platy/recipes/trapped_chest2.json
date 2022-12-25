@@ -1,0 +1,24 @@
+{
+	"type": "crafting_shapeless",
+	"group": "trapped_chest",
+	"ingredients": [{
+			"item": "iron_ingot"
+		},
+		{
+			"item": "stick"
+		},
+		{
+			"tag": "planks"
+		},
+		{
+			"item": "chest"
+		},
+		{
+			"item": "chest"
+		}
+	],
+	"result": {
+		"item": "trapped_chest",
+		"count": 2
+	}
+}

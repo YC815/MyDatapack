@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "amethyst_cluster"
+		},
+		"title": "Crystal Cluster",
+		"description": "Collect a cluster of crystals"
+	},
+	"parent": "platy:caving/amethyst_block",
+	"criteria": {
+		"cluster": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["amethyst_cluster"]
+				}]
+			}
+		}
+	}
+}

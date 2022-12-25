@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "magma_block"
+		},
+		"title": "Pushed Around",
+		"description": "Enter a bubble column"
+	},
+	"parent": "platy:ocean/root",
+	"criteria": {
+		"bubble_column": {
+			"trigger": "enter_block",
+			"conditions": {
+				 "block": "bubble_column"
+			}
+		}
+	}
+}

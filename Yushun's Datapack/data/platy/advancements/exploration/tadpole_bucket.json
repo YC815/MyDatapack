@@ -1,0 +1,22 @@
+{
+	"parent": "platy:exploration/swamp_find",
+	"criteria": {
+		"tadpole_bucket": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"items": ["tadpole_bucket"]
+				}
+			}
+		}
+	},
+	"display": {
+		"description": "Catch a tadpole in a bucket",
+		"icon": {
+			"item": "tadpole_bucket"
+		},
+		"title": {
+			"translate": "advancements.husbandry.tadpole_in_a_bucket.title"
+		}
+	}
+}

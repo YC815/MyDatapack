@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:birch_sapling"
+		]
+	},
+	"criteria": {
+		"has_leaves": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["birch_leaves"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:birch_sapling"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_leaves",
+			"has_recipe"
+		]
+	]
+}

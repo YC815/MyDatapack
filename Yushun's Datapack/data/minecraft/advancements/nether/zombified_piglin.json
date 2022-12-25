@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "golden_sword"
+		},
+		"title": "Collective Security",
+		"description": "Witness the collective power of zombified piglins"
+	},
+	"parent": "minecraft:nether/root",
+	"criteria": {
+		"hurt_pigman": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "zombified_piglin"
+				},
+				"damage": {
+					"taken": {
+						"max": 19.9
+					}
+				}
+			}
+		}
+	}
+}

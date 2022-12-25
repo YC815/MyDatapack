@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "dropper"
+		},
+		"title": "Drop This!",
+		"description": "Craft and place a dropper"
+	},
+	"parent": "platy:redstone/hopper",
+	"criteria": {
+		"dropper": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "dropper"
+			}
+		}
+	}
+}

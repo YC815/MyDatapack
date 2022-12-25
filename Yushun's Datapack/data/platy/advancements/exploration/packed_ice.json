@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "packed_ice"
+		},
+		"title": "Heat-Resistant Cold",
+		"description": "Collect some packed ice"
+	},
+	"parent": "platy:exploration/ice",
+	"criteria": {
+		"packed_ice": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["packed_ice"]
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,78 @@
+{
+	"parent": "platy:exploration/tadpole_bucket",
+	"criteria": {
+		"cold": {
+			"conditions": {
+				"entity": [{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type": "frog",
+						"type_specific": {
+							"type": "frog",
+							"variant": "cold"
+						}
+					}
+				}],
+				"item": {
+					"items": [
+						"lead"
+					]
+				}
+			},
+			"trigger": "player_interacted_with_entity"
+		},
+		"temperate": {
+			"conditions": {
+				"entity": [{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type": "frog",
+						"type_specific": {
+							"type": "frog",
+							"variant": "temperate"
+						}
+					}
+				}],
+				"item": {
+					"items": [
+						"lead"
+					]
+				}
+			},
+			"trigger": "player_interacted_with_entity"
+		},
+		"warm": {
+			"conditions": {
+				"entity": [{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type": "frog",
+						"type_specific": {
+							"type": "frog",
+							"variant": "warm"
+						}
+					}
+				}],
+				"item": {
+					"items": [
+						"lead"
+					]
+				}
+			},
+			"trigger": "player_interacted_with_entity"
+		}
+	},
+	"display": {
+		"description": "Get each frog variant on a lead",
+		"icon": {
+			"item": "lead"
+		},
+		"title": {
+			"translate": "advancements.husbandry.leash_all_frog_variants.title"
+		},
+		"frame": "goal"
+	}
+}

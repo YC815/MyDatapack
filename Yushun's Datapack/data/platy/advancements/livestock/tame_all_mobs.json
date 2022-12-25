@@ -1,0 +1,72 @@
+{
+	"display": {
+		"icon": {
+			"item": "name_tag"
+		},
+		"title": "Mutual Protection",
+		"description": "Tame one of every tameable mob",
+		"frame": "challenge"
+	},
+	"parent": "platy:livestock/best_friends_forever",
+	"rewards": {
+		"experience": 150
+	},
+	"criteria": {
+		"donkey": {
+			"trigger": "tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "donkey"
+				}
+			}
+		},
+		"horse": {
+			"trigger": "tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "horse"
+				}
+			}
+		},
+		"llama": {
+			"trigger": "tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "#platy:llamas"
+				}
+			}
+		},
+		"mule": {
+			"trigger": "tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "mule"
+				}
+			}
+		},
+		"cat": {
+			"trigger": "tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "cat"
+				}
+			}
+		},
+		"parrot": {
+			"trigger": "tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "parrot"
+				}
+			}
+		},
+		"wolf": {
+			"trigger": "tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "wolf"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "cut_copper",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "cut_copper_stairs"
+		}
+	},
+	"result": {
+		"item": "cut_copper",
+		"count": 4
+	}
+}

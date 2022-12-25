@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"#X#"
+	],
+	"key": {
+		"#": {
+			"item": "warped_wart_block"
+		},
+		"X": {
+			"item": "crimson_fungus"
+		}
+	},
+	"result": {
+		"item": "warped_fungus"
+	}
+}

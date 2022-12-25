@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "shield"
+		},
+		"title": "Defense!",
+		"description": "Protect yourself with a shield"
+	},
+	"parent": "platy:combat/root",
+	"criteria": {
+		"block": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true
+				}
+			}
+		}
+	}
+}

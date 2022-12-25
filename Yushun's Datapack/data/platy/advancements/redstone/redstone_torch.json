@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "redstone_torch"
+		},
+		"title": "Powerful Light",
+		"description": "Craft and place a redstone torch"
+	},
+	"parent": "platy:redstone/root",
+	"criteria": {
+		"redstone_torch": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["redstone_torch"]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:prismarine_shard"
+		]
+	},
+	"criteria": {
+		"has_prismarine": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["prismarine"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:prismarine_shard"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_prismarine",
+			"has_recipe"
+		]
+	]
+}

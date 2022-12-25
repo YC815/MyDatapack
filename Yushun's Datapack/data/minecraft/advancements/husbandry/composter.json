@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "composter"
+		},
+		"title": "Waste Reduction",
+		"description": "Place a composter to compost your extra vegetation"
+	},
+	"parent": "minecraft:husbandry/root",
+	"criteria": {
+		"composter": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["composter"]
+				}
+			}
+		}
+	}
+}

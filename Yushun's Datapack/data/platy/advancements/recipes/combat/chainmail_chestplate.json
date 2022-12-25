@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:chainmail_chestplate"
+		]
+	},
+	"criteria": {
+		"has_item": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "platy:chainmail_unlocks"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:chainmail_chestplate"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_item",
+			"has_recipe"
+		]
+	]
+}

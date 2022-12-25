@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "shroomlight"
+		},
+		"title": "Funglow",
+		"description": "Light up the area with shroomlights"
+	},
+	"parent": "platy:building/torch",
+	"criteria": {
+		"shroomlight": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "shroomlight"
+			}
+		}
+	}
+}

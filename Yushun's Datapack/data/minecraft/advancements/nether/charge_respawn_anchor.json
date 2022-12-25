@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:nether/obtain_crying_obsidian",
+	"display": {
+		"icon": {
+			"item": "respawn_anchor"
+		},
+		"title": {
+			"translate": "advancements.nether.charge_respawn_anchor.title"
+		},
+		"description": "Charge a respawn anchor to the maximum"
+	},
+	"criteria": {
+		"charge_respawn_anchor": {
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"blocks": ["respawn_anchor"],
+						"state": {
+							"charges": "4"
+						}
+					}
+				},
+				"item": {
+					"items": ["glowstone"]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "firework_rocket"
+		},
+		"title": "Weaponized Independence",
+		"description": "Shoot a firework with a crossbow"
+	},
+	"parent": "platy:combat/ol_betsy",
+	"criteria": {
+		"firework": {
+			"trigger": "shot_crossbow",
+			"conditions": {
+				"item": {
+					"items": ["crossbow"],
+					"nbt": "{ChargedProjectiles: [{id:'firework_rocket'}]}"
+				}
+			}
+		}
+	}
+}

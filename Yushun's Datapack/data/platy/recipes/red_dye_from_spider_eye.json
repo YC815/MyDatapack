@@ -1,0 +1,12 @@
+{
+	"type": "crafting_shapeless",
+	"group": "red_dye",
+	"ingredients": [
+		{
+		"item": "spider_eye"
+		}
+	],
+	"result": {
+		"item": "red_dye"
+	}
+}

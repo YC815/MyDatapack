@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "smoker"
+		},
+		"title": "Fast Food",
+		"description": "Make a smoker to cook your food faster"
+	},
+	"parent": "platy:livestock/meat",
+	"criteria": {
+		"smoker": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["smoker"]
+					}
+				]
+			}
+		}
+	}
+}

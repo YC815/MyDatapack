@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "bell"
+		},
+		"title": "You Rang?",
+		"description": "Sound a bell to alert a village of danger"
+	},
+	"parent": "platy:village/have_bad_omen",
+	"criteria": {
+		"bell": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [{
+							"type": "custom",
+							"stat": "bell_ring",
+							"value": {
+								"min": 1
+							}
+						}]
+					}
+				}
+			}
+		}
+	}
+}

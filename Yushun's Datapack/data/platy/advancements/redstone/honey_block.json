@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "honey_block"
+		},
+		"title": "...And Slide!",
+		"description": "Slide down a honey block"
+	},
+	"parent": "platy:redstone/slime_block",
+	"criteria": {
+		"honey_block": {
+			"trigger": "slide_down_block",
+			"conditions": {
+				"blocks": ["honey_block"]
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "stair_planks",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "warped_stairs"
+		}
+	},
+	"result": {
+		"item": "warped_planks",
+		"count": 3
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "saddle"
+		},
+		"title": "Double Decker",
+		"description": "Ride on a strider riding another strider",
+		"frame": "goal"
+	},
+	"parent": "minecraft:nether/ride_strider",
+	"criteria": {
+		"strider_stack": {
+			"trigger": "started_riding",
+			"conditions": {
+				"player": {
+					"vehicle": {
+						"type": "strider",
+						"vehicle": {
+							"type": "strider"
+						}
+					}
+				}
+			}
+		}
+	}
+}

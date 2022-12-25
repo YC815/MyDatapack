@@ -1,0 +1,115 @@
+{
+	"display": {
+		"icon": {
+			"item": "brain_coral_block"
+		},
+		"title": "Reef Chief",
+		"description": "Collect all 10 coral block types"
+	},
+	"parent": "platy:collection/root",
+	"rewards": {
+		"experience": 40
+	},
+	"criteria": {
+		"tube": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["tube_coral_block"]
+					}
+				]
+			}
+		},
+		"brain": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["brain_coral_block"]
+					}
+				]
+			}
+		},
+		"bubble": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["bubble_coral_block"]
+					}
+				]
+			}
+		},
+		"fire": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["fire_coral_block"]
+					}
+				]
+			}
+		},
+		"horn": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["horn_coral_block"]
+					}
+				]
+			}
+		},
+		"tube_dead": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["dead_tube_coral_block"]
+					}
+				]
+			}
+		},
+		"brain_dead": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["dead_brain_coral_block"]
+					}
+				]
+			}
+		},
+		"bubble_dead": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["dead_bubble_coral_block"]
+					}
+				]
+			}
+		},
+		"fire_dead": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["dead_fire_coral_block"]
+					}
+				]
+			}
+		},
+		"horn_dead": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["dead_horn_coral_block"]
+					}
+				]
+			}
+		}
+	}
+}

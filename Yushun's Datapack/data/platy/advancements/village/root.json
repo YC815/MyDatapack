@@ -1,0 +1,73 @@
+{
+	"display": {
+		"icon": {
+			"item": "oak_door"
+		},
+		"title": "Villages",
+		"description": "Hrrmm",
+		"background": "minecraft:textures/block/oak_planks.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"desert": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_desert"
+					}
+				}
+			}
+		},
+		"plains": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_plains"
+					}
+				}
+			}
+		},
+		"savanna": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_savanna"
+					}
+				}
+			}
+		},
+		"snowy": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_snowy"
+					}
+				}
+			}
+		},
+		"taiga": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "village_taiga"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"desert",
+			"plains",
+			"savanna",
+			"snowy",
+			"taiga"
+		]
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "redstone_lamp"
+		},
+		"title": "Lightbulb",
+		"description": "Light up the area with redstone lamps"
+	},
+	"parent": "platy:building/glowstone",
+	"criteria": {
+		"redstone_lamp": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "redstone_lamp"
+			}
+		}
+	}
+}

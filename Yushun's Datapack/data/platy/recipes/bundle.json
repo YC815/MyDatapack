@@ -1,0 +1,19 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"#X#",
+		"X X",
+		"XXX"
+	],
+	"key": {
+		"#": {
+			"item": "string"
+		},
+		"X": {
+			"item": "rabbit_hide"
+		}
+	},
+	"result": {
+		"item": "bundle"
+	}
+}

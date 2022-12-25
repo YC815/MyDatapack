@@ -1,0 +1,8 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "chiseled_polished_blackstone"
+	},
+	"result": "polished_blackstone",
+	"count": 1
+}

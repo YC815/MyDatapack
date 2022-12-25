@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "nether_wart"
+		},
+		"title": "Basis to Brew",
+		"description": "Collect nether wart"
+	},
+	"parent": "platy:nether_structures/blaze_rod",
+	"criteria": {
+		"nether_wart": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["nether_wart"]
+				}]
+			}
+		}
+	}
+}

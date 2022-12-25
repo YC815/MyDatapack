@@ -1,0 +1,52 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:cobweb"
+		]
+	},
+	"criteria": {
+		"mineshaft": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "mineshaft"
+					}
+				}
+			}
+		},
+		"mineshaft_mesa": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "mineshaft_mesa"
+					}
+				}
+			}
+		},
+		"has_cobweb": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["cobweb"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:cobweb"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"mineshaft",
+			"mineshaft_mesa",
+			"has_cobweb",
+			"has_recipe"
+		]
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"parent": "platy:exploration/powder_snow",
+	"display": {
+		"icon": {
+			"item": "leather_boots"
+		},
+		"title": {
+			"translate": "advancements.adventure.walk_on_powder_snow_with_leather_boots.title"
+		},
+		"description": "Walk on powder snow without sinking in it"
+	},
+	"criteria": {
+		"powder_snow": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"stepping_on": {
+							"block": {
+								"blocks": [
+									"powder_snow"
+								]
+							}
+						},
+						"equipment": {
+							"feet": {
+								"items": [
+									"leather_boots"
+								]
+							}
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		}
+	}
+}

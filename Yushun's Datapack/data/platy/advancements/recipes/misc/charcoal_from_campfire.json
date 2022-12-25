@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:charcoal_from_campfire"
+		]
+	},
+	"criteria": {
+		"has_log": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "logs_that_burn"
+				}]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:charcoal_from_campfire"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_log",
+			"has_the_recipe"
+		]
+	]
+}

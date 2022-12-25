@@ -1,0 +1,18 @@
+{
+	"type": "crafting_shaped",
+	"group": "coral_fan",
+	"pattern": [
+		"#",
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "brain_coral"
+		}
+	},
+	"result": {
+		"item": "brain_coral_fan",
+		"count": 3
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "granite",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "granite_wall"
+		}
+	},
+	"result": {
+		"item": "granite",
+		"count": 2
+	}
+}

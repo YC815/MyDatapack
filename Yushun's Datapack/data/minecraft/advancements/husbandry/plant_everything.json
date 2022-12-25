@@ -1,0 +1,204 @@
+{
+	"display": {
+		"icon": {
+			"item": "vine"
+		},
+		"title": "Master of the Field",
+		"description": "Plant everything that grows",
+		"frame": "challenge"
+	},
+	"parent": "minecraft:husbandry/plant_all_seeds",
+	"rewards": {
+		"experience": 150
+	},
+	"criteria": {
+		"wheat_seeds": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["wheat_seeds"]
+				}
+			}
+		},
+		"pumpkin_seeds": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["pumpkin_seeds"]
+				}
+			}
+		},
+		"melon_seeds": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["melon_seeds"]
+				}
+			}
+		},
+		"beetroot_seeds": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["beetroot_seeds"]
+				}
+			}
+		},
+		"potato": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["potato"]
+				}
+			}
+		},
+		"carrot": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["carrot"]
+				}
+			}
+		},
+		"oak_sapling": {
+			"trigger": "placed_block",
+			"conditions": {
+				"blocks": ["oak_sapling"]
+			}
+		},
+		"spruce_sapling": {
+			"trigger": "placed_block",
+			"conditions": {
+				"blocks": ["spruce_sapling"]
+			}
+		},
+		"birch_sapling": {
+			"trigger": "placed_block",
+			"conditions": {
+				"blocks": ["birch_sapling"]
+			}
+		},
+		"jungle_sapling": {
+			"trigger": "placed_block",
+			"conditions": {
+				"blocks": ["jungle_sapling"]
+			}
+		},
+		"acacia_sapling": {
+			"trigger": "placed_block",
+			"conditions": {
+				"blocks": ["acacia_sapling"]
+			}
+		},
+		"dark_oak_sapling": {
+			"trigger": "placed_block",
+			"conditions": {
+				"blocks": ["dark_oak_sapling"]
+			}
+		},
+		"chorus_flower": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["chorus_flower"]
+				}
+			}
+		},
+		"cactus": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["cactus"]
+				}
+			}
+		},
+		"vine": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["vine"]
+				}
+			}
+		},
+		"sugar_cane": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["sugar_cane"]
+				}
+			}
+		},
+		"kelp": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["kelp"]
+				}
+			}
+		},
+		"bamboo": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["bamboo"]
+				}
+			}
+		},
+		"cocoa_beans": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["cocoa_beans"]
+				}
+			}
+		},
+		"nether_wart": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["nether_wart"]
+				}
+			}
+		},
+		"sweet_berries": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["sweet_berries"]
+				}
+			}
+		},
+		"weeping_vines": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["weeping_vines"]
+				}
+			}
+		},
+		"twisting_vines": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["twisting_vines"]
+				}
+			}
+		},
+		"glow_berries": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["glow_berries"]
+				}
+			}
+		},
+		"mangrove_propagule": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["mangrove_propagule"]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "creeper_head"
+		},
+		"title": "Thick Skull",
+		"description": "Get a monster's head from a charged creeper",
+		"frame": "goal"
+	},
+	"parent": "platy:combat/root",
+	"criteria": {
+		"head": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "platy:creeper_heads"
+				}]
+			}
+		}
+	}
+}

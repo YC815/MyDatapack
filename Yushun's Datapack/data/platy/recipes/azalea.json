@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shaped",
+	"group": "azalea",
+	"pattern": [
+		"###",
+		"###",
+		" X "
+	],
+	"key": {
+		"#": {
+			"item": "azalea_leaves"
+		},
+		"X": {
+			"item": "oak_log"
+		}
+	},
+	"result": {
+		"item": "azalea"
+	}
+}

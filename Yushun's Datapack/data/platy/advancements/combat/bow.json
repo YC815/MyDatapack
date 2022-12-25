@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "bow"
+		},
+		"title": {
+			"translate": "advancements.adventure.shoot_arrow.title"
+		},
+		"description": "Shoot something with an arrow"
+	},
+	"parent": "platy:combat/kill_monster",
+	"criteria": {
+		"shot_arrow": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"is_projectile": true,
+						"direct_entity": {
+							"type": "arrow"
+						}
+					}
+				}
+			}
+		}
+	}
+}

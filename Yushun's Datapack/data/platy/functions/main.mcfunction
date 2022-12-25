@@ -1,0 +1,3 @@
+execute unless entity @s[advancements={platy:livestock/internal/drowned_by_llama=true}] run advancement revoke @s only platy:livestock/internal/drowned_by_llama
+execute unless entity @s[advancements={platy:villages/internal/killed_by_golem=true}] run advancement revoke @s only platy:villages/internal/killed_by_golem
+execute unless entity @s[advancements={platy:villages/internal/pillaged=true}] run advancement revoke @s only platy:villages/internal/pillaged

@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"item": "diamond_leggings",
+			"nbt": "{Enchantments:[{id:'lure'}]}"
+		},
+		"title": "These Are My Sneaking Pants!",
+		"description": "Sneak faster with Swift Sneak"
+	},
+	"parent": "platy:caving/loot_ancient_city",
+	"criteria": {
+		"swift_sneak": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"flags": {
+							"is_sneaking": true
+						},
+						"equipment": {
+							"legs": {
+								"tag": "platy:leggings",
+								"enchantments": [{
+									"enchantment": "swift_sneak"
+								}]
+							}
+						}
+					}
+				}]
+			}
+		}
+	}
+}

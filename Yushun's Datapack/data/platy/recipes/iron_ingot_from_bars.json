@@ -1,0 +1,18 @@
+{
+	"type": "crafting_shaped",
+	"group": "iron_ingot",
+	"pattern": [
+		"###",
+		"# #",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "iron_bars"
+		}
+	},
+	"result": {
+		"item": "iron_ingot",
+		"count": 3
+	}
+}

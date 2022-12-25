@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prismarine"
+		},
+		"title": "Out of Your Comfort Zone",
+		"description": "Enter an ocean monument"
+	},
+	"parent": "platy:ocean/ocean_ruins",
+	"criteria": {
+		"monument": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "monument"
+					}
+				}
+			}
+		}
+	}
+}

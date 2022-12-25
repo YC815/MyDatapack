@@ -1,0 +1,20 @@
+{
+	"parent": "platy:nether_structures/loot_bastion",
+	"display": {
+		"icon": {
+			"item": "music_disc_pigstep"
+		},
+		"title": "Swine Song",
+		"description": "Find the \"Pigstep\" music disc"
+	},
+	"criteria": {
+		"pigstep": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["music_disc_pigstep"]
+				}]
+			}
+		}
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"display": {
+		"icon": {
+			"item": "mangrove_propagule"
+		},
+		"title": "Mangroovy",
+		"description": "Use bone meal to grow a mangrove propagule from mangrove leaves"
+	},
+	"parent": "platy:exploration/lily_pad",
+	"criteria": {
+		"leaves": {
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"blocks": ["mangrove_leaves"]
+					}
+				},
+				"item": {
+					"items": ["bone_meal"]
+				}
+			}
+		},
+		"propagule": {
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"blocks": ["mangrove_propagule"],
+						"state": {
+							"hanging": true
+						}
+					}
+				},
+				"item": {
+					"items": ["bone_meal"]
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"leaves",
+			"propagule"
+		]
+	]
+}

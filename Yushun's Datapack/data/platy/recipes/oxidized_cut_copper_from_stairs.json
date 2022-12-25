@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "oxidized_cut_copper",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "oxidized_cut_copper_stairs"
+		}
+	},
+	"result": {
+		"item": "oxidized_cut_copper",
+		"count": 4
+	}
+}

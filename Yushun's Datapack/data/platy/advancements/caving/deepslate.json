@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "cobbled_deepslate"
+		},
+		"title": "Deep Down, Slate's Found",
+		"description": "Collect some deepslate from the bottom of the world"
+	},
+	"parent": "platy:caving/at_diamond_level",
+	"criteria": {
+		"deepslate": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["cobbled_deepslate"]
+				}]
+			}
+		}
+	}
+}

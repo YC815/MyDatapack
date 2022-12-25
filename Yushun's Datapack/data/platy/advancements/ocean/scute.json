@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "scute"
+		},
+		"title": "Come out of Your Shell",
+		"description": "Pick up a scute"
+	},
+	"parent": "platy:ocean/turtle_egg",
+	"criteria": {
+		"scute": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["scute"]
+					}
+				]
+			}
+		}
+	}
+}

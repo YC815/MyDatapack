@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "copper_ingot"
+		},
+		"title": "Cup o' Copper",
+		"description": "Smelt raw copper to get an ingot"
+	},
+	"parent": "platy:building/root",
+	"criteria": {
+		"copper_ingot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["copper_ingot"]
+				}]
+			}
+		}
+	}
+}

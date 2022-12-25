@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "feather"
+		},
+		"title": "Lost Weight",
+		"description": "Drink a potion of Slow Falling"
+	},
+	"parent": "platy:combat/phantom_pains",
+	"criteria": {
+		"slow_falling": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"slow_falling": {}
+				}
+			}
+		}
+	}
+}

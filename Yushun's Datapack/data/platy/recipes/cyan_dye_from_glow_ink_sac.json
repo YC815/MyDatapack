@@ -1,0 +1,12 @@
+{
+	"type": "crafting_shapeless",
+	"group": "cyan_dye",
+	"ingredients": [
+		{
+		"item": "glow_ink_sac"
+		}
+	],
+	"result": {
+		"item": "cyan_dye"
+	}
+}

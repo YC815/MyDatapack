@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "wheat_seeds"
+		},
+		"title": {
+			"translate": "advancements.husbandry.plant_seed.title"
+		},
+		"description": {
+			"translate": "advancements.husbandry.plant_seed.description"
+		}
+	},
+	"parent": "minecraft:husbandry/time_to_farm",
+	"criteria": {
+		"seeds": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"tag": "platy:seeds"
+				}
+			}
+		}
+	}
+}

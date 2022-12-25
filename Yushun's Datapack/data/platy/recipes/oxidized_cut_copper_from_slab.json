@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shaped",
+	"group": "oxidized_cut_copper",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "oxidized_cut_copper_slab"
+		}
+	},
+	"result": {
+		"item": "oxidized_cut_copper"
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "lingering_potion",
+			"nbt": "{Potion:'healing'}"
+		},
+		"title": "Watch Your Step",
+		"description": "Brew a lingering potion"
+	},
+	"parent": "minecraft:end/dragon_breath",
+	"criteria": {
+		"lingering_potion": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["lingering_potion"]
+				}]
+			}
+		}
+	}
+}

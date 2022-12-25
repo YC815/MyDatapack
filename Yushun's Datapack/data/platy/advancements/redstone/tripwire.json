@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "tripwire_hook"
+		},
+		"title": "Watch Your Step",
+		"description": "Trigger a tripwire"
+	},
+	"parent": "platy:redstone/pressure_plate",
+	"criteria": {
+		"tripwire": {
+			"trigger": "enter_block",
+			"conditions": {
+				"block": "tripwire",
+				"state": {
+					"attached": true,
+					"disarmed": false
+				}
+			}
+		}
+	}
+}

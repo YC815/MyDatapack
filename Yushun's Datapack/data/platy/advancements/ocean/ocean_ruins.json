@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "polished_granite"
+		},
+		"title": "Bits of Atlantis",
+		"description": "Find some oceanic ruins"
+	},
+	"parent": "platy:ocean/root",
+	"criteria": {
+		"ocean_ruin_cold": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ocean_ruin_cold"
+					}
+				}
+			}
+		},
+		"ocean_ruin_warm": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "ocean_ruin_warm"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"ocean_ruin_cold",
+			"ocean_ruin_warm"
+		]
+	]
+}

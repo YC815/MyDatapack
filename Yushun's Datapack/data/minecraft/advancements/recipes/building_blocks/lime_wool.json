@@ -1,0 +1,38 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"lime_wool",
+			"platy:lime_wool"
+		]
+	},
+	"criteria": {
+		"has_wool": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "wool"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "lime_wool"
+			}
+		},
+		"has_recipe2": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:lime_wool"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_wool",
+			"has_recipe",
+			"has_recipe2"
+		]
+	]
+}

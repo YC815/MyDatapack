@@ -1,0 +1,18 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		{
+		"item": "dirt"
+		},
+		{
+		"item": "mycelium"
+		},
+		{
+		"item": "dirt"
+		}
+	],
+	"result": {
+		"item": "mycelium",
+		"count": 3
+	}
+}

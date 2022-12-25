@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "diamond_boots",
+			"nbt": "{Enchantments:[{id:'lure'}]}"
+		},
+		"title": "Water Walker",
+		"description": "Use Depth Strider to speed through water"
+	},
+	"parent": "platy:ocean/boat",
+	"criteria": {
+		"water": {
+			"trigger": "enter_block",
+			"conditions": {
+				"block": "water",
+				"player": {
+					"equipment": {
+						"feet": {
+							"tag": "platy:boots",
+							"enchantments": [{
+								"enchantment": "depth_strider"
+							}]
+						}
+					}
+				}
+			}
+		}
+	}
+}

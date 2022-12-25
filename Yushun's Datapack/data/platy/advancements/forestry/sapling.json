@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "oak_sapling"
+		},
+		"title": "Arborist",
+		"description": "Collect a sapling"
+	},
+	"parent": "platy:forestry/root",
+	"criteria": {
+		"sapling": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "saplings"
+				}]
+			}
+		}
+	}
+}

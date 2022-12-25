@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "tipped_arrow"
+		},
+		"title": "Dipped in Magic",
+		"description": "Obtain a spectral or tipped arrow"
+	},
+	"parent": "platy:combat/bow",
+	"criteria": {
+		"tipped": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["tipped_arrow"]
+					}
+				]
+			}
+		},
+		"spectral": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["spectral_arrow"]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"tipped",
+			"spectral"
+		]
+	]
+}

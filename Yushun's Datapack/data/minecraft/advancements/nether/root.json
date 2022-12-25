@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "netherrack"
+		},
+		"title": {
+			"translate": "advancements.nether.root.title"
+		},
+		"description": {
+			"translate": "advancements.nether.root.description"
+		},
+		"show_toast": false,
+		"announce_to_chat": false,
+		"background": "minecraft:textures/block/nether_wart_block.png"
+	},
+	"criteria": {
+		"nether": {
+			"trigger": "changed_dimension",
+			"conditions": {
+				"to": "the_nether"
+			}
+		}
+	}
+}

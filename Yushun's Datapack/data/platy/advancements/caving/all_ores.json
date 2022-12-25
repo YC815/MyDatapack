@@ -1,0 +1,144 @@
+{
+	"display": {
+		"icon": {
+			"item": "emerald_ore"
+		},
+		"title": "Ores Galores",
+		"description": "Gather each type of ore",
+		"frame": "goal"
+	},
+	"parent": "platy:caving/all_stones",
+	"rewards": {
+		"experience": 75
+	},
+	"criteria": {
+		"coal": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "coal_ores"
+				}]
+			}
+		},
+		"iron": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["iron_ore"]
+				}]
+			}
+		},
+		"deepslate_iron": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["deepslate_iron_ore"]
+				}]
+			}
+		},
+		"gold": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["gold_ore"]
+				}]
+			}
+		},
+		"deepslate_gold": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["deepslate_gold_ore"]
+				}]
+			}
+		},
+		"redstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["redstone_ore"]
+				}]
+			}
+		},
+		"deepslate_redstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["deepslate_redstone_ore"]
+				}]
+			}
+		},
+		"lapis": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["lapis_ore"]
+				}]
+			}
+		},
+		"deepslate_lapis": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["deepslate_lapis_ore"]
+				}]
+			}
+		},
+		"diamond": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["diamond_ore"]
+				}]
+			}
+		},
+		"deepslate_diamond": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["deepslate_diamond_ore"]
+				}]
+			}
+		},
+		"emerald": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "emerald_ores"
+				}]
+			}
+		},
+		"quartz": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["nether_quartz_ore"]
+				}]
+			}
+		},
+		"nether_gold": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["nether_gold_ore"]
+				}]
+			}
+		},
+		"copper": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["copper_ore"]
+				}]
+			}
+		},
+		"deepslate_copper": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["deepslate_copper_ore"]
+				}]
+			}
+		}
+	}
+}

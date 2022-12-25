@@ -1,0 +1,21 @@
+{
+	"type": "crafting_shaped",
+	"group": "cobblestone",
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "stone"
+		},
+		"X": {
+			"item": "flint"
+		}
+	},
+	"result": {
+		"item": "cobblestone",
+		"count": 8
+	}
+}

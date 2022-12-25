@@ -1,0 +1,214 @@
+{
+	"display": {
+		"icon": {
+			"item": "tropical_fish_bucket"
+		},
+		"title": "Tropical Aquarist",
+		"description": "Collect the 22 most common tropical fish variants in buckets",
+		"frame": "challenge"
+	},
+	"parent": "platy:ocean/fish_buckets",
+	"rewards": {
+		"experience": 100
+	},
+	"criteria": {
+		"anenome": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"items": ["tropical_fish_bucket"],
+					"nbt": "{BucketVariantTag:117506305}"
+				}
+			}
+		},
+		"black_tang": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"items": ["tropical_fish_bucket"],
+					"nbt": "{BucketVariantTag:117899265}"
+				}
+			}
+		},
+		"blue_tang": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"items": ["tropical_fish_bucket"],
+					"nbt": "{BucketVariantTag:185008129}"
+				}
+			}
+		},
+		"butterflyfish": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"items": ["tropical_fish_bucket"],
+					"nbt": "{BucketVariantTag:117441793}"
+				}
+			}
+		},
+		"cichlid": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"items": ["tropical_fish_bucket"],
+					"nbt": "{BucketVariantTag:118161664}"
+				}
+			}
+		},
+		"clownfish": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"items": ["tropical_fish_bucket"],
+					"nbt": "{BucketVariantTag:65536}"
+				}
+			}
+		},
+		"cotton_candy_betta": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"items": ["tropical_fish_bucket"],
+					"nbt": "{BucketVariantTag:50726144}"
+				}
+			}
+		},
+		"dottyback": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"items": ["tropical_fish_bucket"],
+					"nbt": "{BucketVariantTag:67764993}"
+				}
+			}
+		},
+		"emperor_red_snapper": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"items": ["tropical_fish_bucket"],
+					"nbt": "{BucketVariantTag:234882305}"
+				}
+			}
+		},
+		"goatfish": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"items": ["tropical_fish_bucket"],
+					"nbt": "{BucketVariantTag:67110144}"
+				}
+			}
+		},
+		"moorish_idol": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"items": ["tropical_fish_bucket"],
+					"nbt": "{BucketVariantTag:117441025}"
+				}
+			}
+		},
+		"ornate_butterflyfish": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"items": ["tropical_fish_bucket"],
+					"nbt": "{BucketVariantTag:16778497}"
+				}
+			}
+		},
+		"parrotfish": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"items": ["tropical_fish_bucket"],
+					"nbt": "{BucketVariantTag:101253888}"
+				}
+			}
+		},
+		"queen_angelfish": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"items": ["tropical_fish_bucket"],
+					"nbt": "{BucketVariantTag:50660352}"
+				}
+			}
+		},
+		"red_cichlid": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"items": ["tropical_fish_bucket"],
+					"nbt": "{BucketVariantTag:918529}"
+				}
+			}
+		},
+		"red_lipped_blenny": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"items": ["tropical_fish_bucket"],
+					"nbt": "{BucketVariantTag:235340288}"
+				}
+			}
+		},
+		"red_snapper": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"items": ["tropical_fish_bucket"],
+					"nbt": "{BucketVariantTag:918273}"
+				}
+			}
+		},
+		"threadfin": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"items": ["tropical_fish_bucket"],
+					"nbt": "{BucketVariantTag:67108865}"
+				}
+			}
+		},
+		"tomato_clownfish": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"items": ["tropical_fish_bucket"],
+					"nbt": "{BucketVariantTag:917504}"
+				}
+			}
+		},
+		"triggerfish": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"items": ["tropical_fish_bucket"],
+					"nbt": "{BucketVariantTag:459008}"
+				}
+			}
+		},
+		"yellowtail_parrotfish": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"items": ["tropical_fish_bucket"],
+					"nbt": "{BucketVariantTag:67699456}"
+				}
+			}
+		},
+		"yellow_tang": {
+			"trigger": "filled_bucket",
+			"conditions": {
+				"item": {
+					"items": ["tropical_fish_bucket"],
+					"nbt": "{BucketVariantTag:67371009}"
+				}
+			}
+		}
+	}
+}

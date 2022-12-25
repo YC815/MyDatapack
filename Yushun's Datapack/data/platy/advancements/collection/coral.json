@@ -1,0 +1,115 @@
+{
+	"display": {
+		"icon": {
+			"item": "bubble_coral"
+		},
+		"title": "Acorable",
+		"description": "Collect all 10 coral types"
+	},
+	"parent": "platy:collection/coral_block",
+	"rewards": {
+		"experience": 40
+	},
+	"criteria": {
+		"tube": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["tube_coral"]
+					}
+				]
+			}
+		},
+		"brain": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["brain_coral"]
+					}
+				]
+			}
+		},
+		"bubble": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["bubble_coral"]
+					}
+				]
+			}
+		},
+		"fire": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["fire_coral"]
+					}
+				]
+			}
+		},
+		"horn": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["horn_coral"]
+					}
+				]
+			}
+		},
+		"dead_tube": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["dead_tube_coral"]
+					}
+				]
+			}
+		},
+		"dead_brain": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["dead_brain_coral"]
+					}
+				]
+			}
+		},
+		"dead_bubble": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["dead_bubble_coral"]
+					}
+				]
+			}
+		},
+		"dead_fire": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["dead_fire_coral"]
+					}
+				]
+			}
+		},
+		"dead_horn": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["dead_horn_coral"]
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "stone_bricks"
+		},
+		"title": "Ice Cave",
+		"description": "Take shelter in an igloo"
+	},
+	"parent": "platy:exploration/stray",
+	"criteria": {
+		"igloo": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "igloo"
+					}
+				}
+			}
+		}
+	}
+}

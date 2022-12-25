@@ -1,0 +1,38 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"black_wool",
+			"platy:black_wool"
+		]
+	},
+	"criteria": {
+		"has_wool": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "wool"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "black_wool"
+			}
+		},
+		"has_recipe2": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:black_wool"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_wool",
+			"has_recipe",
+			"has_recipe2"
+		]
+	]
+}

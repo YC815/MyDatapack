@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "compass"
+		},
+		"title": "Back to the Beginning",
+		"description": "Use a compass to find your spawnpoint"
+	},
+	"parent": "minecraft:story/iron_tools",
+	"criteria": {
+		"compass": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["compass"]
+				}]
+			}
+		}
+	}
+}

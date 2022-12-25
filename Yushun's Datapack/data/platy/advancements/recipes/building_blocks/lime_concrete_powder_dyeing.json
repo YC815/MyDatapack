@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:lime_concrete_powder_dyeing"
+		]
+	},
+	"criteria": {
+		"has_lime_dye": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["lime_dye"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:lime_concrete_powder_dyeing"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_lime_dye",
+			"has_recipe"
+		]
+	]
+}

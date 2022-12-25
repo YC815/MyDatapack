@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shaped",
+	"group": "slab_planks",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "warped_slab"
+		}
+	},
+	"result": {
+		"item": "warped_planks"
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:orange_wool_from_carpet"
+		]
+	},
+	"criteria": {
+		"has_orange_carpet": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["orange_carpet"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:orange_wool_from_carpet"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_orange_carpet",
+			"has_recipe"
+		]
+	]
+}

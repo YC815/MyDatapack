@@ -1,0 +1,27 @@
+{
+	"parent": "platy:building/wax_on",
+	"display": {
+		"icon": {
+			"item": "golden_axe"
+		},
+		"title": {
+			"translate": "advancements.husbandry.wax_off.title"
+		},
+		"description": "Scrape wax off of a copper block"
+	},
+	"criteria": {
+		"wax_off": {
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "platy:waxed_copper"
+					}
+				},
+				"item": {
+					"tag": "platy:axes"
+				}
+			}
+		}
+	}
+}

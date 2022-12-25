@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "cod"
+		},
+		"title": "Timid Kitty",
+		"description": "Take in a stray cat"
+	},
+	"parent": "platy:village/root",
+	"criteria": {
+		"cat": {
+			"trigger": "tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "cat"
+				}
+			}
+		}
+	}
+}

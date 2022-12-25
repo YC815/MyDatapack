@@ -1,0 +1,748 @@
+{
+	"display": {
+		"icon": {
+			"item": "diamond_boots"
+		},
+		"title": {
+			"translate": "advancements.adventure.adventuring_time.title"
+		},
+		"description": {
+			"translate": "advancements.adventure.adventuring_time.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "platy:exploration/root",
+	"rewards": {
+		"experience": 500
+	},
+	"criteria": {
+		"mushroom_fields": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "mushroom_fields"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"deep_frozen_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "deep_frozen_ocean"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"frozen_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "frozen_ocean"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"deep_cold_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "deep_cold_ocean"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"cold_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "cold_ocean"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"deep_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "deep_ocean"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "ocean"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"deep_lukewarm_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "deep_lukewarm_ocean"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"lukewarm_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "lukewarm_ocean"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"warm_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "warm_ocean"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"stony_shore": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "stony_shore"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"swamp": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "swamp"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"mangrove_swamp": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "mangrove_swamp"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"snowy_slopes": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "snowy_slopes"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"snowy_plains": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "snowy_plains"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"snowy_beach": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "snowy_beach"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"windswept_gravelly_hills": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "windswept_gravelly_hills"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"grove": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "grove"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"windswept_hills": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "windswept_hills"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"snowy_taiga": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "snowy_taiga"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"windswept_forest": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "windswept_forest"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"taiga": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "taiga"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"plains": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "plains"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"meadow": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "meadow"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"beach": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "beach"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"forest": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "forest"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"old_growth_spruce_taiga": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "old_growth_spruce_taiga"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"flower_forest": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "flower_forest"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"birch_forest": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "birch_forest"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"dark_forest": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "dark_forest"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"savanna_plateau": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "savanna_plateau"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"savanna": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "savanna"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"jungle": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "jungle"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"badlands": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "badlands"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"desert": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "desert"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"wooded_badlands": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "wooded_badlands"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"jagged_peaks": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "jagged_peaks"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"stony_peaks": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "stony_peaks"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"frozen_river": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "frozen_river"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"river": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "river"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"ice_spikes": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "ice_spikes"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"old_growth_pine_taiga": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "old_growth_pine_taiga"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"sunflower_plains": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "sunflower_plains"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"old_growth_birch_forest": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "old_growth_birch_forest"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"sparse_jungle": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "sparse_jungle"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"bamboo_jungle": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "bamboo_jungle"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"eroded_badlands": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "eroded_badlands"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"windswept_savanna": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "windswept_savanna"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"frozen_peaks": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "frozen_peaks"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"dripstone_caves": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "dripstone_caves"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"lush_caves": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "lush_caves"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		},
+		"deep_dark": {
+			"trigger": "location",
+			"conditions": {
+				"player": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"location": {
+							"biome": "deep_dark"
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		}
+	}
+}

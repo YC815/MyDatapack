@@ -1,0 +1,107 @@
+{
+	"display": {
+		"icon": {
+			"item": "redstone"
+		},
+		"title": "Long-Lasting Liquid",
+		"description": "Use redstone dust to make a potion longer"
+	},
+	"parent": "platy:nether_structures/brew_potion",
+	"criteria": {
+		"night_vision": {
+			"trigger": "brewed_potion",
+			"conditions": {
+				"potion": "long_night_vision"
+			}
+		},
+		"invisibility": {
+			"trigger": "brewed_potion",
+			"conditions": {
+				"potion": "long_invisibility"
+			}
+		},
+		"leaping": {
+			"trigger": "brewed_potion",
+			"conditions": {
+				"potion": "long_leaping"
+			}
+		},
+		"fire_resistance": {
+			"trigger": "brewed_potion",
+			"conditions": {
+				"potion": "long_fire_resistance"
+			}
+		},
+		"swiftness": {
+			"trigger": "brewed_potion",
+			"conditions": {
+				"potion": "long_swiftness"
+			}
+		},
+		"slowness": {
+			"trigger": "brewed_potion",
+			"conditions": {
+				"potion": "long_slowness"
+			}
+		},
+		"turtle_master": {
+			"trigger": "brewed_potion",
+			"conditions": {
+				"potion": "long_turtle_master"
+			}
+		},
+		"water_breathing": {
+			"trigger": "brewed_potion",
+			"conditions": {
+				"potion": "long_water_breathing"
+			}
+		},
+		"poison": {
+			"trigger": "brewed_potion",
+			"conditions": {
+				"potion": "long_poison"
+			}
+		},
+		"regeneration": {
+			"trigger": "brewed_potion",
+			"conditions": {
+				"potion": "long_regeneration"
+			}
+		},
+		"strength": {
+			"trigger": "brewed_potion",
+			"conditions": {
+				"potion": "long_strength"
+			}
+		},
+		"weakness": {
+			"trigger": "brewed_potion",
+			"conditions": {
+				"potion": "long_weakness"
+			}
+		},
+		"slow_falling": {
+			"trigger": "brewed_potion",
+			"conditions": {
+				"potion": "long_slow_falling"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"night_vision",
+			"invisibility",
+			"leaping",
+			"fire_resistance",
+			"swiftness",
+			"slowness",
+			"turtle_master",
+			"water_breathing",
+			"poison",
+			"regeneration",
+			"strength",
+			"weakness",
+			"slow_falling"
+		]
+	]
+}

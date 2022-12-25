@@ -1,0 +1,12 @@
+{
+	"type": "crafting_shapeless",
+	"group": "purple_dye",
+	"ingredients": [
+		{
+		"item": "chorus_fruit"
+		}
+	],
+	"result": {
+		"item": "purple_dye"
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "feather"
+		},
+		"title": "Pillow Stuffer",
+		"description": "Kill a bird for its feathers"
+	},
+	"parent": "platy:livestock/kill_an_animal",
+	"criteria": {
+		"feather": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["feather"]
+					}
+				]
+			}
+		}
+	}
+}

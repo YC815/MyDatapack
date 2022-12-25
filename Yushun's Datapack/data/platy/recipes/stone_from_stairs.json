@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "stone",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "stone_stairs"
+		}
+	},
+	"result": {
+		"item": "stone",
+		"count": 4
+	}
+}

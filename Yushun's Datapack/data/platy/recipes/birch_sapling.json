@@ -1,0 +1,19 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"###",
+		"#X#",
+		" X "
+	],
+	"key": {
+		"#": {
+			"item": "birch_leaves"
+		},
+		"X": {
+			"item": "birch_log"
+		}
+	},
+	"result": {
+		"item": "birch_sapling"
+	}
+}

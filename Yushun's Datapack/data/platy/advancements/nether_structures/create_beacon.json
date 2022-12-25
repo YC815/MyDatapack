@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "beacon"
+		},
+		"title": {
+			"translate": "advancements.nether.create_beacon.title"
+		},
+		"description": "Construct and activate a beacon"
+	},
+	"parent": "platy:nether_structures/summon_wither",
+	"criteria": {
+		"beacon": {
+			"trigger": "construct_beacon",
+			"conditions": {
+				"level": {
+					"min": 1
+				}
+			}
+		}
+	}
+}

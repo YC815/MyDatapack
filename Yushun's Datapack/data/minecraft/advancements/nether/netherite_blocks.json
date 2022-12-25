@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "netherite_block"
+		},
+		"title": "I'm Even Richer!",
+		"description": "Obtain one stack of netherite blocks",
+		"frame": "challenge",
+		"hidden": true
+	},
+	"parent": "minecraft:nether/netherite",
+	"rewards": {
+		"experience": 500
+	},
+	"criteria": {
+		"netherite": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_block"],
+					"count": 64
+				}]
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "blast_furnace"
+		},
+		"title": "Smeltery",
+		"description": "Craft a blast furnace to smelt your ores faster"
+	},
+	"parent": "platy:caving/root",
+	"criteria": {
+		"blast_furnace": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["blast_furnace"]
+				}]
+			}
+		}
+	}
+}

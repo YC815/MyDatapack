@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "spyglass"
+		},
+		"title": "Through the Looking Glass",
+		"description": "Use a spyglass to see things far away"
+	},
+	"parent": "platy:caving/amethyst_shard",
+	"criteria": {
+		"spyglass": {
+			"trigger": "using_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"spyglass"
+					]
+				}
+			}
+		}
+	}
+}

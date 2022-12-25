@@ -1,0 +1,41 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:crimson_fungus"
+		]
+	},
+	"criteria": {
+		"in_forest": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "crimson_forest"
+					}
+				}
+			}
+		},
+		"has_fungus": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["crimson_fungus"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:crimson_fungus"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"in_forest",
+			"has_fungus",
+			"has_recipe"
+		]
+	]
+}

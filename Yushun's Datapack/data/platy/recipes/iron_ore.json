@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shaped",
+	"group": "ore",
+	"pattern": [
+		"#X#",
+		"X#X",
+		"#X#"
+	],
+	"key": {
+		"#": {
+			"item": "stone"
+		},
+		"X": {
+			"tag": "platy:iron_ore_pieces"
+		}
+	},
+	"result": {
+		"item": "iron_ore"
+	}
+}

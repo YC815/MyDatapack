@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "big_dripleaf"
+		},
+		"title": "Tilted",
+		"description": "Cause a big dripleaf to become unstable"
+	},
+	"parent": "platy:caving/lush_cave",
+	"criteria": {
+		"tilt_dripleaf": {
+			"trigger": "enter_block",
+			"conditions": {
+				"block": "big_dripleaf",
+				"state": {
+					"tilt": "unstable"
+				}
+			}
+		}
+	}
+}

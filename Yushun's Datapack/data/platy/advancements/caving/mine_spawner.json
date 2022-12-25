@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "spawner"
+		},
+		"title": "Unthinkable",
+		"description": "Break a spawner"
+	},
+	"parent": "platy:caving/mineshaft",
+	"criteria": {
+		"spawner": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [{
+							"type": "mined",
+							"stat": "spawner",
+							"value": {
+								"min": 1
+							}
+						}]
+					}
+				}
+			}
+		}
+	}
+}

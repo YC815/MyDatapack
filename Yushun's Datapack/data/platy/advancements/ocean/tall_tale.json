@@ -1,0 +1,45 @@
+{
+	"display": {
+		"icon": {
+			"item": "pufferfish"
+		},
+		"title": "Tall Tale",
+		"description": "Catch all four types of fish",
+		"frame": "goal"
+	},
+	"parent": "platy:ocean/cook_fish",
+	"criteria": {
+		"cod": {
+			"trigger": "fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"items": ["cod"]
+				}
+			}
+		},
+		"salmon": {
+			"trigger": "fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"items": ["salmon"]
+				}
+			}
+		},
+		"tropical_fish": {
+			"trigger": "fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"items": ["tropical_fish"]
+				}
+			}
+		},
+		"pufferfish": {
+			"trigger": "fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"items": ["pufferfish"]
+				}
+			}
+		}
+	}
+}

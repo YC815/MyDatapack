@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "wooden_sword"
+		},
+		"title": "Time to Strike!",
+		"description": "Craft a sword"
+	},
+	"parent": "platy:combat/root",
+	"criteria": {
+		"sword": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "platy:swords"
+					}
+				]
+			}
+		}
+	}
+}

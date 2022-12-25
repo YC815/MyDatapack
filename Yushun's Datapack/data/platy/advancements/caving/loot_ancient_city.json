@@ -1,0 +1,30 @@
+{
+	"parent": "platy:caving/enter_ancient_city",
+	"display": {
+		"icon": {
+			"item": "chest"
+		},
+		"title": "Creaky Containers",
+		"description": "Loot a chest in an ancient city"
+	},
+	"criteria": {
+		"normal": {
+			"trigger": "player_generates_container_loot",
+			"conditions": {
+				"loot_table": "chests/ancient_city"
+			}
+		},
+		"ice_box": {
+			"trigger": "player_generates_container_loot",
+			"conditions": {
+				"loot_table": "chests/ancient_city_ice_box"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"normal",
+			"ice_box"
+		]
+	]
+}

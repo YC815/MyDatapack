@@ -1,0 +1,1 @@
+advancement grant @s only platy:livestock/drowned_by_llama

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "rabbit_foot"
+		},
+		"title": "Lucky Charm",
+		"description": "Find a rabbit's foot"
+	},
+	"parent": "platy:livestock/rabbit_hide",
+	"criteria": {
+		"rabbit_foot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["rabbit_foot"]
+					}
+				]
+			}
+		}
+	}
+}

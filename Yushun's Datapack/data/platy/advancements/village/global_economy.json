@@ -1,0 +1,72 @@
+{
+	"display": {
+		"icon": {
+			"item": "lily_pad"
+		},
+		"title": "Global Economy",
+		"description": "Trade with a villager from each possible biome",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"experience": 150
+	},
+	"parent": "platy:village/trade_master",
+	"criteria": {
+		"desert": {
+			"trigger": "villager_trade",
+			"conditions": {
+				"villager": {
+					"nbt": "{VillagerData:{type:'desert'}}"
+				}
+			}
+		},
+		"jungle": {
+			"trigger": "villager_trade",
+			"conditions": {
+				"villager": {
+					"nbt": "{VillagerData:{type:'jungle'}}"
+				}
+			}
+		},
+		"plains": {
+			"trigger": "villager_trade",
+			"conditions": {
+				"villager": {
+					"nbt": "{VillagerData:{type:'plains'}}"
+				}
+			}
+		},
+		"savanna": {
+			"trigger": "villager_trade",
+			"conditions": {
+				"villager": {
+					"nbt": "{VillagerData:{type:'savanna'}}"
+				}
+			}
+		},
+		"snow": {
+			"trigger": "villager_trade",
+			"conditions": {
+				"villager": {
+					"nbt": "{VillagerData:{type:'snow'}}"
+				}
+			}
+		},
+		"swamp": {
+			"trigger": "villager_trade",
+			"conditions": {
+				"villager": {
+					"nbt": "{VillagerData:{type:'swamp'}}"
+				}
+			}
+		},
+		"taiga": {
+			"trigger": "villager_trade",
+			"conditions": {
+				"villager": {
+					"nbt": "{VillagerData:{type:'taiga'}}"
+				}
+			}
+		}
+	}
+}

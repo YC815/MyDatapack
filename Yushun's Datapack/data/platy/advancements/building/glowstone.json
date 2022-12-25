@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "glowstone"
+		},
+		"title": "Glowing",
+		"description": "Light up the area with glowstone"
+	},
+	"parent": "platy:building/shroomlight",
+	"criteria": {
+		"glowstone": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "glowstone"
+			}
+		}
+	}
+}

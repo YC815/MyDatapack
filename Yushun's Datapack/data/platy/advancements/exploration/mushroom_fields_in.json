@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "mycelium"
+		},
+		"title": "This Smells",
+		"description": "Enter a mushroom fields biome"
+	},
+	"parent": "platy:exploration/root",
+	"criteria": {
+		"mushroom_fields": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "mushroom_fields"
+					}
+				}
+			}
+		}
+	}
+}

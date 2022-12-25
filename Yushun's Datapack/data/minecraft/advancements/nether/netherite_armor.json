@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:nether/netherite",
+	"display": {
+		"icon": {
+			"item": "netherite_chestplate"
+		},
+		"title": {
+			"translate": "advancements.nether.netherite_armor.title"
+		},
+		"description": "Wear a full suit of netherite armor",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"experience": 100
+	},
+	"criteria": {
+		"netherite_armor": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+						"tag": "platy:netherite_gear"
+					}
+				],
+				"player": {
+					"equipment": {
+						"head": {
+							"items": ["netherite_helmet"]
+						},
+						"chest": {
+							"items": ["netherite_chestplate"]
+						},
+						"legs": {
+							"items": ["netherite_leggings"]
+						},
+						"feet": {
+							"items": ["netherite_boots"]
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:nether_gold_ore"
+		]
+	},
+	"criteria": {
+		"has_gold": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["gold_ingot"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "nether_gold_ore"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_gold",
+			"has_recipe"
+		]
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:copper_ore"
+		]
+	},
+	"criteria": {
+		"has_copper": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "platy:copper_ore_pieces"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:copper_ore"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_copper",
+			"has_recipe"
+		]
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"parent": "platy:caving/deep_dark",
+	"criteria": {
+		"avoid_vibration": {
+			"trigger": "avoid_vibration"
+		}
+	},
+	"display": {
+		"description": "Sneak near a sculk sensor or warden to prevent it from detecting you",
+		"icon": {
+			"item": "sculk_sensor"
+		},
+		"title": {
+			"translate": "advancements.adventure.avoid_vibration.title"
+		}
+	}
+}

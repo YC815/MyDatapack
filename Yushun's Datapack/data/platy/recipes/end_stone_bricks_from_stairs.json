@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "end_stone_bricks",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "end_stone_brick_stairs"
+		}
+	},
+	"result": {
+		"item": "end_stone_bricks",
+		"count": 4
+	}
+}

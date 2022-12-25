@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "chiseled_polished_blackstone"
+		},
+		"title": {
+			"translate": "advancements.nether.find_bastion.title"
+		},
+		"description": "Explore the remnants of a bastion"
+	},
+	"parent": "platy:nether_structures/root",
+	"criteria": {
+		"bastion": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "bastion_remnant"
+					}
+				}
+			}
+		}
+	}
+}

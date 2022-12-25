@@ -1,0 +1,22 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		" #X",
+		" I#",
+		"I  "
+	],
+	"key": {
+		"#": {
+			"item": "string"
+		},
+		"X": {
+			"item": "slime_ball"
+		},
+		"I": {
+			"item": "paper"
+		}
+	},
+	"result": {
+		"item": "name_tag"
+	}
+}

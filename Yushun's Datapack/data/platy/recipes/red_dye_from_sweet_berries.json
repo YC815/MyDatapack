@@ -1,0 +1,12 @@
+{
+	"type": "crafting_shapeless",
+	"group": "red_dye",
+	"ingredients": [
+		{
+		"item": "sweet_berries"
+		}
+	],
+	"result": {
+		"item": "red_dye"
+	}
+}

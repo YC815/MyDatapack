@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "iron_ingot"
+		},
+		"title": {
+			"translate": "advancements.story.smelt_iron.title"
+		},
+		"description": "Smelt an iron ingot"
+	},
+	"parent": "minecraft:story/furnace",
+	"criteria": {
+		"iron": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["iron_ingot"]
+				}]
+			}
+		}
+	}
+}

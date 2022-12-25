@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shaped",
+	"group": "coral_block",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "bubble_coral"
+		}
+	},
+	"result": {
+		"item": "bubble_coral_block"
+	}
+}

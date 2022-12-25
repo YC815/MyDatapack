@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shapeless",
+	"group": "red_dye",
+	"ingredients": [
+		{
+		"item": "pink_dye"
+		},
+		{
+		"item": "black_dye"
+		}
+	],
+	"result": {
+		"item": "red_dye",
+		"count": 2
+	}
+}

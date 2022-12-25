@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "prismarine",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "prismarine_wall"
+		}
+	},
+	"result": {
+		"item": "prismarine",
+		"count": 2
+	}
+}

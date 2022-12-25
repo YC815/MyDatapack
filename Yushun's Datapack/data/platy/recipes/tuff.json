@@ -1,0 +1,14 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [{
+			"item": "basalt"
+		},
+		{
+			"item": "cobblestone"
+		}
+	],
+	"result": {
+		"item": "tuff",
+		"count": 2
+	}
+}

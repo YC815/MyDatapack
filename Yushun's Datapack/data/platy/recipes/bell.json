@@ -1,0 +1,22 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"#X#",
+		"XXX",
+		"XIX"
+	],
+	"key": {
+		"#": {
+			"item": "stick"
+		},
+		"X": {
+			"item": "gold_ingot"
+		},
+		"I": {
+			"item": "gold_nugget"
+		}
+	},
+	"result": {
+		"item": "bell"
+	}
+}

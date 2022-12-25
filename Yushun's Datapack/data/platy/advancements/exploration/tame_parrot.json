@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "wheat_seeds"
+		},
+		"title": "A Pirate's Best Friend",
+		"description": "Befriend a parrot"
+	},
+	"parent": "platy:exploration/jungle_tree",
+	"criteria": {
+		"parrot": {
+			"trigger": "tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "parrot"
+				}
+			}
+		}
+	}
+}

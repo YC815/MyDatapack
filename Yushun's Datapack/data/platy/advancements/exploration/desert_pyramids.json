@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "chiseled_sandstone"
+		},
+		"title": "Grave Robber",
+		"description": "Loot a desert temple"
+	},
+	"parent": "platy:exploration/husk",
+	"criteria": {
+		"loot": {
+			"trigger": "player_generates_container_loot",
+			"conditions": {
+				"loot_table": "chests/desert_pyramid"
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "glow_lichen"
+		},
+		"title": "Literally Light Lichen",
+		"description": "Harvest some glow lichen"
+	},
+	"parent": "platy:caving/root",
+	"criteria": {
+		"lichen": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["glow_lichen"]
+				}]
+			}
+		}
+	}
+}

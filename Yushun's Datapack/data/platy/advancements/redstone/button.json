@@ -1,0 +1,53 @@
+{
+	"display": {
+		"icon": {
+			"item": "stone_button"
+		},
+		"title": "Timed Trigger",
+		"description": "Press a button"
+	},
+	"parent": "platy:redstone/lever_use",
+	"criteria": {
+		"not_sneaking": {
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"player": {
+					"flags": {
+						"is_sneaking": false
+					}
+				},
+				"location": {
+					"block": {
+						"tag": "buttons"
+					}
+				}
+			}
+		},
+		"sneaking": {
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"player": {
+					"flags": {
+						"is_sneaking": true
+					}
+				},
+				"item": {
+					"items": [
+						"air"
+					]
+				},
+				"location": {
+					"block": {
+						"tag": "buttons"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"not_sneaking",
+			"sneaking"
+		]
+	]
+}

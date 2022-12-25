@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "terracotta"
+		},
+		"title": "Mercurial Moniker",
+		"description": "Obtain terracotta"
+	},
+	"parent": "platy:building/clay_have",
+	"criteria": {
+		"terracotta": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "terracotta"
+					}
+				]
+			}
+		}
+	}
+}

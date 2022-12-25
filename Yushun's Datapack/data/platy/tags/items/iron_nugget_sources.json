@@ -1,0 +1,27 @@
+{
+	"values": [
+		"#platy:iron_armor",
+		"iron_pickaxe",
+		"iron_shovel",
+		"iron_axe",
+		"iron_hoe",
+		"iron_sword",
+		"iron_horse_armor",
+		"chainmail_helmet",
+		"chainmail_chestplate",
+		"chainmail_leggings",
+		"chainmail_boots",
+		"bucket",
+		"cauldron",
+		"heavy_weighted_pressure_plate",
+		"iron_trapdoor",
+		"iron_door",
+		"minecart",
+		"shears",
+		"hopper",
+		"shield",
+		"smithing_table",
+		"tripwire_hook",
+		"chain"
+	]
+}

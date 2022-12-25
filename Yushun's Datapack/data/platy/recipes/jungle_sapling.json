@@ -1,0 +1,19 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"###",
+		" X ",
+		" X "
+	],
+	"key": {
+		"#": {
+			"item": "jungle_leaves"
+		},
+		"X": {
+			"item": "jungle_log"
+		}
+	},
+	"result": {
+		"item": "jungle_sapling"
+	}
+}

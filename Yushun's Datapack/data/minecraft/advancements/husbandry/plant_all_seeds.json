@@ -1,0 +1,61 @@
+{
+	"display": {
+		"icon": {
+			"item": "beetroot_seeds"
+		},
+		"title": "Green Thumb",
+		"description": "Plant everything you can in tilled ground",
+		"frame": "goal"
+	},
+	"parent": "minecraft:husbandry/plant_seed",
+	"criteria": {
+		"wheat_seeds": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["wheat_seeds"]
+				}
+			}
+		},
+		"pumpkin_seeds": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["pumpkin_seeds"]
+				}
+			}
+		},
+		"melon_seeds": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["melon_seeds"]
+				}
+			}
+		},
+		"beetroot_seeds": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["beetroot_seeds"]
+				}
+			}
+		},
+		"potato": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["potato"]
+				}
+			}
+		},
+		"carrot": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["carrot"]
+				}
+			}
+		}
+	}
+}

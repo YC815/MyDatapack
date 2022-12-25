@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "loom"
+		},
+		"title": "Looming Over You",
+		"description": "Craft a loom"
+	},
+	"parent": "platy:livestock/banner",
+	"criteria": {
+		"loom": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["loom"]
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"display": {
+		"icon": {
+			"item": "spider_eye"
+		},
+		"title": "Desperate Times",
+		"description": "Eat everything bad for you",
+		"frame": "goal"
+	},
+	"parent": "minecraft:husbandry/root",
+	"criteria": {
+		"chicken": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": ["chicken"]
+				}
+			}
+		},
+		"pufferfish": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": ["pufferfish"]
+				}
+			}
+		},
+		"rotten_flesh": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": ["rotten_flesh"]
+				}
+			}
+		},
+		"spider_eye": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": ["spider_eye"]
+				}
+			}
+		},
+		"poisonous_potato": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": ["poisonous_potato"]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "powder_snow_bucket"
+		},
+		"title": "Snowier Snow",
+		"description": "Freeze in powder snow"
+	},
+	"parent": "platy:exploration/mountain",
+	"criteria": {
+		"freeze": {
+			"trigger": "enter_block",
+			"conditions": {
+				"block": "powder_snow",
+				"player": {
+					"nbt": "{TicksFrozen:50}"
+				}
+			}
+		}
+	}
+}

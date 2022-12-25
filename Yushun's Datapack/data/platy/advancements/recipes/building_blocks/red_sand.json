@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:red_sand"
+		]
+	},
+	"criteria": {
+		"has_sand": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["sand"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "red_sand"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_sand",
+			"has_recipe"
+		]
+	]
+}

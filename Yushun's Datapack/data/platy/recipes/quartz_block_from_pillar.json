@@ -1,0 +1,8 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "quartz_pillar"
+	},
+	"result": "quartz_block",
+	"count": 1
+}

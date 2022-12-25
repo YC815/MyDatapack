@@ -1,0 +1,216 @@
+{
+	"display": {
+		"icon": {
+			"item": "rose_bush"
+		},
+		"title": "Full Bouquet",
+		"description": "Pick all the flowers",
+		"frame": "goal"
+	},
+	"parent": "minecraft:husbandry/have_one_flower",
+	"rewards": {
+		"experience": 50
+	},
+	"criteria": {
+		"dandelion": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["dandelion"]
+					}
+				]
+			}
+		},
+		"poppy": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["poppy"]
+					}
+				]
+			}
+		},
+		"blue_orchid": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["blue_orchid"]
+					}
+				]
+			}
+		},
+		"allium": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["allium"]
+					}
+				]
+			}
+		},
+		"azure_bluet": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["azure_bluet"]
+					}
+				]
+			}
+		},
+		"red_tulip": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["red_tulip"]
+					}
+				]
+			}
+		},
+		"orange_tulip": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["orange_tulip"]
+					}
+				]
+			}
+		},
+		"white_tulip": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["white_tulip"]
+					}
+				]
+			}
+		},
+		"pink_tulip": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["pink_tulip"]
+					}
+				]
+			}
+		},
+		"oxeye_daisy": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["oxeye_daisy"]
+					}
+				]
+			}
+		},
+		"cornflower": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["cornflower"]
+					}
+				]
+			}
+		},
+		"lily_of_the_valley": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["lily_of_the_valley"]
+					}
+				]
+			}
+		},
+		"wither_rose": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["wither_rose"]
+					}
+				]
+			}
+		},
+		"sunflower": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["sunflower"]
+					}
+				]
+			}
+		},
+		"lilac": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["lilac"]
+					}
+				]
+			}
+		},
+		"rose_bush": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["rose_bush"]
+					}
+				]
+			}
+		},
+		"peony": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["peony"]
+					}
+				]
+			}
+		},
+		"flowering_azalea": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["flowering_azalea"]
+					}
+				]
+			}
+		},
+		"flowering_azalea_leaves": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["flowering_azalea_leaves"]
+					}
+				]
+			}
+		},
+		"mangrove_propagule": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["mangrove_propagule"]
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shaped",
+	"group": "blackstone",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "blackstone_slab"
+		}
+	},
+	"result": {
+		"item": "blackstone"
+	}
+}

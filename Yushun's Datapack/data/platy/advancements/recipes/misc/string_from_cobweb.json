@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:string_from_cobweb"
+		]
+	},
+	"criteria": {
+		"has_cobweb": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["cobweb"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:string_from_cobweb"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_cobweb",
+			"has_recipe"
+		]
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shaped",
+	"group": "slab_planks",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "birch_slab"
+		}
+	},
+	"result": {
+		"item": "birch_planks"
+	}
+}

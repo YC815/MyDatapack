@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:ice_from_stonecutting"
+		]
+	},
+	"criteria": {
+		"has_packed_ice": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["packed_ice"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:ice_from_stonecutting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_packed_ice",
+			"has_recipe"
+		]
+	]
+}

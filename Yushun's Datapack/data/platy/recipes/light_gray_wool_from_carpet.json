@@ -1,0 +1,18 @@
+{
+	"type": "crafting_shaped",
+	"group": "carpet_to_wool",
+	"pattern": [
+		"#",
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "light_gray_carpet"
+		}
+	},
+	"result": {
+		"item": "light_gray_wool",
+		"count": 2
+	}
+}

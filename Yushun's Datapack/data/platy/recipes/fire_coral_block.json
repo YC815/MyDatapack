@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shaped",
+	"group": "coral_block",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "fire_coral"
+		}
+	},
+	"result": {
+		"item": "fire_coral_block"
+	}
+}

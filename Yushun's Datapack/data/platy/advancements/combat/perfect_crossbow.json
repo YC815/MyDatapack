@@ -1,0 +1,73 @@
+{
+	"display": {
+		"icon": {
+			"item": "crossbow",
+			"nbt": "{Enchantments:[{id:'lure'}]}"
+		},
+		"title": "Sharpshooter",
+		"description": "Create a perfect crossbow",
+		"frame": "challenge"
+	},
+	"parent": "platy:combat/ol_betsy",
+	"rewards": {
+		"experience": 100
+	},
+	"criteria": {
+		"piercing_crossbow": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["crossbow"],
+					"enchantments": [{
+							"enchantment": "quick_charge",
+							"levels": 3
+						},
+						{
+							"enchantment": "piercing",
+							"levels": 4
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		},
+		"multishot_crossbow": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["crossbow"],
+					"enchantments": [{
+							"enchantment": "quick_charge",
+							"levels": 3
+						},
+						{
+							"enchantment": "multishot",
+							"levels": 1
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"piercing_crossbow",
+			"multishot_crossbow"
+		]
+	]
+}

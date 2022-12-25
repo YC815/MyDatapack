@@ -1,0 +1,8 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "purpur_pillar"
+	},
+	"result": "purpur_block",
+	"count": 1
+}

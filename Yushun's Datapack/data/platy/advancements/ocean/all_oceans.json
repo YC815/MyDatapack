@@ -1,0 +1,106 @@
+{
+	"display": {
+		"icon": {
+			"item": "blue_ice"
+		},
+		"title": "Across the Seven Seas",
+		"description": "Explore all the ocean biomes",
+		"frame": "challenge"
+	},
+	"parent": "platy:ocean/riptide",
+	"rewards": {
+		"experience": 250
+	},
+	"criteria": {
+		"ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "ocean"
+					}
+				}
+			}
+		},
+		"frozen_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "frozen_ocean"
+					}
+				}
+			}
+		},
+		"deep_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "deep_ocean"
+					}
+				}
+			}
+		},
+		"warm_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "warm_ocean"
+					}
+				}
+			}
+		},
+		"lukewarm_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "lukewarm_ocean"
+					}
+				}
+			}
+		},
+		"cold_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "cold_ocean"
+					}
+				}
+			}
+		},
+		"deep_lukewarm_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "deep_lukewarm_ocean"
+					}
+				}
+			}
+		},
+		"deep_cold_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "deep_cold_ocean"
+					}
+				}
+			}
+		},
+		"deep_frozen_ocean": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "deep_frozen_ocean"
+					}
+				}
+			}
+		}
+	}
+}

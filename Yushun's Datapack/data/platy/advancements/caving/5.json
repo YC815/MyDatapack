@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "music_disc_5"
+		},
+		"title": "Spooky Symphony",
+		"description": "Play the \"5\" music disc"
+	},
+	"parent": "platy:caving/loot_ancient_city",
+	"criteria": {
+		"5": {
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"blocks": ["jukebox"],
+						"state": {
+							"has_record": true
+						}
+					}
+				},
+				"item": {
+					"items": ["music_disc_5"]
+				}
+			}
+		}
+	}
+}

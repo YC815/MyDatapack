@@ -1,0 +1,201 @@
+{
+	"display": {
+		"icon": {
+			"item": "netherite_axe",
+			"nbt": "{Enchantments:[{id:'lure'}]}"
+		},
+		"title": "Master Lumberjack",
+		"description": "Create a perfect axe",
+		"frame": "challenge"
+	},
+	"parent": "platy:forestry/axe",
+	"rewards": {
+		"experience": 100
+	},
+	"criteria": {
+		"sharp_axe_fortune": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_axe"],
+					"enchantments": [{
+							"enchantment": "efficiency",
+							"levels": 5
+						},
+						{
+							"enchantment": "fortune",
+							"levels": 3
+						},
+						{
+							"enchantment": "sharpness",
+							"levels": 5
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		},
+		"sharp_axe_silk_touch": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_axe"],
+					"enchantments": [{
+							"enchantment": "efficiency",
+							"levels": 5
+						},
+						{
+							"enchantment": "silk_touch",
+							"levels": 1
+						},
+						{
+							"enchantment": "sharpness",
+							"levels": 5
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		},
+		"smite_axe_fortune": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_axe"],
+					"enchantments": [{
+							"enchantment": "efficiency",
+							"levels": 5
+						},
+						{
+							"enchantment": "fortune",
+							"levels": 3
+						},
+						{
+							"enchantment": "smite",
+							"levels": 5
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		},
+		"smite_axe_silk_touch": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_axe"],
+					"enchantments": [{
+							"enchantment": "efficiency",
+							"levels": 5
+						},
+						{
+							"enchantment": "silk_touch",
+							"levels": 1
+						},
+						{
+							"enchantment": "smite",
+							"levels": 5
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		},
+		"bane_axe_fortune": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_axe"],
+					"enchantments": [{
+							"enchantment": "efficiency",
+							"levels": 5
+						},
+						{
+							"enchantment": "fortune",
+							"levels": 3
+						},
+						{
+							"enchantment": "bane_of_arthropods",
+							"levels": 5
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		},
+		"bane_axe_silk_touch": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["netherite_axe"],
+					"enchantments": [{
+							"enchantment": "efficiency",
+							"levels": 5
+						},
+						{
+							"enchantment": "silk_touch",
+							"levels": 1
+						},
+						{
+							"enchantment": "bane_of_arthropods",
+							"levels": 5
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"sharp_axe_fortune",
+			"sharp_axe_silk_touch",
+			"smite_axe_fortune",
+			"smite_axe_silk_touch",
+			"bane_axe_fortune",
+			"bane_axe_silk_touch"
+		]
+	]
+}

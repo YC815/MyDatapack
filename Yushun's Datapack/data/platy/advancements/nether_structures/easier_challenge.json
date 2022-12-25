@@ -1,0 +1,232 @@
+{
+	"display": {
+		"icon": {
+			"item": "glass_bottle"
+		},
+		"title": "A Much More Doable Challenge",
+		"description": "Get all possible effects at least once",
+		"frame": "challenge"
+	},
+	"parent": "platy:nether_structures/all_potions",
+	"rewards": {
+		"experience": 250
+	},
+	"criteria": {
+		"absorption": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"absorption": {}
+				}
+			}
+		},
+		"blindness": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"blindness": {}
+				}
+			}
+		},
+		"bad_omen": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"bad_omen": {}
+				}
+			}
+		},
+		"conduit_power": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"conduit_power": {}
+				}
+			}
+		},
+		"dolphins_grace": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"dolphins_grace": {}
+				}
+			}
+		},
+		"fire_resistance": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"fire_resistance": {}
+				}
+			}
+		},
+		"glowing": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"glowing": {}
+				}
+			}
+		},
+		"haste": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"haste": {}
+				}
+			}
+		},
+		"hunger": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"hunger": {}
+				}
+			}
+		},
+		"invisibility": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"invisibility": {}
+				}
+			}
+		},
+		"jump_boost": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"jump_boost": {}
+				}
+			}
+		},
+		"levitation": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"levitation": {}
+				}
+			}
+		},
+		"mining_fatigue": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"mining_fatigue": {}
+				}
+			}
+		},
+		"nausea": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"nausea": {}
+				}
+			}
+		},
+		"night_vision": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"night_vision": {}
+				}
+			}
+		},
+		"poison": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"poison": {}
+				}
+			}
+		},
+		"regeneration": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"regeneration": {}
+				}
+			}
+		},
+		"resistance": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"resistance": {}
+				}
+			}
+		},
+		"slow_falling": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"slow_falling": {}
+				}
+			}
+		},
+		"slowness": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"slowness": {}
+				}
+			}
+		},
+		"speed": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"speed": {}
+				}
+			}
+		},
+		"strength": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"strength": {}
+				}
+			}
+		},
+		"water_breathing": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"water_breathing": {}
+				}
+			}
+		},
+		"weakness": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"weakness": {}
+				}
+			}
+		},
+		"wither": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"wither": {}
+				}
+			}
+		},
+		"hero_of_the_village": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"hero_of_the_village": {}
+				}
+			}
+		},
+		"darkness": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"darkness": {}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "chiseled_sandstone"
+	},
+	"result": "sandstone",
+	"count": 1
+}

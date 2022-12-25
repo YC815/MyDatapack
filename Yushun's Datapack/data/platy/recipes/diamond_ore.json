@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shaped",
+	"group": "ore",
+	"pattern": [
+		"#X#",
+		"X#X",
+		"#X#"
+	],
+	"key": {
+		"#": {
+			"item": "stone"
+		},
+		"X": {
+			"item": "diamond"
+		}
+	},
+	"result": {
+		"item": "diamond_ore"
+	}
+}

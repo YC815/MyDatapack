@@ -1,0 +1,22 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"#",
+		"X",
+		"I"
+	],
+	"key": {
+		"#": {
+			"item": "piston"
+		},
+		"X": {
+			"item": "stick"
+		},
+		"I": {
+			"item": "enchanting_table"
+		}
+	},
+	"result": {
+		"item": "debug_stick"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "cobbled_deepslate",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "cobbled_deepslate_wall"
+		}
+	},
+	"result": {
+		"item": "cobbled_deepslate",
+		"count": 2
+	}
+}

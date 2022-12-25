@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "red_sand"
+		},
+		"X": {
+			"item": "quartz"
+		}
+	},
+	"result": {
+		"item": "sand",
+		"count": 8
+	}
+}

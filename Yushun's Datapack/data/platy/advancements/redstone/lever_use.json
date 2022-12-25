@@ -1,0 +1,57 @@
+{
+	"display": {
+		"icon": {
+			"item": "lever"
+		},
+		"title": "Flip the Switch!",
+		"description": "Activate a lever"
+	},
+	"parent": "platy:redstone/root",
+	"criteria": {
+		"not_sneaking": {
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"player": {
+					"flags": {
+						"is_sneaking": false
+					}
+				},
+				"location": {
+					"block": {
+						"blocks": [
+							"lever"
+						]
+					}
+				}
+			}
+		},
+		"sneaking": {
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"player": {
+					"flags": {
+						"is_sneaking": true
+					}
+				},
+				"item": {
+					"items": [
+						"air"
+					]
+				},
+				"location": {
+					"block": {
+						"blocks": [
+							"lever"
+						]
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"not_sneaking",
+			"sneaking"
+		]
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "dispenser"
+		},
+		"title": "Dispense This!",
+		"description": "Craft and place a dispenser"
+	},
+	"parent": "platy:redstone/dropper",
+	"criteria": {
+		"dispenser": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "dispenser"
+			}
+		}
+	}
+}

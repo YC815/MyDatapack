@@ -1,0 +1,70 @@
+{
+	"display": {
+		"icon": {
+			"item": "golden_axe"
+		},
+		"title": "Ignored Gold",
+		"description": "Be hurt by a piglin brute while wearing gold armor"
+	},
+	"parent": "platy:nether_structures/bastion",
+	"criteria": {
+		"piglin_brute": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "piglin_brute"
+					}
+				},
+				"player": [{
+					"condition": "alternative",
+					"terms": [{
+							"condition": "entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"head": {
+										"items": ["golden_helmet"]
+									}
+								}
+							}
+						},
+						{
+							"condition": "entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"chest": {
+										"items": ["golden_chestplate"]
+									}
+								}
+							}
+						},
+						{
+							"condition": "entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"legs": {
+										"items": ["golden_leggings"]
+									}
+								}
+							}
+						},
+						{
+							"condition": "entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"feet": {
+										"items": ["golden_boots"]
+									}
+								}
+							}
+						}
+					]
+				}]
+			}
+		}
+	}
+}

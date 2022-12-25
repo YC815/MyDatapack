@@ -1,0 +1,13 @@
+{
+	"type": "crafting_shapeless",
+	"group": "sticks",
+	"ingredients": [
+		{
+		"item": "mangrove_roots"
+		}
+	],
+	"result": {
+		"item": "stick",
+		"count": 4
+	}
+}

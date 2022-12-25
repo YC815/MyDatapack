@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "trapped_chest"
+		},
+		"title": "It's a Trap!",
+		"description": "Rig a chest"
+	},
+	"parent": "platy:redstone/tripwire",
+	"criteria": {
+		"trapped_chest": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": ["trapped_chest"]
+				}
+			}
+		}
+	}
+}

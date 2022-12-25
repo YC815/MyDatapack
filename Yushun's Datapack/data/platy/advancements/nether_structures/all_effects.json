@@ -1,0 +1,55 @@
+{
+	"display": {
+		"icon": {
+			"item": "bucket"
+		},
+		"title": {
+			"translate": "advancements.nether.all_effects.title"
+		},
+		"description": {
+			"translate": "advancements.nether.all_effects.description"
+		},
+		"frame": "challenge",
+		"hidden": true
+	},
+	"rewards": {
+		"experience": 1000
+	},
+	"parent": "platy:nether_structures/all_potions",
+	"criteria": {
+		"all_effects": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"jump_boost": {},
+					"slow_falling": {},
+					"haste": {},
+					"weakness": {},
+					"invisibility": {},
+					"poison": {},
+					"water_breathing": {},
+					"wither": {},
+					"strength": {},
+					"bad_omen": {},
+					"fire_resistance": {},
+					"dolphins_grace": {},
+					"glowing": {},
+					"nausea": {},
+					"mining_fatigue": {},
+					"hunger": {},
+					"conduit_power": {},
+					"absorption": {},
+					"hero_of_the_village": {},
+					"slowness": {},
+					"levitation": {},
+					"speed": {},
+					"resistance": {},
+					"regeneration": {},
+					"blindness": {},
+					"night_vision": {},
+					"darkness": {}
+				}
+			}
+		}
+	}
+}

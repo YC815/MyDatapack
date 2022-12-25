@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "note_block"
+		},
+		"title": "Musician",
+		"description": "Tune a note block"
+	},
+	"parent": "platy:redstone/root",
+	"criteria": {
+		"tune": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [{
+							"type": "custom",
+							"stat": "tune_noteblock",
+							"value": {
+								"min": 1
+							}
+						}]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"parent": "platy:building/lightning_rod",
+	"display": {
+		"icon": {
+			"item": "emerald"
+		},
+		"title": {
+			"translate": "advancements.adventure.lightning_rod_with_villager_no_fire.title"
+		},
+		"description": "Protect a villager from an undesired shock without starting a fire",
+		"frame": "goal"
+	},
+	"criteria": {
+		"lightning_villager": {
+			"trigger": "lightning_strike",
+			"conditions": {
+				"lightning": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"distance": {
+							"absolute": {
+								"max": 30.0
+							}
+						},
+						"type_specific": {
+							"blocks_set_on_fire": 0,
+							"type": "lightning"
+						}
+					},
+					"entity": "this"
+				}],
+				"bystander": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"type": "villager"
+					},
+					"entity": "this"
+				}]
+			}
+		}
+	}
+}

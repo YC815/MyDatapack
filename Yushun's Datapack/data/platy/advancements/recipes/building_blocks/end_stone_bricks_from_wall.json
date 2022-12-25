@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:end_stone_bricks_from_wall"
+		]
+	},
+	"criteria": {
+		"has_wall": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["end_stone_brick_wall"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:end_stone_bricks_from_wall"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_wall",
+			"has_recipe"
+		]
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:repeater"
+		]
+	},
+	"criteria": {
+		"has_redstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["redstone_torch"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:repeater"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_redstone",
+			"has_recipe"
+		]
+	]
+}

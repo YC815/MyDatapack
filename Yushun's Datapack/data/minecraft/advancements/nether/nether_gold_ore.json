@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "nether_gold_ore"
+		},
+		"title": "Underworld Opulence",
+		"description": "Mine nether gold ore"
+	},
+	"parent": "minecraft:nether/quartz_crystal",
+	"criteria": {
+		"ngo": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [{
+							"type": "mined",
+							"stat": "nether_gold_ore",
+							"value": {
+								"min": 1
+							}
+						}]
+					}
+				}
+			}
+		}
+	}
+}

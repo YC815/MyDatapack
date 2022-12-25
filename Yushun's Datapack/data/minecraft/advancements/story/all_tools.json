@@ -1,0 +1,125 @@
+{
+	"display": {
+		"icon": {
+			"item": "iron_axe"
+		},
+		"title": "Topped-Up Toolbox",
+		"description": "Get one of every tool and weapon",
+		"frame": "goal"
+	},
+	"parent": "minecraft:story/smelt_iron",
+	"criteria": {
+		"shovel": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "platy:shovels"
+				}]
+			}
+		},
+		"pickaxe": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "cluster_max_harvestables"
+				}]
+			}
+		},
+		"axe": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "platy:axes"
+				}]
+			}
+		},
+		"hoe": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "platy:hoes"
+				}]
+			}
+		},
+		"sword": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "platy:swords"
+				}]
+			}
+		},
+		"flint_and_steel": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["flint_and_steel"]
+				}]
+			}
+		},
+		"fishing_rod": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["fishing_rod"]
+				}]
+			}
+		},
+		"shears": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["shears"]
+				}]
+			}
+		},
+		"bow": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["bow"]
+				}]
+			}
+		},
+		"shield": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["shield"]
+				}]
+			}
+		},
+		"trident": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["trident"]
+				}]
+			}
+		},
+		"crossbow": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["crossbow"]
+				}]
+			}
+		},
+		"carrot_on_a_stick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["carrot_on_a_stick"]
+				}]
+			}
+		},
+		"warped_fungus_on_a_stick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["warped_fungus_on_a_stick"]
+				}]
+			}
+		}
+	}
+}

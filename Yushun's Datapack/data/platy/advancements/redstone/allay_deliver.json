@@ -1,0 +1,26 @@
+{
+	"parent": "platy:redstone/note_block",
+	"criteria": {
+		"allay_deliver_item_to_player": {
+			"conditions": {
+				"entity": [{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type": "allay"
+					}
+				}]
+			},
+			"trigger": "thrown_item_picked_up_by_player"
+		}
+	},
+	"display": {
+		"description": "Have an allay deliver items to you",
+		"icon": {
+			"item": "cookie"
+		},
+		"title": {
+			"translate": "advancements.husbandry.allay_deliver_item_to_player.title"
+		}
+	}
+}

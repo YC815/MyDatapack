@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "elytra",
+			"nbt": "{Damage:431}"
+		},
+		"title": "飛翔的感覺",
+		"description": "穿上鞘翅",
+		"frame": "goal"
+	},
+	"parent": "minecraft:end/elytra",
+	"criteria": {
+		"broken_elytra": {
+			"trigger": "item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": ["elytra"]
+				},
+				"durability": 1
+			}
+		}
+	}
+}

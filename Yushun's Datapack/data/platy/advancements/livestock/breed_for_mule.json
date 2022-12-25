@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "golden_carrot"
+		},
+		"title": "Artificial Selection",
+		"description": "Breed a horse and a donkey to make a mule"
+	},
+	"parent": "platy:livestock/tame_horse",
+	"criteria": {
+		"mule": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"parent": {
+					"type": "horse"
+				},
+				"partner": {
+					"type": "donkey"
+				}
+			}
+		}
+	}
+}

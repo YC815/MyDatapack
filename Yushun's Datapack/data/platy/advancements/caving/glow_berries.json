@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "glow_berries"
+		},
+		"title": "Grow and Glow",
+		"description": "Use bone meal to grow berries on cave vines"
+	},
+	"parent": "platy:caving/dripleaf",
+	"criteria": {
+		"grow_berries": {
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "cave_vines",
+						"state": {
+							"berries": true
+						}
+					}
+				},
+				"item": {
+					"items": ["bone_meal"]
+				}
+			}
+		}
+	}
+}

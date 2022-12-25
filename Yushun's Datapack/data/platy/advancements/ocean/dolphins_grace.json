@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "cod"
+		},
+		"title": "Swimming with the Dolphins",
+		"description": "Speed through the water with dolphins"
+	},
+	"parent": "platy:ocean/bubble_column",
+	"criteria": {
+		"dolphins_grace": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"dolphins_grace": {}
+				}
+			}
+		}
+	}
+}

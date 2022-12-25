@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "trident",
+			"nbt": "{Enchantments:[{id:'lure'}]}"
+		},
+		"title": "Pulled out to Sea",
+		"description": "Get caught in a riptide"
+	},
+	"parent": "platy:ocean/frost_walker",
+	"criteria": {
+		"riptide": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["trident"],
+						"enchantments": [
+							{
+								"enchantment": "riptide",
+								"levels": {
+									"max": 3,
+									"min": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

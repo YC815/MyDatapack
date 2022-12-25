@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "tipped_arrow",
+			"nbt": "{Potion:'slowness'}"
+		},
+		"title": "Frozen Archer",
+		"description": "Kill a stray"
+	},
+	"parent": "platy:exploration/snow_biome",
+	"criteria": {
+		"stray": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "stray"
+				}
+			}
+		}
+	}
+}

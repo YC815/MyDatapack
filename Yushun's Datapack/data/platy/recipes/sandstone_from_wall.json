@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "sandstone",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "sandstone_wall"
+		}
+	},
+	"result": {
+		"item": "sandstone",
+		"count": 2
+	}
+}

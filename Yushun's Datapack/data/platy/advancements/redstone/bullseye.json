@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"item": "target"
+		},
+		"title": {
+			"translate": "advancements.adventure.bullseye.title"
+		},
+		"description": "Hit the bullseye of a target block from at least 30 meters away",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"experience": 50
+	},
+	"parent": "platy:redstone/dispenser",
+	"criteria": {
+		"bullseye": {
+			"trigger": "target_hit",
+			"conditions": {
+				"signal_strength": 15,
+				"projectile": [{
+					"condition": "entity_properties",
+					"predicate": {
+						"distance": {
+							"horizontal": {
+								"min": 30.0
+							}
+						}
+					},
+					"entity": "this"
+				}]
+			}
+		}
+	}
+}

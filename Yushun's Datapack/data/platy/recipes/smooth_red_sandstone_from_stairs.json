@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "smooth_red_sandstone",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "smooth_red_sandstone_stairs"
+		}
+	},
+	"result": {
+		"item": "smooth_red_sandstone",
+		"count": 4
+	}
+}

@@ -1,0 +1,292 @@
+{
+	"display": {
+		"icon": {
+			"item": "diamond_sword"
+		},
+		"title": {
+			"translate": "advancements.adventure.kill_all_mobs.title"
+		},
+		"description": {
+			"translate": "advancements.adventure.kill_all_mobs.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "platy:combat/kill_monster",
+	"rewards": {
+		"experience": 500
+	},
+	"criteria": {
+		"blaze": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "blaze"
+				}
+			}
+		},
+		"cave_spider": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "cave_spider"
+				}
+			}
+		},
+		"creeper": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "creeper"
+				}
+			}
+		},
+		"drowned": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "drowned"
+				}
+			}
+		},
+		"elder_guardian": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "elder_guardian"
+				}
+			}
+		},
+		"ender_dragon": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "ender_dragon"
+				}
+			}
+		},
+		"enderman": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "enderman"
+				}
+			}
+		},
+		"endermite": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "endermite"
+				}
+			}
+		},
+		"evoker": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "evoker"
+				}
+			}
+		},
+		"ghast": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "ghast"
+				}
+			}
+		},
+		"guardian": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "guardian"
+				}
+			}
+		},
+		"hoglin": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "hoglin"
+				}
+			}
+		},
+		"husk": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "husk"
+				}
+			}
+		},
+		"magma_cube": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "magma_cube"
+				}
+			}
+		},
+		"phantom": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "phantom"
+				}
+			}
+		},
+		"piglin": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "piglin"
+				}
+			}
+		},
+		"piglin_brute": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "piglin_brute"
+				}
+			}
+		},
+		"pillager": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "pillager"
+				}
+			}
+		},
+		"ravager": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "ravager"
+				}
+			}
+		},
+		"shulker": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "shulker"
+				}
+			}
+		},
+		"silverfish": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "silverfish"
+				}
+			}
+		},
+		"skeleton": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "skeleton"
+				}
+			}
+		},
+		"slime": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "slime"
+				}
+			}
+		},
+		"spider": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "spider"
+				}
+			}
+		},
+		"stray": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "stray"
+				}
+			}
+		},
+		"vex": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "vex"
+				}
+			}
+		},
+		"vindicator": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "vindicator"
+				}
+			}
+		},
+		"witch": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "witch"
+				}
+			}
+		},
+		"wither": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "wither"
+				}
+			}
+		},
+		"wither_skeleton": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "wither_skeleton"
+				}
+			}
+		},
+		"zoglin": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "zoglin"
+				}
+			}
+		},
+		"zombie": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "zombie"
+				}
+			}
+		},
+		"zombie_villager": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "zombie_villager"
+				}
+			}
+		},
+		"zombified_piglin": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "zombified_piglin"
+				}
+			}
+		}
+	}
+}

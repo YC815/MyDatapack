@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:polished_diorite_from_slab"
+		]
+	},
+	"criteria": {
+		"has_slab": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["polished_diorite_slab"]
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:polished_diorite_from_slab"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_slab",
+			"has_recipe"
+		]
+	]
+}

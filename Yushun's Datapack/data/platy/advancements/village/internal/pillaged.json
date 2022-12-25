@@ -1,0 +1,40 @@
+{
+	"rewards": {
+		"function": "platy:advancements/pillager"
+	},
+	"criteria": {
+		"killed_by": {
+			"trigger": "entity_killed_player",
+			"conditions": {
+				"entity": {
+					"type": "pillager",
+					"nbt": "{Patrolling:true}"
+				}
+			}
+		},
+		"hurt_by": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "pillager",
+						"nbt": "{Patrolling:true}"
+					}
+				}
+			}
+		},
+		"used_totem": {
+			"trigger": "used_totem"
+		}
+	},
+	"requirements": [
+		[
+			"killed_by",
+			"used_totem"
+		],
+		[
+			"killed_by",
+			"hurt_by"
+		]
+	]
+}

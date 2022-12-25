@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "oak_log"
+		},
+		"title": "Forestry",
+		"description": "Logs and leaves",
+		"background": "minecraft:textures/block/oak_log.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"log": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "platy:normal_logs"
+				}]
+			}
+		}
+	}
+}

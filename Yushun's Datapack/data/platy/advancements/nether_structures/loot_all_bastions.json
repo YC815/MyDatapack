@@ -1,0 +1,37 @@
+{
+	"parent": "platy:nether_structures/loot_bastion",
+	"display": {
+		"icon": {
+			"item": "gold_block"
+		},
+		"title": "Bastion Buster",
+		"description": "Loot every type of bastion remnant chest",
+		"frame": "goal"
+	},
+	"criteria": {
+		"other": {
+			"trigger": "player_generates_container_loot",
+			"conditions": {
+				"loot_table": "chests/bastion_other"
+			}
+		},
+		"treasure": {
+			"trigger": "player_generates_container_loot",
+			"conditions": {
+				"loot_table": "chests/bastion_treasure"
+			}
+		},
+		"hoglin_stable": {
+			"trigger": "player_generates_container_loot",
+			"conditions": {
+				"loot_table": "chests/bastion_hoglin_stable"
+			}
+		},
+		"bridge": {
+			"trigger": "player_generates_container_loot",
+			"conditions": {
+				"loot_table": "chests/bastion_bridge"
+			}
+		}
+	}
+}
