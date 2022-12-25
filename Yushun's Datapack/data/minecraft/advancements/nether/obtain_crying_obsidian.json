@@ -4,8 +4,8 @@
 		"icon": {
 			"item": "crying_obsidian"
 		},
-		"title": "Who's Cutting Onions?",
-		"description": "Barter with a piglin for crying obsidian"
+		"title": "豬布林在切洋蔥！",
+		"description": "與豬布林交易出哭泣的黑曜石"
 	},
 	"criteria": {
 		"crying_obsidian": {

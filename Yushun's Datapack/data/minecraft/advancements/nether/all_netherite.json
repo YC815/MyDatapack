@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "netherite_pickaxe"
 		},
-		"title": "The Highest Tier",
-		"description": "Have full netherite tools and armor",
+		"title": "最高等級",
+		"description": "獲得全套獄髓裝",
 		"frame": "challenge"
 	},
 	"parent": "minecraft:nether/netherite_armor",

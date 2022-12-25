@@ -7,7 +7,7 @@
 		"title": {
 			"translate": "advancements.nether.charge_respawn_anchor.title"
 		},
-		"description": "Charge a respawn anchor to the maximum"
+		"description": "把重生錨充能到最高級"
 	},
 	"criteria": {
 		"charge_respawn_anchor": {

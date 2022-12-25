@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "magma_cream"
 		},
-		"title": "Heated Core",
-		"description": "Kill a magma cube"
+		"title": "烤焦的吐司切片",
+		"description": "殺死融岩史萊姆"
 	},
 	"parent": "minecraft:nether/basalt_delta",
 	"criteria": {

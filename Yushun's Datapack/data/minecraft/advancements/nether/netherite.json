@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "netherite_ingot"
 		},
-		"title": "A Step Above",
-		"description": "Use netherite to power up your gear",
+		"title": "更上一層樓",
+		"description": "使用獄髓錠強化裝備",
 		"frame": "goal"
 	},
 	"parent": "minecraft:nether/obtain_ancient_debris",

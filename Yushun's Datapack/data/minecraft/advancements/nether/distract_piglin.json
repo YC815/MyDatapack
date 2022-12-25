@@ -7,7 +7,7 @@
 		"title": {
 			"translate": "advancements.nether.distract_piglin.title"
 		},
-		"description": "Distract a piglin with a gold item"
+		"description": "用黃金物品吸引豬布林的注意力"
 	},
 	"criteria": {
 		"distract_piglin": {

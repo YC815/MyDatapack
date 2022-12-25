@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "packed_ice"
 		},
-		"title": "It's Frozen Over",
-		"description": "Place ice in the Nether"
+		"title": "地獄冰",
+		"description": "在地獄放置冰"
 	},
 	"parent": "minecraft:nether/ride_strider",
 	"criteria": {

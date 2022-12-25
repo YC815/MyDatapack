@@ -4,8 +4,8 @@
 			"item": "potion",
 			"nbt": "{Potion:'fire_resistance'}"
 		},
-		"title": "Stayin' Frosty",
-		"description": "Drink a potion of Fire Resistance"
+		"title": "保持「冷」靜",
+		"description": "喝一瓶抗火藥水"
 	},
 	"parent": "minecraft:nether/magma_cube",
 	"criteria": {

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "quartz"
 		},
-		"title": "Crystal Collection",
-		"description": "Quarry quartz"
+		"title": "白色結晶",
+		"description": "獲得石英"
 	},
 	"parent": "minecraft:nether/root",
 	"criteria": {

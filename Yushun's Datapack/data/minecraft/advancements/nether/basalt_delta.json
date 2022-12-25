@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "basalt"
 		},
-		"title": "Inactive Lava Zone",
-		"description": "Enter the basalt deltas"
+		"title": "頭皮屑峽谷",
+		"description": "前往玄武岩三角洲"
 	},
 	"parent": "minecraft:nether/root",
 	"criteria": {

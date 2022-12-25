@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "bedrock"
 		},
-		"title": "Out of Bounds",
-		"description": "Break above the Nether. You cheater.",
+		"title": "越界！",
+		"description": "從主世界跨越到地獄了！",
 		"frame": "challenge"
 	},
 	"parent": "minecraft:nether/root",

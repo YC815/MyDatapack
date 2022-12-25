@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "netherite_block"
 		},
-		"title": "I'm Even Richer!",
-		"description": "Obtain one stack of netherite blocks",
+		"title": "我超級有錢！",
+		"description": "獲得一組獄髓塊",
 		"frame": "challenge",
 		"hidden": true
 	},

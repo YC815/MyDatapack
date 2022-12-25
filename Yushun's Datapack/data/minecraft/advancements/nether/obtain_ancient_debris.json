@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "ancient_debris"
 		},
-		"title": "Persistent Pollutants",
-		"description": "Dig up some old debris"
+		"title": "被遺忘的寶藏",
+		"description": "挖一些遠古遺骸"
 	},
 	"parent": "minecraft:nether/nether_gold_ore",
 	"criteria": {

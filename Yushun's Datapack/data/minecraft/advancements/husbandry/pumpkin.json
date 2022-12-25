@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "pumpkin"
 		},
-		"title": "Pumpkin Patch",
-		"description": "Find and harvest a pumpkin"
+		"title": "南瓜地",
+		"description": "找到並收穫南瓜"
 	},
 	"parent": "minecraft:husbandry/root",
 	"criteria": {

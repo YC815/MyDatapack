@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "nether_gold_ore"
 		},
-		"title": "Underworld Opulence",
-		"description": "Mine nether gold ore"
+		"title": "金色富裕",
+		"description": "開採地獄金"
 	},
 	"parent": "minecraft:nether/quartz_crystal",
 	"criteria": {

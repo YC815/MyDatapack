@@ -6,7 +6,7 @@
 		"title": {
 			"translate": "advancements.nether.return_to_sender.title"
 		},
-		"description": "Destroy a ghast with a fireball",
+		"description": "把火球還給地獄幽靈",
 		"frame": "challenge"
 	},
 	"rewards": {

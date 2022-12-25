@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "cooked_beef"
 		},
-		"title": "Ghastly Butcher",
-		"description": "Use a ghast to kill an animal",
+		"title": "機靈屠夫",
+		"description": "用地獄幽靈的火球殺死動物",
 		"frame": "challenge"
 	},
 	"parent": "minecraft:nether/return_to_sender",
