@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "saddle"
 		},
-		"title": "Double Decker",
-		"description": "Ride on a strider riding another strider",
+		"title": "我騎你；你騎他",
+		"description": "騎上騎在另外一隻熾足獸的熾足獸",
 		"frame": "goal"
 	},
 	"parent": "minecraft:nether/ride_strider",

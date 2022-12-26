@@ -4,8 +4,8 @@
 			"item": "golden_boots",
 			"nbt": "{Enchantments:[{id:'lure'}]}"
 		},
-		"title": "Soul Assistance",
-		"description": "Wear down your soles with Soul Speed"
+		"title": "「我們」推你一把",
+		"description": "用附有「靈魂疾走」的靴子走過靈魂沙"
 	},
 	"parent": "minecraft:nether/soul_sand",
 	"criteria": {

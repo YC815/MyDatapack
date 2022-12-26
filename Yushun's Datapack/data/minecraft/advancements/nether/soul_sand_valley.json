@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "soul_soil"
 		},
-		"title": "Valley of the Dead",
-		"description": "Enter a soul sand valley"
+		"title": "死亡谷",
+		"description": "進入靈魂沙谷"
 	},
 	"parent": "minecraft:nether/root",
 	"criteria": {

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "soul_sand"
 		},
-		"title": "Spooky Sand",
-		"description": "Mine soul sand"
+		"title": "陰森的沙子",
+		"description": "獲得一個靈魂沙"
 	},
 	"parent": "minecraft:nether/soul_sand_valley",
 	"criteria": {

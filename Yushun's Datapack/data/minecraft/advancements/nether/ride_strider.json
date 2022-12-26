@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "warped_fungus_on_a_stick"
 		},
-		"title": "Lava Walker",
-		"description": "Use warped fungus on a stick to make a strider run over lava"
+		"title": "岩漿行者",
+		"description": "騎乘熾足獸越過岩漿"
 	},
 	"parent": "minecraft:nether/root",
 	"criteria": {
