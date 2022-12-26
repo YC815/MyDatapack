@@ -7,7 +7,7 @@
 		"title": {
 			"translate": "advancements.nether.uneasy_alliance.title"
 		},
-		"description": "Rescue a ghast from the Nether, bring it safely home to the Overworld... and then kill it",
+		"description": "把地獄幽靈帶到主世界並殺死他",
 		"frame": "challenge"
 	},
 	"rewards": {
