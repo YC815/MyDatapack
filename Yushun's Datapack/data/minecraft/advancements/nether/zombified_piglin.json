@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "golden_sword"
 		},
-		"title": "Collective Security",
-		"description": "Witness the collective power of zombified piglins"
+		"title": "超級偶像",
+		"description": "被殭屍豬布林群體\"抱抱\""
 	},
 	"parent": "minecraft:nether/root",
 	"criteria": {

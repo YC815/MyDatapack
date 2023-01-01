@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "porkchop"
 		},
-		"title": "When Hogs Fly",
-		"description": "Successfully breed levitating hoglins",
+		"title": "飛天豬",
+		"description": "用兩隻帶有漂浮效果的豬布獸來繁殖一隻豬布獸",
 		"frame": "challenge",
 		"hidden": true
 	},
