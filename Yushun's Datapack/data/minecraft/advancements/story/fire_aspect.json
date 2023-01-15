@@ -4,7 +4,7 @@
 			"item": "flint_and_steel"
 		},
 		"title": "Newton's Flaming Laser Sword",
-		"description": "Have a netherite sword with Fire Aspect II"
+		"description": "擁有帶有火焰II的獄髓劍"
 	},
 	"parent": "minecraft:story/enchant_item",
 	"criteria": {

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "experience_bottle"
 		},
-		"title": "Magically Repairing Molecules",
-		"description": "Enchant your gear with Mending",
+		"title": "奈米修復",
+		"description": "用修補來附魔裝備",
 		"frame": "goal"
 	},
 	"parent": "minecraft:story/anvil",

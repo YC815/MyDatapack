@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "compass"
 		},
-		"title": "Back to the Beginning",
-		"description": "Use a compass to find your spawnpoint"
+		"title": "宇宙的起點",
+		"description": "用指南針找到世界的重生點"
 	},
 	"parent": "minecraft:story/iron_tools",
 	"criteria": {

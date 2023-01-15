@@ -4,8 +4,8 @@
 			"item": "netherite_helmet",
 			"nbt": "{Enchantments:[{id:'lure'}]}"
 		},
-		"title": "Master Armorer",
-		"description": "Create a perfect suit of armor",
+		"title": "軍械庫",
+		"description": "打造完美裝備",
 		"frame": "challenge"
 	},
 	"parent": "minecraft:story/mending",

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "clock"
 		},
-		"title": "What Time Is It?",
-		"description": "Time for you to get a watch!"
+		"title": "幾點了?",
+		"description": "獲得一個時鐘"
 	},
 	"parent": "minecraft:story/iron_tools",
 	"criteria": {

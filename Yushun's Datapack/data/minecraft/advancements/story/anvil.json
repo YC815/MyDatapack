@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "anvil"
 		},
-		"title": "Customization",
-		"description": "Craft and place an anvil"
+		"title": "客製化",
+		"description": "製作並放置鐵砧"
 	},
 	"parent": "minecraft:story/buy_book",
 	"criteria": {

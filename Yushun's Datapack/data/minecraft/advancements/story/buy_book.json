@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "emerald"
 		},
-		"title": "Magic Merchant",
-		"description": "Buy an enchanted book from a villager"
+		"title": "魔法商人",
+		"description": "從村民手上購買一本附魔出"
 	},
 	"parent": "minecraft:story/disenchanted",
 	"criteria": {

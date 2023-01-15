@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "diamond_block"
 		},
-		"title": "I'm Rich!",
-		"description": "Obtain one stack of diamond blocks",
+		"title": "我超有錢!",
+		"description": "獲得一組鑽石磚",
 		"frame": "challenge"
 	},
 	"parent": "minecraft:story/mine_diamond",

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "iron_axe"
 		},
-		"title": "Topped-Up Toolbox",
-		"description": "Get one of every tool and weapon",
+		"title": "至尊工具箱",
+		"description": "收集每一個工具類物品",
 		"frame": "goal"
 	},
 	"parent": "minecraft:story/smelt_iron",

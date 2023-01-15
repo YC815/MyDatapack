@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "enchanted_book"
 		},
-		"title": "Enchanter Extraordinaire",
-		"description": "Collect every enchantment",
+		"title": "非凡附魔師",
+		"description": "收集每一個附魔書",
 		"frame": "challenge"
 	},
 	"parent": "minecraft:story/buy_book",

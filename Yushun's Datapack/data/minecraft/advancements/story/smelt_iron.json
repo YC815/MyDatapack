@@ -6,7 +6,7 @@
 		"title": {
 			"translate": "advancements.story.smelt_iron.title"
 		},
-		"description": "Smelt an iron ingot"
+		"description": "煉出一個鐵錠"
 	},
 	"parent": "minecraft:story/furnace",
 	"criteria": {

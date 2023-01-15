@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "bookshelf"
 		},
-		"title": "Librarian",
-		"description": "Place a bookself to make your enchanting table stronger"
+		"title": "魔・知識庫",
+		"description": "放置書櫃，讓附魔台更富魔力"
 	},
 	"parent": "minecraft:story/enchant_item",
 	"criteria": {

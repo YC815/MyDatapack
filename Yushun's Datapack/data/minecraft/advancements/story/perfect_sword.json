@@ -4,8 +4,8 @@
 			"item": "netherite_sword",
 			"nbt": "{Enchantments:[{id:'lure'}]}"
 		},
-		"title": "Master Knight",
-		"description": "Create a perfect sword",
+		"title": "王牌騎士",
+		"description": "打造完美的劍",
 		"frame": "challenge"
 	},
 	"parent": "minecraft:story/mending",

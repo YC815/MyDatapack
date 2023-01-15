@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "grindstone"
 		},
-		"title": "Disenchanted",
-		"description": "Create a grindstone"
+		"title": "洗魔機",
+		"description": "製作砂輪"
 	},
 	"parent": "minecraft:story/enchant_item",
 	"criteria": {

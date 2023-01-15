@@ -6,7 +6,7 @@
 		"title": {
 			"translate": "advancements.story.lava_bucket.title"
 		},
-		"description": "Fill a bucket with lava"
+		"description": "用岩漿裝滿鐵桶"
 	},
 	"parent": "minecraft:story/smelt_iron",
 	"criteria": {

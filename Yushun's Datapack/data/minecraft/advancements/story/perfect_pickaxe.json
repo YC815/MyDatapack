@@ -4,8 +4,8 @@
 			"item": "netherite_pickaxe",
 			"nbt": "{Enchantments:[{id:'lure'}]}"
 		},
-		"title": "Master Miner",
-		"description": "Create a perfect pickaxe",
+		"title": "究極礦工",
+		"description": "打造完美的鎬",
 		"frame": "challenge"
 	},
 	"parent": "minecraft:story/mending",

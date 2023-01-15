@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "furnace"
 		},
-		"title": "Hot Topic",
-		"description": "Make a furnace"
+		"title": "熱石頭",
+		"description": "獲得一個熔爐"
 	},
 	"parent": "minecraft:story/upgrade_tools",
 	"criteria": {

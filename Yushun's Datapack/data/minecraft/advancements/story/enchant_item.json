@@ -7,7 +7,7 @@
 		"title": {
 			"translate": "advancements.story.enchant_item.title"
 		},
-		"description": "Enchant an item at an enchanting table"
+		"description": "附魔台上的物品(＊)"
 	},
 	"criteria": {
 		"enchant_item": {

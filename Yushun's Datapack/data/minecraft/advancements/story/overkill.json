@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "netherite_sword"
 		},
-		"title": "Overkill",
-		"description": "Deal 9.5 hearts of damage with a melee weapon",
+		"title": "極・打",
+		"description": "用近戰武器打出9.5顆心傷害",
 		"frame": "challenge"
 	},
 	"parent": "minecraft:story/fire_aspect",
